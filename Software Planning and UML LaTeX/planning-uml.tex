@@ -1,0 +1,235 @@
+\documentclass{scrreprt}
+\usepackage[utf8]{inputenc}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{geometry}
+\usepackage{float}
+\usepackage{array}
+\geometry{a4paper, margin=1in}
+\usepackage{placeins} 
+\usepackage{graphicx}
+\usepackage{tabularx} %
+\usepackage{array} %
+\usepackage{ragged2e}
+\usepackage{float} % 
+
+
+
+\hypersetup{
+    pdftitle={Software Planning and UML},
+    pdfauthor={Team 3 - PAO 2 2024},
+    pdfsubject={TeX and LaTeX},
+    pdfkeywords={TeX, LaTeX, graphics, images},
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=black,
+    filecolor=black,
+    urlcolor=purple,
+    linktoc=page
+}
+\def\myversion{1.0 }
+\date{November 14, 2024}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{flushright}
+        \rule{16cm}{1.5pt} \\[1cm]
+        {\Huge\bfseries SOFTWARE PLANNING\\ AND UML}\\[1cm]
+        {\LARGE\bfseries for}\\[1cm]
+        {\Huge\textbf{ESPOLTEL HIRING MANAGER}}\\[2cm]
+        {\Large\textbf{Version \myversion}}\\[1.5cm]
+        
+        {\Large\textbf{Jeremy Rodrigo Poveda Gorotiza}\\
+        \textbf{José David Ramos Rios}\\
+        \textbf{Diego Fernando Flores Rengifo}\\
+        \textbf{Ariana Valentina Palacios Saenz}\\
+        \textbf{Alex Javier Vizuete Pereira}}\\[1.5cm]
+        
+        {\Large\textbf{Submitted to:} Francisco Ramirez}\\[1.5cm]
+        {\Large\textbf{\today}}
+    \end{flushright}
+    \vfill
+\end{titlepage}
+
+\chapter*{Revision History}
+\setcounter{page}{1}
+\begin{center}
+	\begin{tabular}{@{} l l p{6.5cm} l @{}}
+		\toprule
+		\textbf{Name}    & \textbf{Date}   & \textbf{Reason for Changes} & \textbf{Version} \\ 
+		\midrule
+		Team 3           & 2025-1-10      & Initial draft               & 1.0              \\
+		\bottomrule
+	\end{tabular}
+\end{center}
+
+\tableofcontents
+
+\listoffigures
+\listoftables
+
+
+
+\chapter{Introduction}
+\section{Summary}
+This document presents a comprehensive framework for the design, planning, and execution of the ESPOLTEL HIRING MANAGER system. This product integrates a robust risk management strategy, a detailed project execution timeline, and a structured Sprint Backlog plan. Through the inclusion of Unified Modeling Language (UML) diagrams, we provide a thorough representation of both the static and behavioral logic of the system, ensuring that the architecture adheres to SOLID principles and eliminates implementation inefficiencies.
+
+Our primary objective is to meticulously define the planning and breakdown of the system’s static structure, logical flow, behavioral processes, implementation strategies, and activity sequences. These components collectively support the realization of a user-centric, scalable, and maintainable product.
+
+\section{Key features and Objetives}
+The ESPOLTEL HIRING MANAGER product is designed to streamline and enhance the recruitment process, leveraging a combination of web and mobile modules for maximum efficiency. Key objectives include:
+
+\begin{enumerate}
+	\item \textbf{Risk Mitigation:} Developing a proactive risk management plan to address potential challenges in implementation and deployment.
+	\item \textbf{Comprehensive Planning:} Structuring the project execution into manageable phases using Agile methodologies.
+	\item \textbf{System Design:} Crafting static and behavioral UML diagrams to visualize the architecture, interactions, and workflows.
+	\item \textbf{Adherence to SOLID Principles:} Ensuring maintainability and scalability by avoiding anti-patterns and promoting clean code practices.
+\end{enumerate}
+
+\chapter{Risk management, product and sprint backlogs and scheduling}
+\section{Risk management}
+In this section, we will identify, quantify, and classify the various risks that may arise during the software development process. Additionally, we will provide a detailed assessment of the likelihood of occurrence, the potential impact of each risk, and the corresponding protocols to be followed in the event they materialize.
+
+%%
+\begin{table}[h!]
+	\centering \small
+	\renewcommand{\arraystretch}{1.5} % Aumenta el espacio entre filas
+	\begin{tabular}{|p{10cm}|p{5cm}|} % Ajusta el ancho de las columnas
+		\hline
+		\textbf{Description} & \textbf{Probability Range} \\ \hline
+		Not Probable: The event is highly unlikely to occur. & 0\% - 20\% \\ \hline
+		Low Probability: The event is unlikely but possible. & 21\% - 40\% \\ \hline
+		Moderate Probability: The event has an even chance of occurring. & 41\% - 60\% \\ \hline
+		High Probability: The event is likely to occur. & 61\% - 80\% \\ \hline
+		Very High Probability: The event is almost certain to occur. & 81\% - 100\% \\ \hline
+	\end{tabular}
+	\caption{Probability of Occurrence}
+\end{table} \FloatBarrier
+%%
+
+%%
+
+%%
+\begin{table}[h!]
+	\centering \small
+	\renewcommand{\arraystretch}{1.5} % Aumenta el espacio entre filas
+	\begin{tabular}{|p{5cm}|p{10cm}|} % Ajusta el ancho de las columnas
+		\hline
+		\textbf{Impact Level} & \textbf{Description} \\ \hline
+		Low Impact & Minimal effect on the project. No significant changes required. \\ \hline
+		Moderate Impact & Some delays or adjustments needed but manageable within the team. \\ \hline
+		High Impact & Significant disruptions, requiring immediate attention and resource allocation. \\ \hline
+		Critical Impact & Severe consequences on project delivery, with major delays or failure possible. \\ \hline
+	\end{tabular}
+	\caption{Impact Levels}
+\end{table} \FloatBarrier
+%%
+The following table outlines the identified risks associated with the project, including their probability of occurrence, potential impact, and the corresponding action protocol.
+%%
+\begin{table}[h!]
+	\centering \small
+	\renewcommand{\arraystretch}{1.5} % Aumenta el espacio entre filas
+	\begin{tabular}{|p{.75cm}|p{4cm}|p{2.5cm}|p{2.5cm}|p{6cm}|} % Ajusta el ancho de las columnas
+		\hline
+		\textbf{Id} & \textbf{Name} & \textbf{Probability} & \textbf{Impact} & \textbf{Action Protocol} \\ \hline
+		001 & Changes in requirements after development completion & High Probability & High Impact & Establish a communication protocol to clarify that no new requirements will be accepted after the design phase is finalized. \\ \hline
+		002 & Discovery of implicit requirements not considered in the design & Very High Probability & High Impact & Accept and address the risk by updating the design and implementing the missing requirements. \\ \hline
+		003 & Need for developer training & High Probability & High Impact & Provide immediate training on the required frameworks to minimize delays and ensure smooth development progress. \\ \hline
+		004 & Difficulty understanding prior implementation, causing delays & Low Probability & Critical Impact & Reduce the probability by consulting previous implementers to gain insights into the system before development begins. \\ \hline
+		005 & Schedule misalignment affecting task timelines & Not Probable & High Impact & Mitigate the risk by redistributing tasks and holding regular progress meetings to stay on track. \\ \hline
+		006 & Performance drop due to prior monolithic architecture & Low Probability & High Impact & Accept the risk, inform the client, and propose alternative solutions to improve performance. \\ \hline
+		007 & Database schema not designed for extensions & Low Probability & Moderate Impact & Accept the risk and adapt the existing schema to accommodate the new requirements. \\ \hline
+		008 & Insufficient documentation provided by the client & High Probability & Critical Impact & Reduce probability by maintaining active communication with the client to obtain necessary documentation. \\ \hline
+	\end{tabular}
+	\caption{Risk Assessment and Action Protocols}
+\end{table} \FloatBarrier
+%%
+
+\section{Product backlog}
+\section{Sprint backlog}
+\section{Scheduling}
+
+
+\chapter{Static UML}
+
+\chapter{Behavior UML}
+
+    
+\chapter{Individual Contributions}
+\vspace{2cm}
+
+\begin{table}[h!]
+    \centering \small
+    \renewcommand{\arraystretch}{1.5} % Aumenta el espacio entre filas
+    \begin{tabular}{|p{5cm}|p{10cm}|} % Ajusta el ancho de las columnas
+    \hline
+    \textbf{Student's Names} & \textbf{Contributions} \\ \hline
+    Jeremy Rodrigo Poveda Gorotiza & Project Scope, Introduction, User Stories, Creation of GitHub Repository, prototype: web application for director and managers \\ \hline
+    Diego Fernando Flores Rengifo & Non functional requirements both Web and Mobile Application, prototype in figma: Authentification module and Applicants Platform  \\ \hline
+    José David Ramos Rios & Product Overview, Product Features, Module Featuring: Mobile App, First Preview of Module Featuring: Web Application, and prototype in figma of Mobile App \\ \hline
+    Ariana Valentina Palacios Saenz & Revision, User Stories, and prototyping flows and module integration\\ \hline
+    Alex Javier Vizuete Pereira & Web Application Modules Breakdown, Mobile Application Modules Breakdown, prototype in figma: Applicants Platform, screens, and flow of application process\\ \hline
+    \end{tabular}
+    \caption{Responsibilities of each member of team 3}
+\end{table} \FloatBarrier 
+
+
+
+\chapter{Appendix}
+
+\section{Appendix A: Github Repository}
+The versioning of the project prototype has been managed using Github. You can find it through the following link ESPOLTEL's versioning project:\\ \href{https://github.com/Jeremy-Poveda/EspoltelHiringManager}{Repository link}
+\section{Appendix B: Commitment Agreement}
+ 
+\FloatBarrier 
+
+\section{Appendix C: Evidence of requirements gathering}
+\href{https://drive.google.com/file/d/1h30RbdVEBx5Qlg8GVXav69ps1Y7cQVRv/view?usp=drive_link}{Initial interview for requirements gathering with the client}
+\subsection*{Template Questions for the Interview}
+
+1. Are "Human Talent" and "Human Resources" distinct roles within the company?
+
+    If yes, is the Human Resources area responsible for generating documents such as contracts and confidentiality agreements?\\
+
+    What we understand is as follows:\\
+    Human Talent:
+    \begin{itemize}
+        \item Requests documents and information from applicants.
+        \item Verifies that applicants meet the position requirements.
+        \item Sends the data of candidates who meet the requirements to Human Resources.
+    \end{itemize}
+    Human Resources:
+    \begin{itemize}
+        \item Generates documents such as contracts and confidentiality agreements.
+        \item Sends the generated contracts or agreements to the applicant.
+        \item Verifies the applicant's signature.
+        \item Sends the documents to managers for their signatures.
+    \end{itemize}
+
+2. Must the contracts and confidentiality agreements be signed not only by the managers and applicants but also by the project director?\\
+
+3. In addition to requesting basic information such as names, surnames, cell phone numbers, etc., should the Human Talent area request specific documents according to the profile, such as copies of the ID, voting card, etc.?\\
+
+4. Who is responsible for entering the templates of the contracts or confidentiality agreements into the system: Human Talent or Human Resources?\\
+
+5. Should these templates be created directly within the system? If yes, would the data be in plain text, such as names, surnames, ID numbers, and the positions for electronic signatures (of managers, applicants, and possibly project directors)?\\
+
+6. Would the stages of the applicant acceptance process be as follows?
+\begin{itemize}
+    \item Application for a profile by submitting information (plain text data and documents).
+    Waiting for a response from Human Talent to verify if the applicant meets the requirements.
+    If the applicant meets the requirements, waiting for the contract and confidentiality agreements to sign, generated by Human Resources.
+    \item Signing the documents.
+    \item  Waiting for signature validation by Human Resources.
+    \item  Waiting for signatures from managers and directors.
+    \item Confirmation of participation in the project.
+\end{itemize}
+
+
+\end{document}
+
