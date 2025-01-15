@@ -1,0 +1,75 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Model Featuring Web application}}{15}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Model Featuring Web application}}{17}{figure.4.2}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Commitment agreement signed by the client}}{41}{figure.8.1}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces View of role type selection in ESPOLTEL for authentication}}{42}{figure.8.2}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces View of the administrator role selection}}{43}{figure.8.3}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces System login view}}{43}{figure.8.4}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces System registration view, step one: basic information}}{44}{figure.8.5}%
+\contentsline {figure}{\numberline {8.6}{\ignorespaces System registration view, step two: entering email address}}{44}{figure.8.6}%
+\contentsline {figure}{\numberline {8.7}{\ignorespaces System registration view, step three: email confirmation }}{45}{figure.8.7}%
+\contentsline {figure}{\numberline {8.8}{\ignorespaces View of all projects of a director}}{45}{figure.8.8}%
+\contentsline {figure}{\numberline {8.9}{\ignorespaces View of the creation of a project by a director}}{46}{figure.8.9}%
+\contentsline {figure}{\numberline {8.10}{\ignorespaces View of the selection of a project's estimated timeline}}{46}{figure.8.10}%
+\contentsline {figure}{\numberline {8.11}{\ignorespaces View of the creation of a project position}}{47}{figure.8.11}%
+\contentsline {figure}{\numberline {8.12}{\ignorespaces View of the creation of a project profile}}{47}{figure.8.12}%
+\contentsline {figure}{\numberline {8.13}{\ignorespaces Project view with roles and profiles}}{48}{figure.8.13}%
+\contentsline {figure}{\numberline {8.14}{\ignorespaces View of detailed project information}}{48}{figure.8.14}%
+\contentsline {figure}{\numberline {8.15}{\ignorespaces View of aspirants that have applied for a project}}{49}{figure.8.15}%
+\contentsline {figure}{\numberline {8.16}{\ignorespaces View of a project edition}}{49}{figure.8.16}%
+\contentsline {figure}{\numberline {8.17}{\ignorespaces View of contracted personnel of a project}}{50}{figure.8.17}%
+\contentsline {figure}{\numberline {8.18}{\ignorespaces View of the personnel contract file}}{50}{figure.8.18}%
+\contentsline {figure}{\numberline {8.19}{\ignorespaces View of all profiles managed by a director}}{51}{figure.8.19}%
+\contentsline {figure}{\numberline {8.20}{\ignorespaces View of a profile with its postulations in detail}}{51}{figure.8.20}%
+\contentsline {figure}{\numberline {8.21}{\ignorespaces View of project profiles}}{52}{figure.8.21}%
+\contentsline {figure}{\numberline {8.22}{\ignorespaces View of the manager's document signer}}{52}{figure.8.22}%
+\contentsline {figure}{\numberline {8.23}{\ignorespaces View of profiles pending review by human talent}}{53}{figure.8.23}%
+\contentsline {figure}{\numberline {8.24}{\ignorespaces View a profile revision to edit and accept it}}{53}{figure.8.24}%
+\contentsline {figure}{\numberline {8.25}{\ignorespaces View of contract and confidential agreement formats}}{54}{figure.8.25}%
+\contentsline {figure}{\numberline {8.26}{\ignorespaces View of the format creation, step one: create form}}{54}{figure.8.26}%
+\contentsline {figure}{\numberline {8.27}{\ignorespaces View of the format creation, step two: upload the word file}}{55}{figure.8.27}%
+\contentsline {figure}{\numberline {8.28}{\ignorespaces View of incoming postulations}}{55}{figure.8.28}%
+\contentsline {figure}{\numberline {8.29}{\ignorespaces View validation of documents to accept a postulation under review}}{56}{figure.8.29}%
+\contentsline {figure}{\numberline {8.30}{\ignorespaces View of the result of the validation of the postulation to notify the result}}{56}{figure.8.30}%
+\contentsline {figure}{\numberline {8.31}{\ignorespaces View of the interviews}}{57}{figure.8.31}%
+\contentsline {figure}{\numberline {8.32}{\ignorespaces View of the results of an interview}}{57}{figure.8.32}%
+\contentsline {figure}{\numberline {8.33}{\ignorespaces View of an interview schedule}}{58}{figure.8.33}%
+\contentsline {figure}{\numberline {8.34}{\ignorespaces View of the choice of aspirant to interview}}{58}{figure.8.34}%
+\contentsline {figure}{\numberline {8.35}{\ignorespaces View of aspirants interviewed}}{59}{figure.8.35}%
+\contentsline {figure}{\numberline {8.36}{\ignorespaces View of a postulation for acceptance or rejection}}{59}{figure.8.36}%
+\contentsline {figure}{\numberline {8.37}{\ignorespaces View of all profiles in hiring}}{60}{figure.8.37}%
+\contentsline {figure}{\numberline {8.38}{\ignorespaces View of the hiring information of a postulation to a profile to save the information.}}{60}{figure.8.38}%
+\contentsline {figure}{\numberline {8.39}{\ignorespaces View of the hiring form received from the aspirant along with his files for hiring.}}{61}{figure.8.39}%
+\contentsline {figure}{\numberline {8.40}{\ignorespaces View of the verification of the contract form}}{61}{figure.8.40}%
+\contentsline {figure}{\numberline {8.41}{\ignorespaces View of postulations with pending contracts}}{62}{figure.8.41}%
+\contentsline {figure}{\numberline {8.42}{\ignorespaces View of the contract generation of an application}}{62}{figure.8.42}%
+\contentsline {figure}{\numberline {8.43}{\ignorespaces View of the generated contract to be sent to the aspirant}}{63}{figure.8.43}%
+\contentsline {figure}{\numberline {8.44}{\ignorespaces View of the contract signed by the aspirant ready to validate his signature, and send it to the manager}}{63}{figure.8.44}%
+\contentsline {figure}{\numberline {8.45}{\ignorespaces View of the contract signed by both parties to save it to the system}}{64}{figure.8.45}%
+\contentsline {figure}{\numberline {8.46}{\ignorespaces View of all personnel hired by ESPOLTEL}}{64}{figure.8.46}%
+\contentsline {figure}{\numberline {8.47}{\ignorespaces View of the aspirant's home page}}{65}{figure.8.47}%
+\contentsline {figure}{\numberline {8.48}{\ignorespaces View of the code entry of a hiring profile}}{65}{figure.8.48}%
+\contentsline {figure}{\numberline {8.49}{\ignorespaces Detailed view of the position and profile to apply for the position}}{66}{figure.8.49}%
+\contentsline {figure}{\numberline {8.50}{\ignorespaces View to upload files needed for the initial application, resume and ID, part one}}{66}{figure.8.50}%
+\contentsline {figure}{\numberline {8.51}{\ignorespaces View to upload files needed for the initial application, resume and ID, part two}}{67}{figure.8.51}%
+\contentsline {figure}{\numberline {8.52}{\ignorespaces View of postulation confirmation}}{67}{figure.8.52}%
+\contentsline {figure}{\numberline {8.53}{\ignorespaces View of user information}}{68}{figure.8.53}%
+\contentsline {figure}{\numberline {8.54}{\ignorespaces View of email and credentials edition}}{68}{figure.8.54}%
+\contentsline {figure}{\numberline {8.55}{\ignorespaces View of all postulations of an aspirant}}{69}{figure.8.55}%
+\contentsline {figure}{\numberline {8.56}{\ignorespaces View of aspirant notifications}}{69}{figure.8.56}%
+\contentsline {figure}{\numberline {8.57}{\ignorespaces View of submitted contract forms}}{70}{figure.8.57}%
+\contentsline {figure}{\numberline {8.58}{\ignorespaces View of aspirant's contracts}}{70}{figure.8.58}%
+\contentsline {figure}{\numberline {8.59}{\ignorespaces View of the aspirant's signatory}}{71}{figure.8.59}%
+\contentsline {figure}{\numberline {8.60}{\ignorespaces View mobile application login page}}{71}{figure.8.60}%
+\contentsline {figure}{\numberline {8.61}{\ignorespaces View of the registration inside the mobile application}}{72}{figure.8.61}%
+\contentsline {figure}{\numberline {8.62}{\ignorespaces View of the dashboard of the mobile application}}{72}{figure.8.62}%
+\contentsline {figure}{\numberline {8.63}{\ignorespaces View of the mobile application sidebar}}{73}{figure.8.63}%
+\contentsline {figure}{\numberline {8.64}{\ignorespaces Status view of an postulation}}{73}{figure.8.64}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

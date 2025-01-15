@@ -1,0 +1,64 @@
+\contentsline {chapter}{\numberline {1}Introduction}{8}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Client}{8}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Purpose}{8}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Glossary}{8}{section.1.3}%
+\contentsline {section}{\numberline {1.4}References}{9}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Project Scope}{10}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Scope}{10}{section.2.1}%
+\contentsline {section}{\numberline {2.2}General Objective}{10}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Specific Objective}{10}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Overall Description}{12}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Product Perspective}{12}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Product Functions}{12}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Web Component Overview}{12}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Mobile Application Features}{13}{subsection.3.2.2}%
+\contentsline {chapter}{\numberline {4}Modules}{14}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Module Featuring: Web application}{14}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Modules Breakdown}{15}{section.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Home Page Module}{15}{subsubsection.4.2.0.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Authentication Module}{15}{subsubsection.4.2.0.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Project Creation Module}{15}{subsubsection.4.2.0.3}%
+\contentsline {subsubsection}{\numberline {4.2.4}Role and Profile Creation Module}{15}{subsubsection.4.2.0.4}%
+\contentsline {subsubsection}{\numberline {4.2.5}Aspirant recommendation Module}{16}{subsubsection.4.2.0.5}%
+\contentsline {subsubsection}{\numberline {4.2.6}Requirements Verification Module}{16}{subsubsection.4.2.0.6}%
+\contentsline {subsubsection}{\numberline {4.2.7}Signer Verification Module}{16}{subsubsection.4.2.0.7}%
+\contentsline {subsubsection}{\numberline {4.2.8}Document Generation Module}{16}{subsubsection.4.2.0.8}%
+\contentsline {subsubsection}{\numberline {4.2.9}Project Application Module}{16}{subsubsection.4.2.0.9}%
+\contentsline {subsubsection}{\numberline {4.2.10}Digital Signature Management Module}{16}{subsubsection.4.2.0.10}%
+\contentsline {subsubsection}{\numberline {4.2.11}Simple Signer Module}{16}{subsubsection.4.2.0.11}%
+\contentsline {subsubsection}{\numberline {4.2.12}Simultaneous Signer Module}{16}{subsubsection.4.2.0.12}%
+\contentsline {section}{\numberline {4.3}Module Featuring: Mobile application}{16}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Modules Breakdown}{17}{section.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.1}Home Page Module}{17}{subsubsection.4.4.0.1}%
+\contentsline {subsubsection}{\numberline {4.4.2}Authentication Module}{17}{subsubsection.4.4.0.2}%
+\contentsline {subsubsection}{\numberline {4.4.3}Notification Module}{17}{subsubsection.4.4.0.3}%
+\contentsline {subsubsection}{\numberline {4.4.4}Contract Status Module}{18}{subsubsection.4.4.0.4}%
+\contentsline {subsubsection}{\numberline {4.4.5}Hiring Status Module}{18}{subsubsection.4.4.0.5}%
+\contentsline {subsubsection}{\numberline {4.4.6}Aspirants Hiring Status Module}{18}{subsubsection.4.4.0.6}%
+\contentsline {chapter}{\numberline {5}User stories (Functional requirements)}{19}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Web application}{19}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Must}{19}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Should}{21}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Could}{27}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}Won't}{29}{subsection.5.1.4}%
+\contentsline {section}{\numberline {5.2}Mobile application}{31}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Must}{31}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Should}{31}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Could}{34}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Won't}{36}{subsection.5.2.4}%
+\contentsline {chapter}{\numberline {6}Non functional Requirements}{37}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Web application}{37}{section.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}Product}{37}{subsubsection.6.1.0.1}%
+\contentsline {subsubsection}{\numberline {6.1.2}External}{37}{subsubsection.6.1.0.2}%
+\contentsline {subsubsection}{\numberline {6.1.3}Organizational}{38}{subsubsection.6.1.0.3}%
+\contentsline {section}{\numberline {6.2}Mobile application}{38}{section.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}Product}{38}{subsubsection.6.2.0.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}Organizational}{38}{subsubsection.6.2.0.2}%
+\contentsline {chapter}{\numberline {7}Individual Contributions}{39}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Appendix}{40}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Appendix A: Github Repository}{40}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Appendix B: Commitment Agreement}{40}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Appendix C: Evidence of requirements gathering}{41}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Appendix D: Web Application Prototype Screenshots}{42}{section.8.4}%
+\contentsline {section}{\numberline {8.5}Appendix E: Mobile Application Prototype Screenshots}{71}{section.8.5}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
