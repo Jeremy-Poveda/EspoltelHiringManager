@@ -405,28 +405,70 @@ This component tracks the status of all applicants, their status in the hiring f
 
 %%
 
+\begin{table}[H]
+	\centering
+	\small
+	\resizebox{\textwidth}{!}{ \begin{tabularx}{\textwidth}{|l|X|}
+			\hline
+			\textbf{Identifier} & WM7 \\ \hline
+			\textbf{Priority} & 1 \\ \hline
+			\textbf{Dependencies} & None \\ \hline
+			\textbf{Version} & V1.0 \\ \hline
+			\textbf{Description} & As a Director, Member of Human Resources, or Manager, I must be able to view the hirings or personnel associated with a project, so I can have an overview of the team composition and track the progress of recruitment. \\ \hline
+			\textbf{Reverse Card} &
+			\begin{itemize}
+				\item The system must provide a view that lists all personnel associated with a project, including their roles, profiles and hiring status.
+				\item The view should allow filtering and sorting of personnel by different criteria (e.g., role, status, date of hiring).
+				\item The system should display relevant information for each person, such as their name, role, their hiring status.
+				\item Access to this view should be restricted to authorized users with Director, HR, or Manager roles.
+			\end{itemize} \\ \hline
+	\end{tabularx} }
+	\caption{User Story: View Hirings or Personnel (Web application)}
+	\label{tab:wm7}
+\end{table} \FloatBarrier
+
+\begin{table}[H]
+	\centering
+	\small
+	\resizebox{\textwidth}{!}{ \begin{tabularx}{\textwidth}{|l|X|}
+			\hline
+			\textbf{Identifier} & WM8 \\ \hline
+			\textbf{Priority} & 2 \\ \hline
+			\textbf{Dependencies} & WS3 \\ \hline
+			\textbf{Version} & V1.0 \\ \hline
+			\textbf{Description} & As a Director or Manager, I want to be able to view the resources and budget allocated to my project, so I can track project expenses and resource utilization. \\ \hline
+			\textbf{Reverse Card} &
+			\begin{itemize}
+				\item The system must provide a view that displays the budget allocated to the project.
+				\item Access to this view should be restricted to authorized users with Director or Manager roles.
+			\end{itemize} \\ \hline
+	\end{tabularx} }
+	\caption{User Story: View Project Resources and Budget (Web application)}
+	\label{tab:pb49}
+\end{table} \FloatBarrier
+
 \subsection{Should}
 
 %%
 \begin{table}[H]
-
-\centering \small
-\resizebox{\textwidth}{!}{   \begin{tabularx}{\textwidth}{|l|X|}
-\hline
-\textbf{Identifier} & WS1 \\ \hline
-\textbf{Priority} & 2 \\ \hline
-\textbf{Dependencies} & None \\ \hline
-\textbf{Version} & V1.0 \\ \hline
-\textbf{Description} & As an aspirant, I should be able to upload my personal documents (such as CV, document ID, certificates, etc.) and pertinent information to complete the application requirements.\\ \hline
-\textbf{Reverse Card} & 
-\begin{itemize}
-     \item The files and information must have a database so that the aspirant can update them if required for futures project's.
-     \item To receive the information in plain text, applicants will have to fill out a form made by Human Resources.
-\end{itemize} \\ \hline
-\end{tabularx} }
-\caption{User Story: Aspirant information for application (Web application)}
-\label{tab:ws1}
-\end{table} \FloatBarrier 
+	\centering
+	\small
+	\resizebox{\textwidth}{!}{ \begin{tabularx}{\textwidth}{|l|X|}
+			\hline
+			\textbf{Identifier} & WS1 \\ \hline
+			\textbf{Priority} & 2 \\ \hline
+			\textbf{Dependencies} & None \\ \hline
+			\textbf{Version} & V1.1 \\ \hline
+			\textbf{Description} & As an aspirant, I should be able to upload my personal documents (such as CV, document ID, certificates, etc.) and pertinent information **by completing forms defined by Human Resources,** to complete the application requirements.\\ \hline
+			\textbf{Reverse Card} &
+			\begin{itemize}
+				\item The files and information must have a database so that the aspirant can update them if required for futures project's.
+				\item Human Resources must be able to create and manage the forms that applicants will fill out for pre-hiring and hiring processes.
+			\end{itemize} \\ \hline
+	\end{tabularx} }
+	\caption{User Story: Aspirant information for application (Web application)}
+	\label{tab:ws1}
+\end{table} \FloatBarrier
 %%
 
 %%
@@ -461,7 +503,7 @@ This component tracks the status of all applicants, their status in the hiring f
 \textbf{Priority} & 2 \\ \hline
 \textbf{Dependencies} & None \\ \hline
 \textbf{Version} & V1.0 \\ \hline
-\textbf{Description} & As a project manager, I want to be able to create a project by defining its name, description, start date, end date, and project type, so that the project’s objectives and timeline are clearly established. \\ \hline
+\textbf{Description} & As a project manager, I want to be able to create a project by defining its name, description, start date, end date,  so that the project’s objectives and timeline are clearly established. \\ \hline
 \textbf{Reverse Card} & 
 \begin{itemize}
     \item The system must allow the project manager to input detailed information such as the project's name, description, start date, end date, and type.
@@ -576,7 +618,7 @@ This component tracks the status of all applicants, their status in the hiring f
 \textbf{Description} & As a Human Resources member, I should be able to verify the requirements based on an applicant's information, to ensure that they meet the necessary qualifications for a project. \\ \hline
 \textbf{Reverse Card} & 
 \begin{itemize}
-    \item Human resources members should be able to access a checklist or list of requirements that can be cross-referenced with the applicant's provided details.
+    \item Human resources members should be able to access a checklist or list of requirements that can be cross-referenced with the aspirant's provided details.
 \end{itemize} \\ \hline
 \end{tabularx} }
 \caption{User Story: Verifying Applicant Requirements (Web application)}
@@ -637,8 +679,8 @@ This component tracks the status of all applicants, their status in the hiring f
 \textbf{Identifier} & WS11 \\ \hline
 \textbf{Priority} & 2 \\ \hline
 \textbf{Dependencies} & None \\ \hline
-\textbf{Version} & V1.0 \\ \hline
-\textbf{Description} & As a member of Human Resources, I should be able to upload contract and agreement templates for specific roles and hiring profiles, so that the appropriate templates are available for generating customized documents for applicants. \\ \hline
+\textbf{Version} & V1.2 \\ \hline
+\textbf{Description} & As a member of Human Resources, I should be able to upload contract and agreement formats for generating customized documents for aspirants. \\ \hline
 \textbf{Reverse Card} & 
 \begin{itemize}
     \item The system must allow the upload of templates categorized by role and hiring profile.
@@ -679,8 +721,6 @@ This component tracks the status of all applicants, their status in the hiring f
 \label{tab:ws12}
 \end{table}
 %%
-
-% User story - Schedule Interviews (Web application)
 \begin{table}[H]
 	\centering
 	\small
@@ -715,7 +755,7 @@ This component tracks the status of all applicants, their status in the hiring f
 			\textbf{Priority} & 2 \\ \hline
 			\textbf{Dependencies} & WS13 \\ \hline
 			\textbf{Version} & V1.0 \\ \hline
-			\textbf{Description} & As an interviewer, I should be able to record the results and observations of the interviews conducted, including scores and comments, so that there is a formal record of the evaluation of each applicant. \\ \hline
+			\textbf{Description} & As an member of Human Talent, I should be able to record the results and observations of the interviews conducted, including scores and comments, so that there is a formal record of the evaluation of each applicant. \\ \hline
 			\textbf{Reverse Card} &
 			\begin{itemize}
 				\item The system must provide a form for each interview, allowing scores to be entered based on predefined criteria.
@@ -728,6 +768,75 @@ This component tracks the status of all applicants, their status in the hiring f
 	\label{tab:ws14}
 \end{table} \FloatBarrier
 %%
+
+\begin{table}[H]
+	\centering
+	\small
+	\resizebox{\textwidth}{!}{ \begin{tabularx}{\textwidth}{|l|X|}
+			\hline
+			\textbf{Identifier} & WS15 \\ \hline
+			\textbf{Priority} & 2 \\ \hline
+			\textbf{Dependencies} & None \\ \hline
+			\textbf{Version} & V1.0 \\ \hline
+			\textbf{Description} & As a member of Human Resources, I should be able to create and manage forms for pre-hiring and hiring processes, defining the required fields and document uploads, so that applicants can provide the necessary information. \\ \hline
+			\textbf{Reverse Card} &
+			\begin{itemize}
+				\item The system must allow the creation of forms with different field types (text, dropdown, and file).
+				\item The system must allow the definition of required document uploads (e.g., CV, ID, certificates).
+				item The system must allow upload a word file with a format for generate the documents with this form.
+				\item Human Resources must be able to edit and delete existing forms.
+			\end{itemize} \\ \hline
+	\end{tabularx} }
+	\caption{User Story: Form Management for Human Resources (Web application)}
+	\label{tab:ws15}
+\end{table} \FloatBarrier
+%%
+
+\begin{table}[H]
+	\centering
+	\small
+	\resizebox{\textwidth}{!}{ \begin{tabularx}{\textwidth}{|l|X|}
+			\hline
+			\textbf{Identifier} & WS16 \\ \hline
+			\textbf{Priority} & 2 \\ \hline
+			\textbf{Dependencies} & WS15 \\ \hline
+			\textbf{Version} & V1.0 \\ \hline
+			\textbf{Description} & As a member of Human Resources, I want to be able to validate the profiles created by project directors, so that I can edit, approve the profiles and position defined for a project, ensuring they align with company standards and requirements. \\ \hline
+			\textbf{Reverse Card} &
+			\begin{itemize}
+				\item The system must provide a view for Human Resources to review profiles created by project directors.
+				\item Human Resources should be able to edit the profile details, such as required skills, and responsibilities, referencial salary.
+				\item Human Resources should be able to approve the profiles, making them available for applications.
+				\item The system should notify the project director about the status of their profile submission (approved, or pending review).
+			\end{itemize} \\ \hline
+	\end{tabularx} }
+	\caption{User Story: Validate Project Profiles (Web application)}
+	\label{tab:pb50}
+\end{table} \FloatBarrier
+
+\begin{table}[H]
+	\centering
+	\small
+	\resizebox{\textwidth}{!}{ \begin{tabularx}{\textwidth}{|l|X|}
+			\hline
+			\textbf{Identifier} & WS17 \\ \hline
+			\textbf{Priority} & 2 \\ \hline
+			\textbf{Dependencies} &  \\ \hline
+			\textbf{Version} & V1.0 \\ \hline
+			\textbf{Description} & As an ESPOLTEL Hiring Manager user, I want to be able to search and filter information across the platform, including projects, postulations, format documents, and other relevant data, so that I can quickly find and focus on the data I need. \\ \hline
+			\textbf{Reverse Card} &
+			\begin{itemize}
+				\item The system should allow the combination of multiple filters and the use of search operators within filters.
+				\item Users should be able to save frequently used filter and search combinations for quick access.
+				\item Filter options should be dynamically updated based on the available data.
+				\item Search results should be presented in a clear and organized manner, with relevant context for each result.
+				\item The search and filter functionality should be easily accessible from all parts of the application.
+				\item The filters must include options for projects, profiles, positions, and contractual relationships.
+			\end{itemize} \\ \hline
+	\end{tabularx} }
+	\caption{User Story: Search and Filter Functionality (Web application)}
+	\label{tab:pb51}
+\end{table} \FloatBarrier
 
 \subsection{Could}
 %%
@@ -770,7 +879,6 @@ This component tracks the status of all applicants, their status in the hiring f
 \caption{User Story: Recommending an Aspirant for a Project Role (Web application)}
 \label{tab:wc2}
 \end{table} \FloatBarrier 
-
 %%
 
 %%
@@ -862,6 +970,28 @@ This component tracks the status of all applicants, their status in the hiring f
 \label{tab:wc6}
 \end{table} \FloatBarrier 
 %%
+
+
+\begin{table}[H]
+	\centering
+	\small
+	\resizebox{\textwidth}{!}{ \begin{tabularx}{\textwidth}{|l|X|}
+			\hline
+			\textbf{Identifier} & WC7 \\ \hline
+			\textbf{Priority} & 2 \\ \hline
+			\textbf{Dependencies} & WS14,  WS8\\ \hline
+			\textbf{Version} & V1.0 \\ \hline
+			\textbf{Description} & As a member of Human Resources, I want to be able to select the best aspirants based on interview results and fulfillment of requirements, so that I can identify the most suitable candidates for each profile. \\ \hline
+			\textbf{Reverse Card} &
+			\begin{itemize}
+				\item The system must allow filtering of applicants based on the fulfillment of defined requirements (e.g., skills, experience, documents).
+				\item The system must allow the selection of multiple applicants for a single role.
+			\end{itemize} \\ \hline
+	\end{tabularx} }
+	\caption{User Story: Selection of Best Applicants (Web application)}
+	\label{tab:wc7}
+\end{table} \FloatBarrier
+
 
 \subsection{Won't}
 
@@ -1240,7 +1370,7 @@ This component tracks the status of all applicants, their status in the hiring f
 \caption{User Story: Limiting Advanced Features in Mobile App (Mobile application)}
 \label{tab:mw1}
 \end{table} \FloatBarrier 
-% end User history 20
+%%
 
 \chapter{Non functional Requirements}
 

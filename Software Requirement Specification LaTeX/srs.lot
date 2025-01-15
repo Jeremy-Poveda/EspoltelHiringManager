@@ -9,45 +9,51 @@
 \contentsline {table}{\numberline {5.4}{\ignorespaces User Story: Simultaneous Signer (Web application)}}{20}{table.5.4}%
 \contentsline {table}{\numberline {5.5}{\ignorespaces User Story: Digital Certificate Upload for Aspirants (Web application)}}{20}{table.5.5}%
 \contentsline {table}{\numberline {5.6}{\ignorespaces User Story: Digital Certificate Upload for Managers (Web application)}}{21}{table.5.6}%
-\contentsline {table}{\numberline {5.7}{\ignorespaces User Story: Aspirant information for application (Web application)}}{21}{table.5.7}%
-\contentsline {table}{\numberline {5.8}{\ignorespaces User Story: Account Creation for ESPOLTEL Hiring Manager (Web application)}}{22}{table.5.8}%
-\contentsline {table}{\numberline {5.9}{\ignorespaces User Story: Project Creation with Details (Web application)}}{22}{table.5.9}%
-\contentsline {table}{\numberline {5.10}{\ignorespaces User Story: Role and Profile Definition for Project (Web application)}}{22}{table.5.10}%
-\contentsline {table}{\numberline {5.11}{\ignorespaces User Story: Project Monitoring for Managers (Web application)}}{23}{table.5.11}%
-\contentsline {table}{\numberline {5.12}{\ignorespaces User Story: Project Monitoring for Aspirants (Web application)}}{23}{table.5.12}%
-\contentsline {table}{\numberline {5.13}{\ignorespaces User Story: Automatic Document Generation (Web application)}}{23}{table.5.13}%
-\contentsline {table}{\numberline {5.14}{\ignorespaces User Story: Verifying Applicant Requirements (Web application)}}{24}{table.5.14}%
-\contentsline {table}{\numberline {5.15}{\ignorespaces User Story: Secure Login (Web application)}}{24}{table.5.15}%
-\contentsline {table}{\numberline {5.16}{\ignorespaces User Story: Role Selection Before Login (Web application)}}{24}{table.5.16}%
-\contentsline {table}{\numberline {5.17}{\ignorespaces User Story: Upload Templates by Role and Hiring Profile (Web application)}}{25}{table.5.17}%
-\contentsline {table}{\numberline {5.18}{\ignorespaces User Story: Applicant Cancels Application for Role or Profile (Web application)}}{25}{table.5.18}%
-\contentsline {table}{\numberline {5.19}{\ignorespaces User Story: Schedule Interviews (Web application)}}{26}{table.5.19}%
-\contentsline {table}{\numberline {5.20}{\ignorespaces User Story: Record Interview Results}}{26}{table.5.20}%
-\contentsline {table}{\numberline {5.21}{\ignorespaces User Story: Viewing Signed Contracts (Web application)}}{27}{table.5.21}%
-\contentsline {table}{\numberline {5.22}{\ignorespaces User Story: Recommending an Aspirant for a Project Role (Web application)}}{27}{table.5.22}%
-\contentsline {table}{\numberline {5.23}{\ignorespaces User Story: Password Recovery (Web application)}}{27}{table.5.23}%
-\contentsline {table}{\numberline {5.24}{\ignorespaces User Story: Email Verification (Web application)}}{28}{table.5.24}%
-\contentsline {table}{\numberline {5.25}{\ignorespaces User Story: Downloading Signed Contracts (Web application)}}{28}{table.5.25}%
-\contentsline {table}{\numberline {5.26}{\ignorespaces User Story: Add Private Comments on Applicant Profiles (Web application)}}{28}{table.5.26}%
-\contentsline {table}{\numberline {5.27}{\ignorespaces User Story: Restricting Access to Unapplied Projects (Web application)}}{29}{table.5.27}%
-\contentsline {table}{\numberline {5.28}{\ignorespaces User Story: Prevent Editing of Submitted Application (Web application)}}{29}{table.5.28}%
-\contentsline {table}{\numberline {5.29}{\ignorespaces User Story: Restrict Viewing of Draft or Unapproved Projects (Web application)}}{30}{table.5.29}%
-\contentsline {table}{\numberline {5.30}{\ignorespaces User Story: Restrict Additional Document Uploads Post-Approval (Web application)}}{30}{table.5.30}%
-\contentsline {table}{\numberline {5.31}{\ignorespaces User Story: Mobile Notifications (Mobile application)}}{31}{table.5.31}%
-\contentsline {table}{\numberline {5.32}{\ignorespaces User Story: Project Monitoring for Aspirants (Mobile application)}}{31}{table.5.32}%
-\contentsline {table}{\numberline {5.33}{\ignorespaces User Story: Project Monitoring for Managers (Mobile application)}}{32}{table.5.33}%
-\contentsline {table}{\numberline {5.34}{\ignorespaces User Story: Accessing Pending Documents (Mobile application)}}{32}{table.5.34}%
-\contentsline {table}{\numberline {5.35}{\ignorespaces User Story: Account Creation for ESPOLTEL Hiring Manager (Mobile Application)}}{32}{table.5.35}%
-\contentsline {table}{\numberline {5.36}{\ignorespaces User Story: Secure Login (Mobile Application)}}{33}{table.5.36}%
-\contentsline {table}{\numberline {5.37}{\ignorespaces User Story: Role Selection Before Login (Mobile Application)}}{33}{table.5.37}%
-\contentsline {table}{\numberline {5.38}{\ignorespaces User Story: Filter Applicants by Skills and Experience (Web application)}}{34}{table.5.38}%
-\contentsline {table}{\numberline {5.39}{\ignorespaces User Story: Viewing Signed Contracts (Mobile application)}}{34}{table.5.39}%
-\contentsline {table}{\numberline {5.40}{\ignorespaces User Story: Password Recovery (Mobile application)}}{35}{table.5.40}%
-\contentsline {table}{\numberline {5.41}{\ignorespaces User Story: Email Verification (Mobile application)}}{35}{table.5.41}%
-\contentsline {table}{\numberline {5.42}{\ignorespaces User Story: Downloading Signed Contracts (Mobile application)}}{35}{table.5.42}%
-\contentsline {table}{\numberline {5.43}{\ignorespaces User Story: Limiting Advanced Features in Mobile App (Mobile application)}}{36}{table.5.43}%
+\contentsline {table}{\numberline {5.7}{\ignorespaces User Story: View Hirings or Personnel (Web application)}}{21}{table.5.7}%
+\contentsline {table}{\numberline {5.8}{\ignorespaces User Story: View Project Resources and Budget (Web application)}}{22}{table.5.8}%
+\contentsline {table}{\numberline {5.9}{\ignorespaces User Story: Aspirant information for application (Web application)}}{22}{table.5.9}%
+\contentsline {table}{\numberline {5.10}{\ignorespaces User Story: Account Creation for ESPOLTEL Hiring Manager (Web application)}}{22}{table.5.10}%
+\contentsline {table}{\numberline {5.11}{\ignorespaces User Story: Project Creation with Details (Web application)}}{23}{table.5.11}%
+\contentsline {table}{\numberline {5.12}{\ignorespaces User Story: Role and Profile Definition for Project (Web application)}}{23}{table.5.12}%
+\contentsline {table}{\numberline {5.13}{\ignorespaces User Story: Project Monitoring for Managers (Web application)}}{23}{table.5.13}%
+\contentsline {table}{\numberline {5.14}{\ignorespaces User Story: Project Monitoring for Aspirants (Web application)}}{24}{table.5.14}%
+\contentsline {table}{\numberline {5.15}{\ignorespaces User Story: Automatic Document Generation (Web application)}}{24}{table.5.15}%
+\contentsline {table}{\numberline {5.16}{\ignorespaces User Story: Verifying Applicant Requirements (Web application)}}{24}{table.5.16}%
+\contentsline {table}{\numberline {5.17}{\ignorespaces User Story: Secure Login (Web application)}}{25}{table.5.17}%
+\contentsline {table}{\numberline {5.18}{\ignorespaces User Story: Role Selection Before Login (Web application)}}{25}{table.5.18}%
+\contentsline {table}{\numberline {5.19}{\ignorespaces User Story: Upload Templates by Role and Hiring Profile (Web application)}}{25}{table.5.19}%
+\contentsline {table}{\numberline {5.20}{\ignorespaces User Story: Applicant Cancels Application for Role or Profile (Web application)}}{26}{table.5.20}%
+\contentsline {table}{\numberline {5.21}{\ignorespaces User Story: Schedule Interviews (Web application)}}{26}{table.5.21}%
+\contentsline {table}{\numberline {5.22}{\ignorespaces User Story: Record Interview Results}}{27}{table.5.22}%
+\contentsline {table}{\numberline {5.23}{\ignorespaces User Story: Form Management for Human Resources (Web application)}}{27}{table.5.23}%
+\contentsline {table}{\numberline {5.24}{\ignorespaces User Story: Validate Project Profiles (Web application)}}{28}{table.5.24}%
+\contentsline {table}{\numberline {5.25}{\ignorespaces User Story: Search and Filter Functionality (Web application)}}{28}{table.5.25}%
+\contentsline {table}{\numberline {5.26}{\ignorespaces User Story: Viewing Signed Contracts (Web application)}}{29}{table.5.26}%
+\contentsline {table}{\numberline {5.27}{\ignorespaces User Story: Recommending an Aspirant for a Project Role (Web application)}}{29}{table.5.27}%
+\contentsline {table}{\numberline {5.28}{\ignorespaces User Story: Password Recovery (Web application)}}{29}{table.5.28}%
+\contentsline {table}{\numberline {5.29}{\ignorespaces User Story: Email Verification (Web application)}}{30}{table.5.29}%
+\contentsline {table}{\numberline {5.30}{\ignorespaces User Story: Downloading Signed Contracts (Web application)}}{30}{table.5.30}%
+\contentsline {table}{\numberline {5.31}{\ignorespaces User Story: Add Private Comments on Applicant Profiles (Web application)}}{30}{table.5.31}%
+\contentsline {table}{\numberline {5.32}{\ignorespaces User Story: Selection of Best Applicants (Web application)}}{31}{table.5.32}%
+\contentsline {table}{\numberline {5.33}{\ignorespaces User Story: Restricting Access to Unapplied Projects (Web application)}}{31}{table.5.33}%
+\contentsline {table}{\numberline {5.34}{\ignorespaces User Story: Prevent Editing of Submitted Application (Web application)}}{31}{table.5.34}%
+\contentsline {table}{\numberline {5.35}{\ignorespaces User Story: Restrict Viewing of Draft or Unapproved Projects (Web application)}}{32}{table.5.35}%
+\contentsline {table}{\numberline {5.36}{\ignorespaces User Story: Restrict Additional Document Uploads Post-Approval (Web application)}}{32}{table.5.36}%
+\contentsline {table}{\numberline {5.37}{\ignorespaces User Story: Mobile Notifications (Mobile application)}}{33}{table.5.37}%
+\contentsline {table}{\numberline {5.38}{\ignorespaces User Story: Project Monitoring for Aspirants (Mobile application)}}{33}{table.5.38}%
+\contentsline {table}{\numberline {5.39}{\ignorespaces User Story: Project Monitoring for Managers (Mobile application)}}{34}{table.5.39}%
+\contentsline {table}{\numberline {5.40}{\ignorespaces User Story: Accessing Pending Documents (Mobile application)}}{34}{table.5.40}%
+\contentsline {table}{\numberline {5.41}{\ignorespaces User Story: Account Creation for ESPOLTEL Hiring Manager (Mobile Application)}}{34}{table.5.41}%
+\contentsline {table}{\numberline {5.42}{\ignorespaces User Story: Secure Login (Mobile Application)}}{35}{table.5.42}%
+\contentsline {table}{\numberline {5.43}{\ignorespaces User Story: Role Selection Before Login (Mobile Application)}}{35}{table.5.43}%
+\contentsline {table}{\numberline {5.44}{\ignorespaces User Story: Filter Applicants by Skills and Experience (Web application)}}{36}{table.5.44}%
+\contentsline {table}{\numberline {5.45}{\ignorespaces User Story: Viewing Signed Contracts (Mobile application)}}{36}{table.5.45}%
+\contentsline {table}{\numberline {5.46}{\ignorespaces User Story: Password Recovery (Mobile application)}}{37}{table.5.46}%
+\contentsline {table}{\numberline {5.47}{\ignorespaces User Story: Email Verification (Mobile application)}}{37}{table.5.47}%
+\contentsline {table}{\numberline {5.48}{\ignorespaces User Story: Downloading Signed Contracts (Mobile application)}}{37}{table.5.48}%
+\contentsline {table}{\numberline {5.49}{\ignorespaces User Story: Limiting Advanced Features in Mobile App (Mobile application)}}{38}{table.5.49}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Responsibilities of each member of team 3}}{39}{table.7.1}%
+\contentsline {table}{\numberline {7.1}{\ignorespaces Responsibilities of each member of team 3}}{41}{table.7.1}%
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
