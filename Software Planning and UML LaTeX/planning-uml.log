@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2025.1.10)  15 JAN 2025 09:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2025.1.10)  15 JAN 2025 11:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -987,32 +987,7 @@ Overfull \hbox (3.39558pt too wide) in paragraph at lines 207--207
  []
 
 
-Overfull \hbox (3.39558pt too wide) in paragraph at lines 208--208
-[]|\T1/lmr/m/n/10.95 PB48| 
- []
-
-
-Overfull \hbox (3.39558pt too wide) in paragraph at lines 209--209
-[]|\T1/lmr/m/n/10.95 PB49| 
- []
-
-
-Overfull \hbox (3.39558pt too wide) in paragraph at lines 210--210
-[]|\T1/lmr/m/n/10.95 PB50| 
- []
-
-
-Overfull \hbox (3.39558pt too wide) in paragraph at lines 211--211
-[]|\T1/lmr/m/n/10.95 PB51| 
- []
-
-
-Overfull \hbox (3.39558pt too wide) in paragraph at lines 212--212
-[]|\T1/lmr/m/n/10.95 PB52| 
- []
-
-
-Overfull \hbox (67.52156pt too wide) in alignment at lines 160--214
+Overfull \hbox (67.52156pt too wide) in alignment at lines 160--209
  [] [] [] [] [] 
  []
 
@@ -1021,59 +996,59 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.2.3}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.214 \end{longtable}
-                     ] [8] [9] [10] [11] [12]
+l.209 \end{longtable}
+                     ] [8] [9] [10] [11]
 chapter 3.
-[13
+[12
 
 ]
 chapter 4.
-[14
+[13
 
 ]
 chapter 5.
-[15
+[14
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.249 \chapter
+l.244 \chapter
               {Appendix}]
 chapter 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
-68.
+63.
 (/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 280--281
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--285
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--287
+Underfull \hbox (badness 10000) in paragraph at lines 281--282
 
  []
 
-[16
+[15
 
-{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}] [17]
+{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}] [16]
 (./planning-uml.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -1083,9 +1058,9 @@ Package rerunfilecheck Info: File `planning-uml.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 13626 strings out of 476076
- 238257 string characters out of 5793775
- 2039187 words of memory out of 5000000
+ 13625 strings out of 476076
+ 238250 string characters out of 5793775
+ 2027187 words of memory out of 5000000
  35493 multiletter control sequences out of 15000+600000
  624376 words of font info for 72 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1094,10 +1069,10 @@ Here is how much of TeX's memory you used:
 t/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm
 /lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/t
 exmf-dist/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on planning-uml.pdf (18 pages, 181590 bytes).
+Output written on planning-uml.pdf (17 pages, 179563 bytes).
 PDF statistics:
- 231 PDF objects out of 1000 (max. 8388607)
- 198 compressed objects within 2 object streams
- 49 named destinations out of 1000 (max. 500000)
+ 227 PDF objects out of 1000 (max. 8388607)
+ 195 compressed objects within 2 object streams
+ 48 named destinations out of 1000 (max. 500000)
  137 words of extra memory for PDF output out of 10000 (max. 10000000)
 
