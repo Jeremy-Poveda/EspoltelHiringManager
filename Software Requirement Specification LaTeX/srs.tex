@@ -407,7 +407,7 @@ This component tracks the status of all applicants, their status in the hiring f
 
 \subsection{Should}
 
-% User history 5
+%%
 \begin{table}[H]
 
 \centering \small
@@ -427,9 +427,9 @@ This component tracks the status of all applicants, their status in the hiring f
 \caption{User Story: Aspirant information for application (Web application)}
 \label{tab:ws1}
 \end{table} \FloatBarrier 
-% end User history 5
+%%
 
-% User history 6
+%%
 \begin{table}[H]
 \centering \small
 
@@ -680,6 +680,53 @@ This component tracks the status of all applicants, their status in the hiring f
 \end{table}
 %%
 
+% User story - Schedule Interviews (Web application)
+\begin{table}[H]
+	\centering
+	\small
+	\resizebox{\textwidth}{!}{ \begin{tabularx}{\textwidth}{|l|X|}
+			\hline
+			\textbf{Identifier} & WS13 \\ \hline
+			\textbf{Priority} & 2 \\ \hline
+			\textbf{Dependencies} & None \\ \hline
+			\textbf{Version} & V1.0 \\ \hline
+			\textbf{Description} & As a member of Human Resources, I should be able to schedule interviews with applicants, specifying the date, time, and interviewer, so that the selection process can be carried out efficiently. \\ \hline
+			\textbf{Reverse Card} &
+			\begin{itemize}
+				\item The system must allow the selection of applicants, available dates, times, and interviewers for scheduling.
+				\item The interviewers should receive a notification with the details of the scheduled interview, including a link or information to access the virtual meeting room if applicable.
+				\item The system should allow rescheduling or canceling interviews, with automatic notifications to the involved parties.
+				\item Applicants must be notified of their interview schedule via email, including the date, time, interviewer, and instructions for the interview.
+				\item The system should prevent scheduling conflicts, such as double-booking an interviewer or applicant at the same time.
+			\end{itemize} \\ \hline
+	\end{tabularx} }
+	\caption{User Story: Schedule Interviews (Web application)}
+	\label{tab:ws13}
+\end{table} \FloatBarrier
+% End User story - Schedule Interviews (Web application)
+
+% User story - Interview Results (Web application)
+\begin{table}[H]
+	\centering
+	\small
+	\resizebox{\textwidth}{!}{ \begin{tabularx}{\textwidth}{|l|X|}
+			\hline
+			\textbf{Identifier} & WS14 \\ \hline
+			\textbf{Priority} & 2 \\ \hline
+			\textbf{Dependencies} & WS13 \\ \hline
+			\textbf{Version} & V1.0 \\ \hline
+			\textbf{Description} & As an interviewer, I should be able to record the results and observations of the interviews conducted, including scores and comments, so that there is a formal record of the evaluation of each applicant. \\ \hline
+			\textbf{Reverse Card} &
+			\begin{itemize}
+				\item The system must provide a form for each interview, allowing scores to be entered based on predefined criteria.
+				\item Interviewers should be able to add specific comments about the applicant's performance during the interview.
+				\item The results and comments must be stored securely and associated with the applicant's profile.
+				\item The system should allow authorized users (e.g., HR members, project managers) to access and review the interview results.
+			\end{itemize} \\ \hline
+	\end{tabularx} }
+	\caption{User Story: Record Interview Results}
+	\label{tab:ws14}
+\end{table} \FloatBarrier
 %%
 
 \subsection{Could}
@@ -1364,166 +1411,391 @@ The versioning of the project prototype has been managed using Github. You can f
 \section{Appendix D: Web Application Prototype Screenshots}
 
 \begin{figure}[H]
-    
-    \centering \small
-    \includegraphics[width=1\textwidth]{WebPrototype/Mainpage.png}
-    \caption{User role selector }
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-1.jpeg}
+	\caption{View of role type selection in ESPOLTEL for authentication}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-2.jpeg}
+	\caption{View of the administrator role selection}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-3.jpeg}
+	\caption{System login view}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-4.jpeg}
+	\caption{System registration view, step one: basic information}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-5.jpeg}
+	\caption{System registration view, step two: entering email address}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-6.jpeg}
+	\caption{System registration view, step three: email confirmation }
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-7.jpeg}
+	\caption{View of all projects of a director}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-8.jpeg}
+	\caption{View of the creation of a project by a director}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-9.jpeg}
+	\caption{View of the selection of a project's estimated timeline}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-10.jpeg}
+	\caption{View of the creation of a project position}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-11.jpeg}
+	\caption{View of the creation of a project profile}
 \end{figure}
 
 
-\begin{figure} [H]
-    
-    \centering \small
-    \includegraphics[width=1\textwidth]{WebPrototype/Registerpage.png}
-    \caption{User registration }
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-12.jpeg}
+	\caption{Project view with roles and profiles}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-13.jpeg}
+	\caption{View of detailed project information}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-14.jpeg}
+	\caption{View of aspirants that have applied for a project}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-15.jpeg}
+	\caption{View of a project edition}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-16.jpeg}
+	\caption{View of contracted personnel of a project}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-17.jpeg}
+	\caption{View of the personnel contract file}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-18.jpeg}
+	\caption{View of all profiles managed by a director}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-19.jpeg}
+	\caption{View of a profile with its postulations in detail}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-20.jpeg}
+	\caption{View of project profiles}
 \end{figure}
 
 
 \begin{figure}[H]
-    
-    \centering \small
-    \includegraphics[width=1\textwidth]{WebPrototype/Loginpage.png}
-    \caption{User Sign In}
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-21.jpeg}
+	\caption{View of the manager's document signer}
 \end{figure}
 
-\subsection{Sections for Aspirants}
-
-
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-22.jpeg}
+	\caption{View of profiles pending review by human talent}
+\end{figure}
 
 \begin{figure}[H]
-    
-    \centering \small
-    \includegraphics[width=1\textwidth]{WebPrototype/Projectsflow2.png}
-    \caption{Project Search}
-\end{figure} 
-
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-23.jpeg}
+	\caption{View a profile revision to edit and accept it}
+\end{figure}
 
 \begin{figure}[H]
-    
-    \centering \small
-    \includegraphics[width=1\textwidth]{WebPrototype/Projectsflow3.png}
-    \caption{Project Description Overview}
-\end{figure} 
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-24.jpeg}
+	\caption{View of contract and confidential agreement formats}
+\end{figure}
 
 \begin{figure}[H]
-    
-    \centering \small
-    \includegraphics[width=1\textwidth]{WebPrototype/Projectsflow4.png}
-    \caption{Application form}
-\end{figure} 
-
-\begin{figure}[H] 
-    
-    \centering \small
-    \includegraphics[width=1\textwidth]{WebPrototype/Projectsflow5.png}
-    \caption{Aspirant's Projects Status}
-\end{figure} 
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-25.jpeg}
+	\caption{View of the format creation, step one: create form}
+\end{figure}
 
 \begin{figure}[H]
-    
-    \centering \small
-    \includegraphics[width=1\textwidth]{WebPrototype/Projectflow55.png}
-    \caption{Aspirant Pending Application Request  }
-\end{figure} 
-
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-25-2.jpg}
+	\caption{View of the format creation, step two: upload the word file}
+\end{figure}
 
 \begin{figure}[H]
-    
-    \centering \small
-    \includegraphics[width=1\textwidth]{WebPrototype/Projectsflow6.png}
-    \caption{Acceptance of Application Request}
-\end{figure} 
-
-
-\begin{figure}[H] 
-    
-    \centering \small
-    \includegraphics[width=1\textwidth]{WebPrototype/Projectsflow65.png}
-    \caption{Contract Overview}
-\end{figure} 
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-26.jpeg}
+	\caption{View of incoming postulations}
+\end{figure}
 
 \begin{figure}[H]
-    
-    \centering \small
-    \includegraphics[width=1\textwidth]{WebPrototype/Projectsflow7.png}
-    \caption{Signature Area}
-\end{figure} 
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-27.jpeg}
+	\caption{View validation of documents to accept a postulation under review}
+\end{figure}
 
 \begin{figure}[H]
-    
-    \centering \small
-    \includegraphics[width=1\textwidth]{WebPrototype/Projectsflow8.png}
-    \caption{Credentials Prompt for Electronic signature}
-\end{figure} 
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-28.jpeg}
+	\caption{View of the result of the validation of the postulation to notify the result}
+\end{figure}
 
 \begin{figure}[H]
-    
-    \centering \small
-    \includegraphics[width=1\textwidth]{WebPrototype/Projectsflow9.png}
-    \caption{Contract Signed format}
-\end{figure} 
-
-
-\subsection{Project Director}
-\begin{figure}[H]
-    
-    \centering \small
-    \includegraphics[width=1\textwidth]{WebPrototype/Director_flow1.png}
-    \caption{Project Creation area}
-\end{figure} 
-
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-29.jpeg}
+	\caption{View of the interviews}
+\end{figure}
 
 \begin{figure}[H]
-    
-    \centering \small
-    \includegraphics[width=1\textwidth]{WebPrototype/Director_flow2.png}
-    \caption{Custom Project section}
-\end{figure} 
-\begin{figure}[H]
-    
-    \centering \small
-    \includegraphics[width=1\textwidth]{WebPrototype/Director_flow3.png}
-    \includegraphics[width=1\textwidth]{WebPrototype/Director_flow31.png}    
-    \caption{Applicant Profile Creation}
-\end{figure} 
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-30.jpeg}
+	\caption{View of the results of an interview}
+\end{figure}
 
 \begin{figure}[H]
-    \centering \small
-    \includegraphics[width=1\textwidth]{WebPrototype/Director_flow4.png}
-    \caption{Application Setup Section }
-\end{figure} 
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-31-2.jpg}
+	\caption{View of an interview schedule}
+\end{figure}
 
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-31.jpeg}
+	\caption{View of the choice of aspirant to interview}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-32.jpeg}
+	\caption{View of aspirants interviewed}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-33.jpeg}
+	\caption{View of a postulation for acceptance or rejection}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-34.jpeg}
+	\caption{View of all profiles in hiring}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-35.jpeg}
+	\caption{View of the hiring information of a postulation to a profile to save the information.}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-36.jpeg}
+	\caption{View of the hiring form received from the aspirant along with his files for hiring.}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-37.jpeg}
+	\caption{View of the verification of the contract form}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-38.jpeg}
+	\caption{View of postulations with pending contracts}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-39.jpeg}
+	\caption{View of the contract generation of an application}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-40.jpeg}
+	\caption{View of the generated contract to be sent to the aspirant}
+\end{figure}
+
+%%
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-41.jpeg}
+	\caption{View of the contract signed by the aspirant ready to validate his signature, and send it to the manager}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-42.jpeg}
+	\caption{View of the contract signed by both parties to save it to the system}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-43.jpeg}
+	\caption{View of all personnel hired by ESPOLTEL}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-44.jpeg}
+	\caption{View of the aspirant's home page}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-45.jpeg}
+	\caption{View of the code entry of a hiring profile}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-46.jpeg}
+	\caption{Detailed view of the position and profile to apply for the position}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-47.jpeg}
+	\caption{View to upload files needed for the initial application, resume and ID, part one}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-48.jpeg}
+	\caption{View to upload files needed for the initial application, resume and ID, part two}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-49.jpeg}
+	\caption{View of postulation confirmation}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-50.jpeg}
+	\caption{View of user information}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-51.jpeg}
+	\caption{View of email and credentials edition}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-52.jpeg}
+	\caption{View of all postulations of an aspirant}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-53.jpeg}
+	\caption{View of aspirant notifications}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-54.jpeg}
+	\caption{View of submitted contract forms}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-55.jpeg}
+	\caption{View of aspirant's contracts}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[width=0.8\textwidth]{WebPrototype/wflow-56.jpeg}
+	\caption{View of the aspirant's signatory}
+\end{figure}
 
 
 \section{Appendix E: Mobile Application Prototype Screenshots}
-\begin{figure}[H] 
-    
-    \centering \small
-    \includegraphics[width=0.15\textwidth]{MobilePrototype/LoginScreen.jpeg}
-    \caption{Login in  }
+
+%%
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[height=0.5\textwidth]{MobilePrototype/mflow-1.jpeg}
+	\caption{View mobile application login page}
 \end{figure}
 
 \begin{figure}[H]
-    
-    \centering \small
-    \includegraphics[width=0.15\textwidth]{MobilePrototype/RegisterScreen.jpeg}
-    \caption{Login in  }
-\end{figure}
-
-
-\begin{figure}[H]
-    
-    \centering \small
-    \includegraphics[width=0.15\textwidth]{MobilePrototype/OverallDashboardScreen.jpeg}
-    \caption{Overall Dashboard Without Displayed Lateral Panel  }
+	\centering \small
+	\includegraphics[height=0.5\textwidth]{MobilePrototype/mflow-2.jpeg}
+	\caption{View of the registration inside the mobile application}
 \end{figure}
 
 \begin{figure}[H]
-    
-    \centering \small
-    \includegraphics[width=0.15\textwidth]{MobilePrototype/OverallLateralOptionsDisplayScreen.jpeg}
-    \caption{Overall Dashboard Without Displayed Lateral Panel}
+	\centering \small
+	\includegraphics[height=0.5\textwidth]{MobilePrototype/mflow-3.jpeg}
+	\caption{View of the dashboard of the mobile application}
 \end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[height=0.5\textwidth]{MobilePrototype/mflow-4.jpeg}
+	\caption{View of the mobile application sidebar}
+\end{figure}
+
+\begin{figure}[H]
+	\centering \small
+	\includegraphics[height=0.5\textwidth]{MobilePrototype/mflow-5.jpeg}
+	\caption{Status view of an postulation}
+\end{figure}
+%%
+
 
 \end{document}
 
