@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2025.1.10)  15 JAN 2025 22:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2025.1.10)  16 JAN 2025 09:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1150,58 +1150,613 @@ Overfull \hbox (9.597pt too wide) in alignment at lines 243--354
  [] [] [] [] 
  []
 
-[12] [13] [14]
+[12] [13]
+Overfull \hbox (2.24583pt too wide) in paragraph at lines 358--358
+[]|\T1/lmr/bx/n/10.95 Product
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
+\T1/lmr/bx/n/10.95 Back-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
+\T1/lmr/bx/n/10.95 log
+ []
+
+
+Overfull \hbox (9.597pt too wide) in alignment at lines 357--359
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.24583pt too wide) in paragraph at lines 361--361
+[]|\T1/lmr/bx/n/10.95 Product
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
+\T1/lmr/bx/n/10.95 Back-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
+\T1/lmr/bx/n/10.95 log
+ []
+
+
+Overfull \hbox (9.597pt too wide) in alignment at lines 359--362
+ [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--368
+[]|\T1/lmr/m/n/10.95 Design UI for con-
+ []
+
+
+Underfull \hbox (badness 6995) in paragraph at lines 366--368
+\T1/lmr/m/n/10.95 tract/agreement view-ing.
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 366--368
+\T1/lmr/m/n/10.95 Implement back-end logic
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 373--373
+\T1/lmr/m/n/10.95 fi-den-tial-ity agree-ments for the
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 375--376
+\T1/lmr/m/n/10.95 Implement back-end logic
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 382--383
+\T1/lmr/m/n/10.95 Implement back-end logic
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 389--391
+\T1/lmr/m/n/10.95 Implement back-end logic
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 389--391
+\T1/lmr/m/n/10.95 for project cre-ation and
+ []
+
+
+Underfull \hbox (badness 2932) in paragraph at lines 389--391
+\T1/lmr/m/n/10.95 Database in-te-gra-tion for
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 396--396
+\T1/lmr/m/n/10.95 across the plat-form, in-clud-ing
+ []
+
+
+Underfull \hbox (badness 1314) in paragraph at lines 398--399
+\T1/lmr/m/n/10.95 fil-ter func-tion-al-ity. - 3
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 398--399
+\T1/lmr/m/n/10.95 Implement back-end logic
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 405--407
+[]|\T1/lmr/m/n/10.95 Set up push no-ti-fi-ca-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 405--407
+\T1/lmr/m/n/10.95 ser-vice (e.g., Fire-base
+ []
+
+
+Underfull \hbox (badness 1354) in paragraph at lines 405--407
+\T1/lmr/m/n/10.95 Cloud Mes-sag-ing). - 4
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 405--407
+\T1/lmr/m/n/10.95 Implement back-end logic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 405--407
+\T1/lmr/m/n/10.95 Integrate no-ti-fi-ca-tions
+ []
+
+
+Overfull \hbox (9.597pt too wide) in alignment at lines 362--413
+ [] [] [] [] 
+ []
+
+[14]
+Overfull \hbox (2.24583pt too wide) in paragraph at lines 416--416
+[]|\T1/lmr/bx/n/10.95 Product
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 416--416
+\T1/lmr/bx/n/10.95 Back-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 416--416
+\T1/lmr/bx/n/10.95 log
+ []
+
+
+Overfull \hbox (9.597pt too wide) in alignment at lines 415--417
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.24583pt too wide) in paragraph at lines 419--419
+[]|\T1/lmr/bx/n/10.95 Product
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 419--419
+\T1/lmr/bx/n/10.95 Back-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 419--419
+\T1/lmr/bx/n/10.95 log
+ []
+
+
+Overfull \hbox (9.597pt too wide) in alignment at lines 417--420
+ [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 424--425
+\T1/lmr/m/n/10.95 Implement back-end logic
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 440--441
+[]|\T1/lmr/m/n/10.95 Implement back-end logic
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 447--449
+\T1/lmr/m/n/10.95 Implement back-end logic
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 447--449
+\T1/lmr/m/n/10.95 for project cre-ation and
+ []
+
+
+Underfull \hbox (badness 2932) in paragraph at lines 447--449
+\T1/lmr/m/n/10.95 Database in-te-gra-tion for
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 456--457
+\T1/lmr/m/n/10.95 Implement back-end logic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 456--457
+\T1/lmr/m/n/10.95 for stor-ing role/profile
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 461--461
+\T1/lmr/m/n/10.95 pany's stan-dards and re-quire-
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 463--465
+\T1/lmr/m/n/10.95 Implement back-end logic
+ []
+
+
+Underfull \hbox (badness 2932) in paragraph at lines 463--465
+\T1/lmr/m/n/10.95 Database in-te-gra-tion for
+ []
+
+
+Overfull \hbox (9.597pt too wide) in alignment at lines 420--471
+ [] [] [] [] 
+ []
+
+[15]
+Overfull \hbox (2.24583pt too wide) in paragraph at lines 474--474
+[]|\T1/lmr/bx/n/10.95 Product
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 474--474
+\T1/lmr/bx/n/10.95 Back-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 474--474
+\T1/lmr/bx/n/10.95 log
+ []
+
+
+Overfull \hbox (9.597pt too wide) in alignment at lines 473--475
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.24583pt too wide) in paragraph at lines 477--477
+[]|\T1/lmr/bx/n/10.95 Product
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 477--477
+\T1/lmr/bx/n/10.95 Back-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 477--477
+\T1/lmr/bx/n/10.95 log
+ []
+
+
+Overfull \hbox (9.597pt too wide) in alignment at lines 475--478
+ [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 482--484
+[]|\T1/lmr/m/n/10.95 Set up push no-ti-fi-ca-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--484
+\T1/lmr/m/n/10.95 ser-vice (e.g., Fire-base
+ []
+
+
+Underfull \hbox (badness 1354) in paragraph at lines 482--484
+\T1/lmr/m/n/10.95 Cloud Mes-sag-ing). - 4
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 482--484
+\T1/lmr/m/n/10.95 Implement back-end logic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--484
+\T1/lmr/m/n/10.95 Integrate no-ti-fi-ca-tions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 491--492
+[]|\T1/lmr/m/n/10.95 Implement no-ti-fi-ca-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 491--492
+\T1/lmr/m/n/10.95 with cal-en-dar/reminder
+ []
+
+
+Underfull \hbox (badness 2538) in paragraph at lines 496--496
+[]|\T1/lmr/bx/n/10.95 As \T1/lmr/m/n/10.95 an as-pi-rant, \T1/lmr/bx/n/10.95 I 
+want \T1/lmr/m/n/10.95 to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 505--506
+[]|\T1/lmr/m/n/10.95 Design mo-bile UI for
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 512--513
+\T1/lmr/m/n/10.95 Implement back-end logic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 519--520
+[]|\T1/lmr/m/n/10.95 Design UI for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 519--520
+\T1/lmr/m/n/10.95 project/position ap-pli-
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 519--520
+\T1/lmr/m/n/10.95 Implement back-end logic
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 526--527
+\T1/lmr/m/n/10.95 Implement back-end logic
+ []
+
+
+Underfull \hbox (badness 3872) in paragraph at lines 526--527
+\T1/lmr/m/n/10.95 for pos-tu-la-tion can-cel-la-
+ []
+
+
+Overfull \hbox (9.597pt too wide) in alignment at lines 478--532
+ [] [] [] [] 
+ []
+
+[16]
+Overfull \hbox (2.24583pt too wide) in paragraph at lines 535--535
+[]|\T1/lmr/bx/n/10.95 Product
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 535--535
+\T1/lmr/bx/n/10.95 Back-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 535--535
+\T1/lmr/bx/n/10.95 log
+ []
+
+
+Overfull \hbox (9.597pt too wide) in alignment at lines 534--536
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.24583pt too wide) in paragraph at lines 538--538
+[]|\T1/lmr/bx/n/10.95 Product
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 538--538
+\T1/lmr/bx/n/10.95 Back-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 538--538
+\T1/lmr/bx/n/10.95 log
+ []
+
+
+Overfull \hbox (9.597pt too wide) in alignment at lines 536--539
+ [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 541--541
+[]|\T1/lmr/bx/n/10.95 As \T1/lmr/m/n/10.95 an HR mem-ber, \T1/lmr/bx/n/10.95 I 
+want
+ []
+
+
+Underfull \hbox (badness 2418) in paragraph at lines 543--544
+[]|\T1/lmr/m/n/10.95 Design UI for in-ter-view
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 543--544
+\T1/lmr/m/n/10.95 Implement back-end logic
+ []
+
+
+Underfull \hbox (badness 5832) in paragraph at lines 543--544
+\T1/lmr/m/n/10.95 for in-ter-view schedul-ing
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 550--551
+\T1/lmr/m/n/10.95 Implement back-end logic
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 557--558
+\T1/lmr/m/n/10.95 Implement back-end logic
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 564--565
+\T1/lmr/m/n/10.95 Implement back-end logic
+ []
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 564--565
+\T1/lmr/m/n/10.95 for stor-ing pri-vate com-
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 571--572
+\T1/lmr/m/n/10.95 Implement back-end logic
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 576--576
+[]|\T1/lmr/bx/n/10.95 As \T1/lmr/m/n/10.95 an HR mem-ber, \T1/lmr/bx/n/10.95 I 
+want
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 576--576
+\T1/lmr/m/n/10.95 defin-ing manda-tory fields and
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 578--580
+[]|\T1/lmr/m/n/10.95 Design UI for form cre-
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 578--580
+\T1/lmr/m/n/10.95 Implement back-end logic
+ []
+
+
+Underfull \hbox (badness 3312) in paragraph at lines 587--588
+\T1/lmr/m/n/10.95 Update UI to in-te-grate
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 592--592
+\T1/lmr/m/n/10.95 and agree-ments, \T1/lmr/bx/n/10.95 so that \T1/lmr/m/n/10.95
+ ap-
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 594--596
+\T1/lmr/m/n/10.95 Implement back-end logic
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 594--596
+\T1/lmr/m/n/10.95 Implement tem-plate ver-
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 601--601
+[]|\T1/lmr/bx/n/10.95 As \T1/lmr/m/n/10.95 an HR mem-ber, \T1/lmr/bx/n/10.95 I 
+want
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 603--604
+[]|\T1/lmr/m/n/10.95 Implement back-end logic
+ []
+
+
+Underfull \hbox (badness 2635) in paragraph at lines 603--604
+\T1/lmr/m/n/10.95 for doc-u-ment gen-er-a-tion
+ []
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 603--604
+\T1/lmr/m/n/10.95 Design UI for doc-u-ment
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 611--612
+\T1/lmr/m/n/10.95 Implement back-end logic
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 611--612
+\T1/lmr/m/n/10.95 for rec-om-men-da-tion pro-
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 622--622
+[]|\T1/lmr/bx/n/10.95 As \T1/lmr/m/n/10.95 a Di-rec-tor, HR Mem-ber,
+ []
+
+
+Underfull \hbox (badness 7869) in paragraph at lines 624--625
+[]|\T1/lmr/m/n/10.95 Design UI for view-ing
+ []
+
+
+Underfull \hbox (badness 2005) in paragraph at lines 624--625
+\T1/lmr/m/n/10.95 project per-son-nel. - 4
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 624--625
+\T1/lmr/m/n/10.95 Implement back-end logic
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 629--629
+\T1/lmr/m/n/10.95 across the plat-form, in-clud-ing
+ []
+
+
+Underfull \hbox (badness 1314) in paragraph at lines 631--632
+\T1/lmr/m/n/10.95 fil-ter func-tion-al-ity. - 3
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 631--632
+\T1/lmr/m/n/10.95 Implement back-end logic
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 638--641
+[]|\T1/lmr/m/n/10.95 Functional test-ing. - 8
+ []
+
+
+Underfull \hbox (badness 4792) in paragraph at lines 642--642
+[]|\T1/lmr/m/n/10.95 All team mem-
+ []
+
+
+Overfull \hbox (9.597pt too wide) in alignment at lines 539--645
+ [] [] [] [] 
+ []
+
+[17] [18] [19] [20]
 chapter 3.
-[15
+[21
 
 ]
 chapter 4.
-[16
+[22
 
 ]
 chapter 5.
-[17
+[23
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.387 \chapter
+l.679 \chapter
               {Appendix}]
 chapter 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--402
+Underfull \hbox (badness 10000) in paragraph at lines 693--694
 
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
-06.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 6
+98.
 (/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 418--419
+Underfull \hbox (badness 10000) in paragraph at lines 710--711
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--421
+Underfull \hbox (badness 10000) in paragraph at lines 712--713
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 422--423
+Underfull \hbox (badness 10000) in paragraph at lines 714--715
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 424--425
+Underfull \hbox (badness 10000) in paragraph at lines 716--717
 
  []
 
-[18
+[24
 
-{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}] [19]
+{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}] [25]
 (./planning-uml.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -1211,10 +1766,10 @@ Package rerunfilecheck Info: File `planning-uml.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 13702 strings out of 476076
- 239488 string characters out of 5793775
- 2028187 words of memory out of 5000000
- 35562 multiletter control sequences out of 15000+600000
+ 13716 strings out of 476076
+ 239586 string characters out of 5793775
+ 2027187 words of memory out of 5000000
+ 35566 multiletter control sequences out of 15000+600000
  624376 words of font info for 72 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  108i,11n,107p,10934b,552s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1222,10 +1777,10 @@ Here is how much of TeX's memory you used:
 t/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm
 /lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/t
 exmf-dist/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on planning-uml.pdf (20 pages, 187163 bytes).
+Output written on planning-uml.pdf (26 pages, 202621 bytes).
 PDF statistics:
- 244 PDF objects out of 1000 (max. 8388607)
- 208 compressed objects within 3 object streams
- 52 named destinations out of 1000 (max. 500000)
+ 279 PDF objects out of 1000 (max. 8388607)
+ 237 compressed objects within 3 object streams
+ 62 named destinations out of 1000 (max. 500000)
  137 words of extra memory for PDF output out of 10000 (max. 10000000)
 
