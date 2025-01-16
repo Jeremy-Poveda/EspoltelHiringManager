@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2025.1.10)  15 JAN 2025 11:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2025.1.10)  15 JAN 2025 22:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -466,57 +466,65 @@ Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \RaggedRightParindent=\skip84
 \JustifyingParindent=\skip85
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 34.
+(/usr/share/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip86
+\multirow@cntb=\count290
+\multirow@dima=\skip87
+\bigstrutjot=\dimen176
+)
+\c@sprint=\count291
+Package hyperref Info: Option `colorlinks' set `true' on input line 40.
 
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count290
+\l__color_backend_stack_int=\count292
 \l__pdf_internal_box=\box62
 )
 (./planning-uml.aux)
 \openout1 = `planning-uml.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-Package scrbase Info: activating english \abstractname on input line 38.
-Package scrbase Info: activating english \partname on input line 38.
-Package scrbase Info: activating english \chaptername on input line 38.
-Package scrbase Info: activating english \appendixname on input line 38.
-Package scrbase Info: activating english \figurename on input line 38.
-Package scrbase Info: activating english \tablename on input line 38.
-Package scrbase Info: activating english \contentsname on input line 38.
-Package scrbase Info: activating english \listfigurename on input line 38.
-Package scrbase Info: activating english \listtablename on input line 38.
-Package scrbase Info: activating english \bibname on input line 38.
-Package scrbase Info: activating english \indexname on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+Package scrbase Info: activating english \abstractname on input line 44.
+Package scrbase Info: activating english \partname on input line 44.
+Package scrbase Info: activating english \chaptername on input line 44.
+Package scrbase Info: activating english \appendixname on input line 44.
+Package scrbase Info: activating english \figurename on input line 44.
+Package scrbase Info: activating english \tablename on input line 44.
+Package scrbase Info: activating english \contentsname on input line 44.
+Package scrbase Info: activating english \listfigurename on input line 44.
+Package scrbase Info: activating english \listtablename on input line 44.
+Package scrbase Info: activating english \bibname on input line 44.
+Package scrbase Info: activating english \indexname on input line 44.
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count291
-\scratchdimen=\dimen176
+\scratchcounter=\count293
+\scratchdimen=\dimen177
 \scratchbox=\box63
-\nofMPsegments=\count292
-\nofMParguments=\count293
+\nofMPsegments=\count294
+\nofMParguments=\count295
 \everyMPshowfont=\toks26
-\MPscratchCnt=\count294
-\MPscratchDim=\dimen177
-\MPnumerator=\count295
-\makeMPintoPDFobject=\count296
+\MPscratchCnt=\count296
+\MPscratchDim=\dimen178
+\MPnumerator=\count297
+\makeMPintoPDFobject=\count298
 \everyMPtoPDFconversion=\toks27
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -527,7 +535,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 38.
+Package hyperref Info: Link coloring ON on input line 44.
 
 (./planning-uml.out) (./planning-uml.out)
 \@outlinefile=\write3
@@ -540,7 +548,7 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           `bookmarkpackage=false' before \begin{document} and
 (scrreprt)           you can avoid this message adding:
 (scrreprt)             \usepackage{bookmark}
-(scrreprt)           before \begin{document} on input line 38.
+(scrreprt)           before \begin{document} on input line 44.
 
 (/usr/share/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
@@ -548,7 +556,7 @@ Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
 (/usr/share/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
 )
-\BKM@id=\count297
+\BKM@id=\count299
 ))
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -585,7 +593,7 @@ File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (2.27618pt too wide) in paragraph at lines 42--42
+Overfull \hbox (2.27618pt too wide) in paragraph at lines 48--48
  []
  []
 
@@ -596,46 +604,46 @@ Overfull \hbox (2.27618pt too wide) in paragraph at lines 42--42
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts
 /enc/dvips/lm/lm-ec.enc}]
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 6
-0.
+6.
  (/usr/share/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 6
-3.
+9.
 
 (/usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 6
-3.
+9.
 
 (/usr/share/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-63.
+69.
 
 (/usr/share/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-63.
+69.
 
 (/usr/share/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 63.
+(Font)              <10.95> on input line 69.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 63.
+(Font)              <8> on input line 69.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 63.
+(Font)              <6> on input line 69.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.72 \tableofcontents
+l.78 \tableofcontents
                       [1
 
 ] (./planning-uml.toc)
@@ -679,58 +687,58 @@ Class scrreprt Warning: \float@addtolists detected!
 ]
 chapter 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 103.
+(Font)              <10> on input line 109.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 103.
+(Font)              <7> on input line 109.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 103.
+(Font)              <5> on input line 109.
 
-Underfull \hbox (badness 5245) in paragraph at lines 141--141
+Underfull \hbox (badness 5245) in paragraph at lines 147--147
 []|\T1/lmr/m/n/10 High Prob-a-bil-
  []
 
 
-Underfull \hbox (badness 5245) in paragraph at lines 143--143
+Underfull \hbox (badness 5245) in paragraph at lines 149--149
 []|\T1/lmr/m/n/10 High Prob-a-bil-
  []
 
 
-Underfull \hbox (badness 2080) in paragraph at lines 143--143
+Underfull \hbox (badness 2080) in paragraph at lines 149--149
 \T1/lmr/m/n/10 quired frame-works to min-i-mize de-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--144
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
 []|\T1/lmr/m/n/10 Difficulty un-der-stand-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--144
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
 \T1/lmr/m/n/10 prior im-ple-men-ta-tion,
  []
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 146--146
+Underfull \hbox (badness 1184) in paragraph at lines 152--152
 \T1/lmr/m/n/10 pro-pose al-ter-na-tive so-lu-tions to im-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
 []|\T1/lmr/m/n/10 Moderate Im-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--148
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 []|\T1/lmr/m/n/10 Insufficient doc-u-men-ta-
  []
 
 
-Underfull \hbox (badness 5245) in paragraph at lines 148--148
+Underfull \hbox (badness 5245) in paragraph at lines 154--154
 []|\T1/lmr/m/n/10 High Prob-a-bil-
  []
 
 
-Overfull \hbox (57.56293pt too wide) in paragraph at lines 138--150
+Overfull \hbox (57.56293pt too wide) in paragraph at lines 144--156
  [][] 
  []
 
@@ -744,250 +752,250 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.2.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.151 \end{table} \FloatBarrier
+l.157 \end{table} \FloatBarrier
                                
 pdfTeX warning (ext4): destination with the same identifier (name{table.2.2}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.151 \end{table} \FloatBarrier
+l.157 \end{table} \FloatBarrier
                                ]
-Overfull \hbox (0.79492pt too wide) in paragraph at lines 156--156
+Overfull \hbox (0.79492pt too wide) in paragraph at lines 162--162
 []|\T1/lmr/bx/n/10.95 Priority| 
  []
 
 
-Overfull \hbox (4.00684pt too wide) in paragraph at lines 156--156
+Overfull \hbox (4.00684pt too wide) in paragraph at lines 162--162
 []|\T1/lmr/bx/n/10.95 Dependencies| 
  []
 
 
-Overfull \hbox (3.03088pt too wide) in paragraph at lines 156--156
+Overfull \hbox (3.03088pt too wide) in paragraph at lines 162--162
 []|\T1/lmr/bx/n/10.95 Estimation
  []
 
 
-Overfull \hbox (67.52156pt too wide) in alignment at lines 155--157
+Overfull \hbox (30.5329pt too wide) in alignment at lines 161--163
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (0.79492pt too wide) in paragraph at lines 159--159
+Overfull \hbox (0.79492pt too wide) in paragraph at lines 165--165
 []|\T1/lmr/bx/n/10.95 Priority| 
  []
 
 
-Overfull \hbox (4.00684pt too wide) in paragraph at lines 159--159
+Overfull \hbox (4.00684pt too wide) in paragraph at lines 165--165
 []|\T1/lmr/bx/n/10.95 Dependencies| 
  []
 
 
-Overfull \hbox (3.03088pt too wide) in paragraph at lines 159--159
+Overfull \hbox (3.03088pt too wide) in paragraph at lines 165--165
 []|\T1/lmr/bx/n/10.95 Estimation
  []
 
 
-Overfull \hbox (67.52156pt too wide) in alignment at lines 157--160
+Overfull \hbox (30.5329pt too wide) in alignment at lines 163--166
  [] [] [] [] [] 
- []
-
-
-Overfull \hbox (3.39558pt too wide) in paragraph at lines 170--170
-[]|\T1/lmr/m/n/10.95 PB10| 
- []
-
-
-Overfull \hbox (3.39558pt too wide) in paragraph at lines 171--171
-[]|\T1/lmr/m/n/10.95 PB11| 
- []
-
-
-Overfull \hbox (3.39558pt too wide) in paragraph at lines 172--172
-[]|\T1/lmr/m/n/10.95 PB12| 
- []
-
-
-Overfull \hbox (3.39558pt too wide) in paragraph at lines 173--173
-[]|\T1/lmr/m/n/10.95 PB13| 
- []
-
-
-Overfull \hbox (3.39558pt too wide) in paragraph at lines 174--174
-[]|\T1/lmr/m/n/10.95 PB14| 
- []
-
-
-Overfull \hbox (3.39558pt too wide) in paragraph at lines 175--175
-[]|\T1/lmr/m/n/10.95 PB15| 
- []
-
-
-Overfull \hbox (3.39558pt too wide) in paragraph at lines 176--176
-[]|\T1/lmr/m/n/10.95 PB16| 
- []
-
-
-Overfull \hbox (3.39558pt too wide) in paragraph at lines 177--177
-[]|\T1/lmr/m/n/10.95 PB17| 
- []
-
-
-Overfull \hbox (3.39558pt too wide) in paragraph at lines 178--178
-[]|\T1/lmr/m/n/10.95 PB18| 
  []
 
 
 Overfull \hbox (3.39558pt too wide) in paragraph at lines 179--179
-[]|\T1/lmr/m/n/10.95 PB19| 
+[]|\T1/lmr/m/n/10.95 PB10| 
  []
 
 
 Overfull \hbox (3.39558pt too wide) in paragraph at lines 180--180
-[]|\T1/lmr/m/n/10.95 PB20| 
+[]|\T1/lmr/m/n/10.95 PB11| 
  []
 
 
 Overfull \hbox (3.39558pt too wide) in paragraph at lines 181--181
-[]|\T1/lmr/m/n/10.95 PB21| 
- []
-
-
-Overfull \hbox (3.39558pt too wide) in paragraph at lines 182--182
-[]|\T1/lmr/m/n/10.95 PB22| 
- []
-
-
-Overfull \hbox (3.39558pt too wide) in paragraph at lines 183--183
-[]|\T1/lmr/m/n/10.95 PB23| 
+[]|\T1/lmr/m/n/10.95 PB12| 
  []
 
 
 Overfull \hbox (3.39558pt too wide) in paragraph at lines 184--184
-[]|\T1/lmr/m/n/10.95 PB24| 
+[]|\T1/lmr/m/n/10.95 PB13| 
  []
 
 
 Overfull \hbox (3.39558pt too wide) in paragraph at lines 185--185
-[]|\T1/lmr/m/n/10.95 PB25| 
+[]|\T1/lmr/m/n/10.95 PB14| 
  []
 
 
 Overfull \hbox (3.39558pt too wide) in paragraph at lines 186--186
-[]|\T1/lmr/m/n/10.95 PB26| 
+[]|\T1/lmr/m/n/10.95 PB15| 
  []
 
 
 Overfull \hbox (3.39558pt too wide) in paragraph at lines 187--187
-[]|\T1/lmr/m/n/10.95 PB27| 
+[]|\T1/lmr/m/n/10.95 PB16| 
  []
 
 
 Overfull \hbox (3.39558pt too wide) in paragraph at lines 188--188
-[]|\T1/lmr/m/n/10.95 PB28| 
+[]|\T1/lmr/m/n/10.95 PB17| 
  []
 
 
 Overfull \hbox (3.39558pt too wide) in paragraph at lines 189--189
-[]|\T1/lmr/m/n/10.95 PB29| 
- []
-
-
-Underfull \hbox (badness 6300) in paragraph at lines 189--189
-[]|\T1/lmr/m/n/10.95 PB28, PB24,
+[]|\T1/lmr/m/n/10.95 PB18| 
  []
 
 
 Overfull \hbox (3.39558pt too wide) in paragraph at lines 190--190
-[]|\T1/lmr/m/n/10.95 PB30| 
+[]|\T1/lmr/m/n/10.95 PB19| 
  []
 
 
 Overfull \hbox (3.39558pt too wide) in paragraph at lines 191--191
-[]|\T1/lmr/m/n/10.95 PB31| 
+[]|\T1/lmr/m/n/10.95 PB20| 
  []
 
 
 Overfull \hbox (3.39558pt too wide) in paragraph at lines 192--192
-[]|\T1/lmr/m/n/10.95 PB32| 
+[]|\T1/lmr/m/n/10.95 PB21| 
  []
 
 
 Overfull \hbox (3.39558pt too wide) in paragraph at lines 193--193
-[]|\T1/lmr/m/n/10.95 PB33| 
- []
-
-
-Overfull \hbox (3.39558pt too wide) in paragraph at lines 194--194
-[]|\T1/lmr/m/n/10.95 PB34| 
- []
-
-
-Overfull \hbox (3.39558pt too wide) in paragraph at lines 195--195
-[]|\T1/lmr/m/n/10.95 PB35| 
+[]|\T1/lmr/m/n/10.95 PB22| 
  []
 
 
 Overfull \hbox (3.39558pt too wide) in paragraph at lines 196--196
-[]|\T1/lmr/m/n/10.95 PB36| 
+[]|\T1/lmr/m/n/10.95 PB23| 
  []
 
 
 Overfull \hbox (3.39558pt too wide) in paragraph at lines 197--197
-[]|\T1/lmr/m/n/10.95 PB37| 
+[]|\T1/lmr/m/n/10.95 PB24| 
  []
 
 
 Overfull \hbox (3.39558pt too wide) in paragraph at lines 198--198
-[]|\T1/lmr/m/n/10.95 PB38| 
+[]|\T1/lmr/m/n/10.95 PB25| 
  []
 
 
 Overfull \hbox (3.39558pt too wide) in paragraph at lines 199--199
-[]|\T1/lmr/m/n/10.95 PB39| 
+[]|\T1/lmr/m/n/10.95 PB26| 
  []
 
 
 Overfull \hbox (3.39558pt too wide) in paragraph at lines 200--200
-[]|\T1/lmr/m/n/10.95 PB40| 
+[]|\T1/lmr/m/n/10.95 PB27| 
  []
 
 
 Overfull \hbox (3.39558pt too wide) in paragraph at lines 201--201
-[]|\T1/lmr/m/n/10.95 PB41| 
- []
-
-
-Overfull \hbox (3.39558pt too wide) in paragraph at lines 202--202
-[]|\T1/lmr/m/n/10.95 PB42| 
- []
-
-
-Overfull \hbox (3.39558pt too wide) in paragraph at lines 203--203
-[]|\T1/lmr/m/n/10.95 PB43| 
- []
-
-
-Overfull \hbox (3.39558pt too wide) in paragraph at lines 204--204
-[]|\T1/lmr/m/n/10.95 PB44| 
+[]|\T1/lmr/m/n/10.95 PB28| 
  []
 
 
 Overfull \hbox (3.39558pt too wide) in paragraph at lines 205--205
-[]|\T1/lmr/m/n/10.95 PB45| 
+[]|\T1/lmr/m/n/10.95 PB29| 
  []
 
 
 Overfull \hbox (3.39558pt too wide) in paragraph at lines 206--206
+[]|\T1/lmr/m/n/10.95 PB30| 
+ []
+
+
+Overfull \hbox (3.39558pt too wide) in paragraph at lines 209--209
+[]|\T1/lmr/m/n/10.95 PB31| 
+ []
+
+
+Overfull \hbox (3.39558pt too wide) in paragraph at lines 210--210
+[]|\T1/lmr/m/n/10.95 PB32| 
+ []
+
+
+Overfull \hbox (3.39558pt too wide) in paragraph at lines 211--211
+[]|\T1/lmr/m/n/10.95 PB33| 
+ []
+
+
+Overfull \hbox (3.39558pt too wide) in paragraph at lines 212--212
+[]|\T1/lmr/m/n/10.95 PB34| 
+ []
+
+
+Overfull \hbox (3.39558pt too wide) in paragraph at lines 213--213
+[]|\T1/lmr/m/n/10.95 PB35| 
+ []
+
+
+Underfull \hbox (badness 6300) in paragraph at lines 213--213
+[]|\T1/lmr/m/n/10.95 PB32, PB33,
+ []
+
+
+Overfull \hbox (3.39558pt too wide) in paragraph at lines 216--216
+[]|\T1/lmr/m/n/10.95 PB36| 
+ []
+
+
+Overfull \hbox (3.39558pt too wide) in paragraph at lines 217--217
+[]|\T1/lmr/m/n/10.95 PB37| 
+ []
+
+
+Overfull \hbox (3.39558pt too wide) in paragraph at lines 218--218
+[]|\T1/lmr/m/n/10.95 PB38| 
+ []
+
+
+Overfull \hbox (3.39558pt too wide) in paragraph at lines 219--219
+[]|\T1/lmr/m/n/10.95 PB39| 
+ []
+
+
+Overfull \hbox (3.39558pt too wide) in paragraph at lines 222--222
+[]|\T1/lmr/m/n/10.95 PB40| 
+ []
+
+
+Underfull \hbox (badness 6300) in paragraph at lines 222--222
+[]|\T1/lmr/m/n/10.95 PB32, PB33,
+ []
+
+
+Overfull \hbox (3.39558pt too wide) in paragraph at lines 223--223
+[]|\T1/lmr/m/n/10.95 PB41| 
+ []
+
+
+Overfull \hbox (3.39558pt too wide) in paragraph at lines 224--224
+[]|\T1/lmr/m/n/10.95 PB42| 
+ []
+
+
+Overfull \hbox (3.39558pt too wide) in paragraph at lines 227--227
+[]|\T1/lmr/m/n/10.95 PB43| 
+ []
+
+
+Overfull \hbox (3.39558pt too wide) in paragraph at lines 228--228
+[]|\T1/lmr/m/n/10.95 PB44| 
+ []
+
+
+Overfull \hbox (3.39558pt too wide) in paragraph at lines 229--229
+[]|\T1/lmr/m/n/10.95 PB45| 
+ []
+
+
+Overfull \hbox (3.39558pt too wide) in paragraph at lines 232--232
 []|\T1/lmr/m/n/10.95 PB46| 
  []
 
 
-Overfull \hbox (3.39558pt too wide) in paragraph at lines 207--207
-[]|\T1/lmr/m/n/10.95 PB47| 
- []
-
-
-Overfull \hbox (67.52156pt too wide) in alignment at lines 160--209
+Overfull \hbox (30.5329pt too wide) in alignment at lines 166--234
  [] [] [] [] [] 
  []
 
@@ -996,59 +1004,204 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.2.3}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.209 \end{longtable}
+l.234 \end{longtable}
                      ] [8] [9] [10] [11]
+Overfull \hbox (2.24583pt too wide) in paragraph at lines 239--239
+[]|\T1/lmr/bx/n/10.95 Product
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--239
+\T1/lmr/bx/n/10.95 Back-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--239
+\T1/lmr/bx/n/10.95 log
+ []
+
+
+Overfull \hbox (9.597pt too wide) in alignment at lines 238--240
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.24583pt too wide) in paragraph at lines 242--242
+[]|\T1/lmr/bx/n/10.95 Product
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--242
+\T1/lmr/bx/n/10.95 Back-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--242
+\T1/lmr/bx/n/10.95 log
+ []
+
+
+Overfull \hbox (9.597pt too wide) in alignment at lines 240--243
+ [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--249
+[]|\T1/lmr/m/n/10.95 -Research ar-chi-tec-ture,
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 247--249
+\T1/lmr/m/n/10.95 mod-ules, and func-tion-al-
+ []
+
+
+Underfull \hbox (badness 2318) in paragraph at lines 247--249
+\T1/lmr/m/n/10.95 -Feasibility eval-u-a-tion of
+ []
+
+
+Underfull \hbox (badness 4792) in paragraph at lines 250--252
+\T1/lmr/m/n/10.95 - Alex Vizuete,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--254
+[]|\T1/lmr/m/n/10.95 Definition of the database
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--257
+[]|\T1/lmr/m/n/10.95 -Design the database
+ []
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 255--257
+\T1/lmr/m/n/10.95 schema (ta-bles, re-la-tion-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--257
+\T1/lmr/m/n/10.95 -Generate Entity-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--257
+\T1/lmr/m/n/10.95 Relationship di-a-gram
+ []
+
+
+Underfull \hbox (badness 6927) in paragraph at lines 258--260
+[]|\T1/lmr/m/n/10.95 - Diego Flo-res,
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 262--265
+\T1/lmr/m/n/10.95 for user reg-is-tra-tion and
+ []
+
+
+Underfull \hbox (badness 2181) in paragraph at lines 262--265
+\T1/lmr/m/n/10.95 role man-age-ment. - 3
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 282--285
+\T1/lmr/m/n/10.95 for user reg-is-tra-tion and
+ []
+
+
+Underfull \hbox (badness 6592) in paragraph at lines 292--295
+[]|\T1/lmr/m/n/10.95 - Adapt email send-ing
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 292--295
+\T1/lmr/m/n/10.95 end-point (mo-bile). - 4
+ []
+
+
+Underfull \hbox (badness 1314) in paragraph at lines 302--305
+\T1/lmr/m/n/10.95 for au-then-ti-ca-tion. - 2
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 318--318
+\T1/lmr/m/n/10.95 and fea-tures ac-cord-ing to my
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--322
+\T1/lmr/m/n/10.95 for au-then-ti-ca-tion (mo-
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 319--322
+\T1/lmr/m/n/10.95 age-ment (mo-bile). - 1
+ []
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 344--347
+\T1/lmr/m/n/10.95 re-cov-ery (mo-bile). - 2
+ []
+
+
+Overfull \hbox (9.597pt too wide) in alignment at lines 243--354
+ [] [] [] [] 
+ []
+
+[12] [13] [14]
 chapter 3.
-[12
+[15
 
 ]
 chapter 4.
-[13
+[16
 
 ]
 chapter 5.
-[14
+[17
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.244 \chapter
+l.387 \chapter
               {Appendix}]
 chapter 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--259
+Underfull \hbox (badness 10000) in paragraph at lines 401--402
 
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
-63.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
+06.
 (/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
+Underfull \hbox (badness 10000) in paragraph at lines 418--419
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--278
+Underfull \hbox (badness 10000) in paragraph at lines 420--421
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 279--280
+Underfull \hbox (badness 10000) in paragraph at lines 422--423
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
+Underfull \hbox (badness 10000) in paragraph at lines 424--425
 
  []
 
-[15
+[18
 
-{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}] [16]
+{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}] [19]
 (./planning-uml.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -1058,10 +1211,10 @@ Package rerunfilecheck Info: File `planning-uml.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 13625 strings out of 476076
- 238250 string characters out of 5793775
- 2027187 words of memory out of 5000000
- 35493 multiletter control sequences out of 15000+600000
+ 13702 strings out of 476076
+ 239488 string characters out of 5793775
+ 2028187 words of memory out of 5000000
+ 35562 multiletter control sequences out of 15000+600000
  624376 words of font info for 72 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  108i,11n,107p,10934b,552s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1069,10 +1222,10 @@ Here is how much of TeX's memory you used:
 t/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm
 /lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/t
 exmf-dist/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on planning-uml.pdf (17 pages, 179563 bytes).
+Output written on planning-uml.pdf (20 pages, 187163 bytes).
 PDF statistics:
- 227 PDF objects out of 1000 (max. 8388607)
- 195 compressed objects within 2 object streams
- 48 named destinations out of 1000 (max. 500000)
+ 244 PDF objects out of 1000 (max. 8388607)
+ 208 compressed objects within 3 object streams
+ 52 named destinations out of 1000 (max. 500000)
  137 words of extra memory for PDF output out of 10000 (max. 10000000)
 
