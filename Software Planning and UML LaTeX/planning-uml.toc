@@ -6,13 +6,13 @@
 \contentsline {section}{\numberline {2.2}Product backlog}{7}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Sprint backlog}{12}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Scheduling}{20}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Static UML}{21}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Use Case - Web Module}{21}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Use Case - Mobile Module}{21}{section.3.2}%
-\contentsline {chapter}{\numberline {4}Behavior UML}{22}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Individual Contributions}{23}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Appendix}{24}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Appendix A: Github Repository}{24}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Appendix B: Commitment Agreement}{24}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Appendix C: Evidence of requirements gathering}{24}{section.6.3}%
+\contentsline {chapter}{\numberline {3}Static UML}{22}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Use Case - Web Module}{22}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Use Case - Mobile Module}{22}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Behavior UML}{23}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Individual Contributions}{24}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Appendix}{25}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Appendix A: Github Repository}{25}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Appendix B: Commitment Agreement}{25}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Appendix C: Evidence of requirements gathering}{25}{section.6.3}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

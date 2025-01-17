@@ -105,8 +105,8 @@ In this section, we will identify, quantify, and classify the various risks that
 %%
 \begin{table}[h!]
 	\centering \small
-	\renewcommand{\arraystretch}{1.5} % Aumenta el espacio entre filas
-	\begin{tabular}{|p{10cm}|p{5cm}|} % Ajusta el ancho de las columnas
+	\renewcommand{\arraystretch}{1.5} 
+	\begin{tabular}{|p{10cm}|p{5cm}|} 
 		\hline
 		\textbf{Description} & \textbf{Probability Range} \\ \hline
 		Not Probable: The event is highly unlikely to occur. & 0\% - 20\% \\ \hline
@@ -124,8 +124,8 @@ In this section, we will identify, quantify, and classify the various risks that
 %%
 \begin{table}[h!]
 	\centering \small
-	\renewcommand{\arraystretch}{1.5} % Aumenta el espacio entre filas
-	\begin{tabular}{|p{5cm}|p{10cm}|} % Ajusta el ancho de las columnas
+	\renewcommand{\arraystretch}{1.5} 
+	\begin{tabular}{|p{5cm}|p{10cm}|} 
 		\hline
 		\textbf{Impact Level} & \textbf{Description} \\ \hline
 		Low Impact & Minimal effect on the project. No significant changes required. \\ \hline
@@ -140,8 +140,8 @@ The following table outlines the identified risks associated with the project, i
 %%
 \begin{table}[h!]
 	\centering \small
-	\renewcommand{\arraystretch}{1.5} % Aumenta el espacio entre filas
-	\begin{tabular}{|p{.75cm}|p{4cm}|p{2.5cm}|p{2.5cm}|p{6cm}|} % Ajusta el ancho de las columnas
+	\renewcommand{\arraystretch}{1.5}
+	\begin{tabular}{|p{.75cm}|p{4cm}|p{2.5cm}|p{2.5cm}|p{4.75cm}|} 
 		\hline
 		\textbf{Id} & \textbf{Name} & \textbf{Probability} & \textbf{Impact} & \textbf{Action Protocol} \\ \hline
 		001 & Changes in requirements after development completion & High Probability & High Impact & Establish a communication protocol to clarify that no new requirements will be accepted after the design phase is finalized. \\ \hline
@@ -178,7 +178,7 @@ The following table outlines the identified risks associated with the project, i
 	PB9 & 2 & PB7 & \textbf{As} a user of ESPOLTEL, \textbf{I want} to securely log in to the system using my credentials on my mobile device, \textbf{so that} I can access the appropriate functions and features according to my user role. & 5 \\ \hline
 	PB10 & 2 & PB8 & \textbf{As} a user of ESPOLTEL, \textbf{I want} to be able to select my role (Aspirant, Project Manager, Project Director, or HR member) on my mobile device before logging in, \textbf{so that} I can be directed to the specific features and functionalities relevant to my role. &  6 \\ \hline
 	PB11 & 3 & PB3 & \textbf{As} a user of ESPOLTEL Hiring Manager, \textbf{I want} to be able to recover my password through a secure and efficient process if I forget it, \textbf{so that} I can regain access to the system and continue with my responsibilities without delay. & 5 \\ \hline
-	PB12 & 3 & PB12 & \textbf{As} a user of ESPOLTEL Hiring Manager, \textbf{I want} to be able to recover my password through a secure and efficient process by email from my mobile device if I forget it, \textbf{so that} I can regain access to the system and continue with my responsibilities without delay. & 6 \\ \hline
+	PB12 & 3 & PB5 & \textbf{As} a user of ESPOLTEL Hiring Manager, \textbf{I want} to be able to recover my password through a secure and efficient process by email from my mobile device if I forget it, \textbf{so that} I can regain access to the system and continue with my responsibilities without delay. & 6 \\ \hline
 	
 	%% Signer and FirmaEC
 	PB13 & 2 & PB1,PB2 & \textbf{As} an aspirant or manager, \textbf{I want} to have access to contracts or confidential agreements pending my signature, \textbf{so that} I can review and sign them digitally within the web application. & 12 \\ \hline
@@ -384,47 +384,14 @@ PB12 & \textbf{As} a user of ESPOLTEL Hiring Manager, \textbf{I want} to be able
 	Jeremy Poveda \newline
 	Alex Vizuete \\ \hline
 	
-	PB23 & \textbf{As} a project manager, \textbf{I want} to create a project by defining its name, description, start date, end date, and type, \textbf{so that} the project's objectives and timeline are clearly established. (12) &
+	PB16 & \textbf{As} an aspirant, \textbf{I want} to digitally sign my contract and confidentiality agreement \textbf{so that} I can complete the paperwork required for my hiring process. (12) & 
 	
-	Design UI for project creation form. - 4 hours \newline
-	Implement backend logic for project creation and data validation. - 5 hours \newline
-	Database integration for project data. - 3 hours &
-	Jose Ramos \newline
-	Ariana Palacios \newline
-	Diego Flores \\ \hline
-	
-	PB42 & \textbf{As} a user of ESPOLTEL Hiring Manager, \textbf{I want} to be able to search and filter information across the platform, including projects, aspirants, roles, documents, and other relevant data, \textbf{so that} I can quickly find and focus on the data I need. (8) &
-	
-	Design UI for search and filter functionality. - 3 hours \newline
-	Implement backend logic for search and filtering. - 5 hours &
-	Alex Vizuete \newline
-	Jeremy Poveda \\ \hline
-	
-	PB43 & \textbf{As} a user of the ESPOLTEL Hiring Manager mobile app, \textbf{I need} to receive notifications for any important events in the recruitment process, \textbf{so that} I can stay informed and respond promptly. (12) &
-	
-	Set up push notification service (e.g., Firebase Cloud Messaging). - 4 hours \newline
-	Implement backend logic to trigger notifications. - 4 hours \newline
-	Integrate notifications with mobile app. - 4 hours &
+	Integrate digital signature functionality for aspirants. - 6 hours \newline
+	Design UI for signing contracts and agreements. - 3 hours \newline
+	Update database to store signature data and status. - 3 hours & 
 	Diego Flores \newline
-	Jose Ramos \newline
-	Ariana Palacios \\ \hline
+	Jeremy Poveda \\ \hline 
 	
-	\caption{Sprint 2 of ESPOLTEL Hiring Manager}
-\end{longtable}
-
-\begin{longtable}{|p{1.5cm}|p{5.5cm}|p{4.5cm}|p{3cm}|} \hline
-	\textbf{Product Backlog Item} & \textbf{User Story} & \textbf{Tasks} & \textbf{Assigned To} \\ \hline
-	\endfirsthead
-	\hline
-	\textbf{Product Backlog Item} & \textbf{User Story} & \textbf{Tasks} & \textbf{Assigned To} \\ \hline
-	\endhead
-	
-	PB15 & \textbf{As} a manager, \textbf{I want} to upload my digital certificate to the platform \textbf{so that} I can sign multiple documents such as contracts or confidentiality agreements for the projects I manage. (5) &
-	
-	Design UI for digital certificate upload (Manager). - 2 hours \newline
-	Implement backend logic for certificate storage and validation (Manager). - 3 hours &
-	Jeremy Poveda \newline
-	Alex Vizuete \\ \hline
 	
 	PB17 & \textbf{As} a manager, \textbf{I want} to digitally sign multiple documents, such as contracts or confidentiality agreements, simultaneously, \textbf{so that} I can save time and work more efficiently. (12) &
 	
@@ -435,12 +402,37 @@ PB12 & \textbf{As} a user of ESPOLTEL Hiring Manager, \textbf{I want} to be able
 	Ariana Palacios \newline
 	Jeremy Poveda \\ \hline
 	
+	PB18 & \textbf{As} an aspirant, \textbf{I want} to view the contracts of the projects I have applied for and that are currently active, \textbf{so that} I have a clear view of the agreements I have signed. (6) &
+	Design UI for contract viewing (aspirant). - 3 hours \newline
+	Implement backend logic for fetching and displaying active contracts. - 3 hours &
+	Alex Vizuete \newline
+	Jose Ramos \\ \hline
+	
+	PB19 & \textbf{As} an aspirant, \textbf{I want} to download the contracts of the projects I have applied for and that are currently active, \textbf{so that} I have a record of the agreements I have signed. (4) &
+	Implement contract download functionality. - 2 hours \newline
+	Integrate with secure document storage. - 2 hours &
+	Alex Vizuete \newline
+	Jose Ramos \\ \hline
+	
+	PB20 & \textbf{As} an aspirant, \textbf{I want} to view the contracts of the projects I have applied for and that are currently active on my smartphone, \textbf{so that} I have a clear view of the agreements I have signed. (6) &
+	Design mobile UI for contract viewing. - 3 hours \newline
+	Adapt backend logic for mobile contract fetching. - 3 hours &
+	Diego Flores \newline
+	Ariana Palacios \\ \hline
+	
+	PB21 & \textbf{As} an aspirant, \textbf{I want} to download the contracts of the projects I have applied for and that are currently active on my smartphone, \textbf{so that} I have a record of the agreements I have signed. (4) &
+	Implement mobile contract download functionality. - 2 hours \newline
+	Integrate with mobile secure storage. - 2 hours &
+	Diego Flores \newline
+	Jose Ramos \\ \hline
+	
+	
 	PB22 & \textbf{As} an HR member, \textbf{I want} to validate the digital signatures of aspirants \textbf{so that} I can ensure contracts and agreements are formalized. (8) &
 	
 	Implement backend logic for signature validation. - 5 hours \newline
 	Design UI for displaying signature validation status. - 3 hours &
 	Ariana Palacios \newline
-	Jeremy Poveda \\ \hline
+	Jose Ramos\\ \hline
 	
 	PB23 & \textbf{As} a project manager, \textbf{I want} to create a project by defining its name, description, start date, end date, and type, \textbf{so that} the project's objectives and timeline are clearly established. (12) &
 	
@@ -458,11 +450,115 @@ PB12 & \textbf{As} a user of ESPOLTEL Hiring Manager, \textbf{I want} to be able
 	Jose Ramos \newline
 	Alex Vizuete \\ \hline
 	
+	PB25 & \textbf{As} a Director, \textbf{I want} to recommend an aspirant who has previously worked for ESPOLTEL for a role in a project, based on their past performance and experience, \textbf{so that} I have a worker I trust in my project. (8) &
+	Design UI for aspirant recommendation. - 3 hours \newline
+	Implement backend logic for recommendation processing, including fetching past performance data. - 5 hours &
+	Jeremy Poveda \newline
+	Alex Vizuete \\ \hline
+	
 	PB26 & \textbf{As} an HR member, \textbf{I want} to validate the profiles created by project directors \textbf{so that} I can edit, approve, the profiles and positions defined for a project, ensuring they align with the company's standards and requirements. (12) &
 	
 	Design UI for profile review and approval. - 4 hours \newline
 	Implement backend logic for profile validation workflow. - 5 hours \newline
 	Database integration for profile status. - 3 hours &
+	Ariana Palacios \newline
+	Diego Flores \newline
+	Jeremy Poveda \\ \hline
+	
+	PB27 & \textbf{As} a project manager or director at ESPOLTEL, \textbf{I want} to monitor on my smartphone the projects under my supervision, \textbf{so that} I can maintain better control and make informed decisions. (8) &
+	Design mobile UI for project monitoring. - 4 hours \newline
+	Implement mobile backend logic for retrieving project data. - 4 hours &
+	Diego Flores \newline
+	Jose Ramos \\ \hline
+	
+	PB28 & \textbf{As} a Director or Manager, \textbf{I want} to view the resources and budget assigned to my project, \textbf{so that} I can track project expenses and resource utilization. (10) &
+	Design UI for resource and budget viewing. - 4 hours \newline
+	Implement backend logic for retrieving resource and budget data. - 6 hours &
+	Ariana Palacios \newline
+	Alex Vizuete \\ \hline
+	
+	\caption{Sprint 2 of ESPOLTEL Hiring Manager}
+\end{longtable}
+
+%% Sprint 3
+\begin{longtable}{|p{1.5cm}|p{5.5cm}|p{4.5cm}|p{3cm}|} \hline
+	\textbf{Product Backlog Item} & \textbf{User Story} & \textbf{Tasks} & \textbf{Assigned To} \\ \hline
+	\endfirsthead
+	\hline
+	\textbf{Product Backlog Item} & \textbf{User Story} & \textbf{Tasks} & \textbf{Assigned To} \\ \hline
+	\endhead
+	
+	
+	PB29 & \textbf{As} an aspirant, \textbf{I want} to apply for a position in a project of interest where I meet the required profile \textbf{so that} I can obtain the desired position. (10) & 
+	Design UI for project/position application. - 4 hours \newline
+	Implement backend logic for application processing. - 6 hours & 
+	Alex Vizuete \newline 
+	Jose Ramos \\ \hline
+	
+	PB30 & \textbf{As} an aspirant, \textbf{I want} to cancel my postulation for a specific role or hiring profile, \textbf{so that} I can withdraw from a recruitment process if my circumstances change. (8) & 
+	Design UI for postulation cancellation. - 3 hours \newline
+	Implement backend logic for postulation cancellation. - 5 hours & 
+	Jeremy Poveda \newline 
+	Diego Flores \\ \hline
+	
+	
+	% Interviews
+	PB31 & \textbf{As} an HR member, \textbf{I want} to schedule interviews with aspirants, specifying the date, time, and interviewer, \textbf{so that} the selection process can be efficiently conducted. (10) &
+	Design UI for interview scheduling. - 4 hours \newline
+	Implement backend logic for interview scheduling and notifications. - 6 hours &
+	Diego Flores \newline
+	Ariana Palacios \\ \hline
+	
+	PB32 & \textbf{As} an HR member, \textbf{I want} to record interview results and observations, including scores and comments, \textbf{so that} there is a formal record of each aspirant's evaluation. (8) &
+	Design UI for recording interview results. - 3 hours \newline
+	Implement backend logic for storing interview data. - 5 hours &
+	Jeremy Poveda \newline
+	Diego Flores \\ \hline
+	
+	PB33 & \textbf{As} an HR member, \textbf{I want} to verify the requirements based on the information of an aspirant, \textbf{so that} I can ensure they meet the necessary qualifications for a project. (8) &
+	Design UI for requirement verification. - 3 hours \newline
+	Implement backend logic for requirement checking. - 5 hours &
+	Jose Ramos \newline
+	Ariana Palacios \\ \hline
+	
+	PB34 & \textbf{As} an HR member, \textbf{I want} to add private comments in aspirants' postulations \textbf{so that} I can keep a record of observations and notes during the selection process. (4) &
+	Design UI for adding private comments. - 2 hours \newline
+	Implement backend logic for storing private comments. - 2 hours &
+	Alex Vizuete \newline
+	Jeremy Poveda \\ \hline
+	
+	PB35 & \textbf{As} an HR member, \textbf{I want} to select the best aspirants based on interview results and fulfilled requirements, \textbf{so that} I can identify the most suitable candidates for each role. (10) &
+	Design UI for aspirant selection. - 4 hours \newline
+	Implement backend logic for selection processing. - 6 hours &
+	Diego Flores \newline
+	Jose Ramos \\ \hline
+	
+	% Generate format documents
+	PB36 & \textbf{As} an HR member, \textbf{I want} to create and manage forms for pre-hiring and hiring processes, defining mandatory fields and document uploads, \textbf{so that} aspirants can provide the necessary information. (15) &
+	Design UI for form creation and management. - 5 hours \newline
+	Implement backend logic for form data storage and retrieval. - 7 hours \newline
+	Integrate document upload functionality. - 3 hours &
+	Jose Ramos \newline
+	Alex Vizuete \newline
+	Ariana Palacios \\ \hline
+	
+	PB37 & \textbf{As} an HR member, \textbf{I want} to upload templates for contracts and agreements, \textbf{so that} appropriate templates are available for generating personalized documents for aspirants. (12) &
+	Design UI for template upload and management. - 4 hours \newline
+	Implement backend logic for template storage and retrieval. - 5 hours \newline
+	Implement template versioning. - 3 hours &
+	Jeremy Poveda \newline
+	Jose Ramos \newline
+	Alex Vizuete \\ \hline
+	
+	PB38 & \textbf{As} an aspirant, \textbf{I want} to upload my personal documents (such as CV, ID, certificates, etc.) and relevant information \textbf{by completing forms defined by HR,} \textbf{so that} I can fulfill postulation requirements. (8) &
+	Implement document upload and form submission functionality. - 5 hours \newline
+	Update UI to integrate with forms defined by HR. - 3 hours &
+	Ariana Palacios \newline
+	Alex Vizuete \\ \hline
+	
+	PB39 & \textbf{As} an HR member, \textbf{I want} to generate contracts and agreements from templates, \textbf{so that} I can save time in creating personalized documents. (12) &
+	Implement backend logic for document generation from templates. - 8 hours \newline
+	Design UI for document generation. - 4 hours &
 	Ariana Palacios \newline
 	Diego Flores \newline
 	Jeremy Poveda \\ \hline
@@ -477,8 +573,26 @@ PB12 & \textbf{As} a user of ESPOLTEL Hiring Manager, \textbf{I want} to be able
 	\textbf{Product Backlog Item} & \textbf{User Story} & \textbf{Tasks} & \textbf{Assigned To} \\ \hline
 	\endhead
 	
-	PB43 & \textbf{As} a user of the ESPOLTEL Hiring Manager mobile app, \textbf{I need} to receive notifications for any important events in the recruitment process, \textbf{so that} I can stay informed and respond promptly. (12) &
+	 % Search and filter
+	PB40 & \textbf{As} an HR member, \textbf{I want} to view aspirants by specific skills and experience, \textbf{so that} I can make it easier to select candidates who meet the project requirements. (4) &
+	Enhance search/filter functionality for aspirants. - 4 hours &
+	Jeremy Poveda \newline
+	Diego Flores \\ \hline
 	
+	PB41 & \textbf{As} a Director, HR Member, or Manager, \textbf{I want} to view the hires or personnel associated with a project, \textbf{so that} I have an overview of the team composition and recruitment progress. (10) &
+	Design UI for viewing project personnel. - 4 hours \newline
+	Implement backend logic for retrieving project personnel data. - 6 hours &
+	Jose Ramos \newline
+	Alex Vizuete \\ \hline
+	
+	PB42 & \textbf{As} a user of ESPOLTEL Hiring Manager, \textbf{I want} to be able to search and filter information across the platform, including projects, aspirants, roles, documents, and other relevant data, \textbf{so that} I can quickly find and focus on the data I need. (8) &
+	Design UI for search and filter functionality. - 3 hours \newline
+	Implement backend logic for search and filtering. - 5 hours &
+	Alex Vizuete \newline
+	Jeremy Poveda \\ \hline
+	
+	% Notifications
+	PB43 & \textbf{As} a user of the ESPOLTEL Hiring Manager mobile app, \textbf{I need} to receive notifications for any important events in the recruitment process, \textbf{so that} I can stay informed and respond promptly. (12) &
 	Set up push notification service (e.g., Firebase Cloud Messaging). - 4 hours \newline
 	Implement backend logic to trigger notifications. - 4 hours \newline
 	Integrate notifications with mobile app. - 4 hours &
@@ -486,166 +600,56 @@ PB12 & \textbf{As} a user of ESPOLTEL Hiring Manager, \textbf{I want} to be able
 	Jose Ramos \newline
 	Ariana Palacios \\ \hline
 	
-	PB45 & \textbf{As} an aspirant, \textbf{I want} to receive notifications about my scheduled interviews, including reminders and updates, \textbf{so that} I can be prepared and attend interviews on time. (8) &
-	
-	Implement notification logic for interview scheduling. - 5 hours
-	Integrate with calendar/reminder system if needed - 3 hours &
-	Jeremy Poveda \newline
-	Alex Vizuete \\ \hline
-	
 	PB44 & \textbf{As} an aspirant, \textbf{I want} to monitor on my smartphone the projects I have applied for, \textbf{so that} I can stay updated on their progress and better manage my involvement. (10) &
-	
 	Design mobile UI for application monitoring. - 4 hours \newline
 	Implement mobile backend logic for retrieving application status. - 6 hours &
 	Jose Ramos \newline
 	Ariana Palacios \\ \hline
 	
-	PB27 & \textbf{As} a project manager or director at ESPOLTEL, \textbf{I want} to monitor on my smartphone the projects under my supervision, \textbf{so that} I can maintain better control and make informed decisions. (8) &
-	
-	Design mobile UI for project monitoring. - 4 hours \newline
-	Implement mobile backend logic for retrieving project data. - 4 hours &
-	Diego Flores \newline
-	Jose Ramos \\ \hline
-	
-	PB28 & \textbf{As} a Director or Manager, \textbf{I want} to view the resources and budget assigned to my project, \textbf{so that} I can track project expenses and resource utilization. (10) &
-	
-	Design UI for resource and budget viewing. - 4 hours \newline
-	Implement backend logic for retrieving resource and budget data. - 6 hours &
-	Ariana Palacios \newline
+	PB45 & \textbf{As} an aspirant, \textbf{I want} to receive notifications about my scheduled interviews, including reminders and updates, \textbf{so that} I can be prepared and attend interviews on time. (8) &
+	Implement notification logic for interview scheduling. - 5 hours \newline
+	Integrate with calendar/reminder system if needed. - 3 hours &
+	Jeremy Poveda \newline
 	Alex Vizuete \\ \hline
 	
-	PB29 & \textbf{As} an aspirant, \textbf{I want} to apply for a position in a project of interest where I meet the required profile \textbf{so that} I can obtain the desired position. (10) &
-	
-	Design UI for project/position application. - 4 hours \newline
-	Implement backend logic for application processing. - 6 hours &
-	Alex Vizuete \newline
-	Jose Ramos \\ \hline
-	
-	PB30 & \textbf{As} an aspirant, \textbf{I want} to cancel my postulation for a specific role or hiring profile, \textbf{so that} I can withdraw from a recruitment process if my circumstances change. (8) &
-	
-	Design UI for postulation cancellation. - 3 hours \newline
-	Implement backend logic for postulation cancellation. - 5 hours &
-	Jeremy Poveda \newline
-	Diego Flores \\ \hline
+	% Testing
+	PB46 & Testing and deployment (24) &
+	Functional testing. - 8 hours \newline
+	Integration testing. - 8 hours \newline
+	Performance testing. - 4 hours \newline
+	Deployment to staging/production. - 4 hours &
+	All team members \\ \hline
 	
 	\caption{Sprint 4 of ESPOLTEL Hiring Manager}
 \end{longtable}
 
-\begin{longtable}{|p{1.5cm}|p{5.5cm}|p{4.5cm}|p{3cm}|} \hline
-	\textbf{Product Backlog Item} & \textbf{User Story} & \textbf{Tasks} & \textbf{Assigned To} \\ \hline
-	\endfirsthead
-	\hline
-	\textbf{Product Backlog Item} & \textbf{User Story} & \textbf{Tasks} & \textbf{Assigned To} \\ \hline
-	\endhead
-	
-	PB31 & \textbf{As} an HR member, \textbf{I want} to schedule interviews with aspirants, specifying the date, time, and interviewer, \textbf{so that} the selection process can be efficiently conducted. (10) &
-	
-	Design UI for interview scheduling. - 4 hours \newline
-	Implement backend logic for interview scheduling and notifications. - 6 hours &
-	Diego Flores \newline
-	Ariana Palacios \\ \hline
-	
-	PB32 & \textbf{As} an HR member, \textbf{I want} to record interview results and observations, including scores and comments, \textbf{so that} there is a formal record of each aspirant's evaluation. (8) &
-	
-	Design UI for recording interview results. - 3 hours \newline
-	Implement backend logic for storing interview data. - 5 hours &
-	Jeremy Poveda \newline
-	Diego Flores \\ \hline
-	
-	PB33 & \textbf{As} an HR member, \textbf{I want} to verify the requirements based on the information of an aspirant, \textbf{so that} I can ensure they meet the necessary qualifications for a project. (8) &
-	
-	Design UI for requirement verification. - 3 hours \newline
-	Implement backend logic for requirement checking. - 5 hours &
-	Jose Ramos \newline
-	Ariana Palacios \\ \hline
-	
-	PB34 & \textbf{As} an HR member, \textbf{I want} to add private comments in aspirants' postulations \textbf{so that} I can keep a record of observations and notes during the selection process. (4) &
-	
-	Design UI for adding private comments. - 2 hours \newline
-	Implement backend logic for storing private comments. - 2 hours &
-	Alex Vizuete \newline
-	Jeremy Poveda \\ \hline
-	
-	PB35 & \textbf{As} an HR member, \textbf{I want} to select the best aspirants based on interview results and fulfilled requirements, \textbf{so that} I can identify the most suitable candidates for each role. (10) &
-	
-	Design UI for aspirant selection. - 4 hours \newline
-	Implement backend logic for selection processing. - 6 hours &
-	Diego Flores \newline
-	Jose Ramos \\ \hline
-	
-	PB36 & \textbf{As} an HR member, \textbf{I want} to create and manage forms for pre-hiring and hiring processes, defining mandatory fields and document uploads, \textbf{so that} aspirants can provide the necessary information. (15) &
-	
-	Design UI for form creation and management. - 5 hours \newline
-	Implement backend logic for form data storage and retrieval. - 7 hours \newline
-	Integrate document upload functionality. - 3 hours &
-	Jose Ramos \newline
-	Alex Vizuete \newline
-	Ariana Palacios \\ \hline
-	
-	PB38 & \textbf{As} an aspirant, \textbf{I want} to upload my personal documents (such as CV, ID, certificates, etc.) and relevant information \textbf{by completing forms defined by HR,} \textbf{so that} I can fulfill postulation requirements. (8) &
-	
-	Implement document upload and form submission functionality. - 5 hours \newline
-	Update UI to integrate with forms defined by HR. - 3 hours &
-	Ariana Palacios \newline
-	Alex Vizuete \\ \hline
-	
-	PB37 & \textbf{As} an HR member, \textbf{I want} to upload templates for contracts and agreements, \textbf{so that} appropriate templates are available for generating personalized documents for aspirants. (12) &
-	
-	Design UI for template upload and management. - 4 hours \newline
-	Implement backend logic for template storage and retrieval. - 5 hours \newline
-	Implement template versioning. - 3 hours &
-	Jeremy Poveda \newline
-	Jose Ramos \newline
-	Alex Vizuete \\ \hline
-	
-	PB39 & \textbf{As} an HR member, \textbf{I want} to generate contracts and agreements from templates, \textbf{so that} I can save time in creating personalized documents. (12) &
-	
-	Implement backend logic for document generation from templates. - 8 hours \newline
-	Design UI for document generation. - 4 hours &
-	Ariana Palacios \newline
-	Diego Flores \newline
-	Jeremy Poveda \\ \hline
-	
-	PB25 & \textbf{As} a Director, \textbf{I want} to recommend an aspirant who has previously worked for ESPOLTEL for a role in a project, based on their past performance and experience, \textbf{so that} I have a worker I trust in my project. (8) &
-	
-	Design UI for aspirant recommendation. - 3 hours \newline
-	Implement backend logic for recommendation processing. - 5 hours &
-	Alex Vizuete \newline
-	Jeremy Poveda \\ \hline
-	
-	PB40 & \textbf{As} an HR member, \textbf{I want} to view aspirants by specific skills and experience, \textbf{so that} I can make it easier to select candidates who meet the project requirements. (4) &
-	
-	Enhance search/filter functionality for aspirants. - 4 hours &
-	Jeremy Poveda \newline
-	Diego Flores \\ \hline
-	
-	PB41 & \textbf{As} a Director, HR Member, or Manager, \textbf{I want} to view the hires or personnel associated with a project, \textbf{so that} I have an overview of the team composition and recruitment progress. (10) &
-	
-	Design UI for viewing project personnel. - 4 hours \newline
-	Implement backend logic for retrieving project personnel data. - 6 hours &
-	Jose Ramos \newline
-	Alex Vizuete \\ \hline
-	
-	PB42 & \textbf{As} a user of ESPOLTEL Hiring Manager, \textbf{I want} to be able to search and filter information across the platform, including projects, aspirants, roles, documents, and other relevant data, \textbf{so that} I can quickly find and focus on the data I need. (8) &
-	
-	Design UI for search and filter functionality. - 3 hours \newline
-	Implement backend logic for search and filtering. - 5 hours &
-	Alex Vizuete \newline
-	Jeremy Poveda \\ \hline
-	
-	PB46 & Testing and deployment &
-	
-	Functional testing. - 8 hours
-	Integration testing. - 8 hours
-	Performance testing. - 4 hours
-	Deployment to staging/production. - 4 hours &
-	All team members \\ \hline
-	
-	\caption{Sprint 5 of ESPOLTEL Hiring Manager}
-\end{longtable}
-
 \section{Scheduling}
+\begin{table}[h]
+	\centering
+	\begin{tabular}{|p{.5cm}|p{3cm}|p{1cm}|p{3cm}|p{1cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|}
+		\hline
+		\textbf{ID} & \textbf{Description} & \textbf{Dep} & \textbf{Product Backlog Items} & \textbf{Hours} & \textbf{Earliest Start Time}& \textbf{Lastest Finish Time}& \textbf{Float}\\ \hline
+		A &  System Foundation & None & PB1, PB2 & 12 & 0 & 12 & 0 \\ \hline
+		B & User Management & A & PB3, PB4, PB5, PB6, PB7, PB8, PB9, PB10, PB11, PB12 & 62 & 12 & 74 & 0\\ \hline
+		C & Digital Signature & B &  PB13, PB14, PB15, PB16, PB17, PB18, PB19, PB20, PB21, PB22 & 74  & 74  & 249 & 101 \\ \hline
+		D & Project Creation & B & PB23, PB24, PB25, PB26, PB27, PB28 & 56 & 74 & 130 &  0 \\ \hline
+		E & Aspirant Postulation & D & PB29, PB30 & 18 & 130 & 148 & 0 \\ \hline
+	    F & Interviews & D, E & PB31, PB32, PB33, PB34, PB35 & 40 & 148 & 227 & 39 \\ \hline
+		G & Document Generation & E & PB36, PB37, PB38, PB39 & 47 & 148 & 195 & 0 \\ \hline
+		H & Search and Filtering &  E, F  & PB40, PB41, PB42 & 22 & 188 & 249 & 39 \\ \hline
+		I & Notifications & G  & PB43, PB44, PB45 & 30 & 195 & 225 & 0 \\ \hline
+		J & Testing and Deployment & I & PB46 & 24 & 225 & 249 & 0 \\ \hline 
+	\end{tabular}
+	\caption{Activity Arrow table for Macro-activities ESPOLTEL Hiring Manager}
+	\label{Activities}
+\end{table}
 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=17cm]{ActivityArrowDiagram.png} 
+	\caption{Activity Arrow Diagram of ESPOLTEL HIRING MANAGER}
+	\label{fig:ActivityArrowDiagram}
+\end{figure}
 
 \chapter{Static UML}
 \section{Use Case - Web Module}
