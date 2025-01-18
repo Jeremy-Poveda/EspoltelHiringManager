@@ -4,6 +4,13 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Web Module Use Cases Diagram of ESPOLTEL HIRING MANAGER}}{24}{figure.3.1}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Mobile Module Use Cases Diagram of ESPOLTEL HIRING MANAGER}}{42}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Package Format, with pattern State for the status, for Web Module}}{49}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Package Staff, logic of users for Web Module}}{50}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Package of Interview, with pattern State for the state, for Web Module}}{51}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Package DataManager, with pattern Repository and Specification for Web Module}}{52}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Package Project, with business logic of projects in ESPOLTEL for Web Module}}{53}{figure.3.7}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Package Signer, with a Facade pattern for use the FirmaEC's modules for Web Module}}{54}{figure.3.8}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Package Notification, with Observer pattern for Mobile Module}}{55}{figure.3.9}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

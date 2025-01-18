@@ -9,9 +9,11 @@
 \contentsline {chapter}{\numberline {3}Static UML}{23}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Use Cases - Web Module}{24}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Use Cases - Mobile Module}{42}{section.3.2}%
-\contentsline {chapter}{\numberline {4}Behavior UML}{49}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Individual Contributions}{50}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Appendix}{51}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Appendix A: Github Repository}{51}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Appendix B: Commitment Agreement}{51}{section.6.2}%
+\contentsline {section}{\numberline {3.3}Class Diagram - Web Module}{49}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Class Diagram - Mobile Module}{55}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Behavior UML}{56}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Individual Contributions}{57}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Appendix}{58}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Appendix A: Github Repository}{58}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Appendix B: Commitment Agreement}{58}{section.6.2}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
