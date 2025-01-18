@@ -1,23 +1,58 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Activity Arrow Diagram of ESPOLTEL HIRING MANAGER}}{22}{figure.2.1}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Activity Arrow Diagram of ESPOLTEL HIRING MANAGER}}{23}{figure.2.1}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Web Module Use Cases Diagram of ESPOLTEL HIRING MANAGER}}{24}{figure.3.1}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Mobile Module Use Cases Diagram of ESPOLTEL HIRING MANAGER}}{42}{figure.3.2}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Package Format, with pattern State for the status, for Web Module}}{49}{figure.3.3}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Package Staff, logic of users for Web Module}}{50}{figure.3.4}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Package of Interview, with pattern State for the state, for Web Module}}{51}{figure.3.5}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Package DataManager, with pattern Repository and Specification for Web Module}}{52}{figure.3.6}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Package Project, with business logic of projects in ESPOLTEL for Web Module}}{53}{figure.3.7}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Package Signer, with a Facade pattern for use the FirmaEC's modules for Web Module}}{54}{figure.3.8}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Package Notification, with Observer pattern for Mobile Module}}{55}{figure.3.9}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Object Diagram of ESPOLTEL HIRING MANAGER}}{56}{figure.3.10}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Web module component Diagram}}{56}{figure.3.11}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Mobile module component Diagram}}{57}{figure.3.12}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Web module deployment Diagram}}{57}{figure.3.13}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Mobile module deployment Diagram}}{58}{figure.3.14}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Web Module Use Cases Diagram of ESPOLTEL HIRING MANAGER}}{25}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Mobile Module Use Cases Diagram of ESPOLTEL HIRING MANAGER}}{43}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Package Format, with pattern State for the status, for Web Module}}{50}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Package Staff, logic of users for Web Module}}{51}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Package of Interview, with pattern State for the state, for Web Module}}{52}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Package DataManager, with pattern Repository and Specification for Web Module}}{53}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Package Project, with business logic of projects in ESPOLTEL for Web Module}}{54}{figure.3.7}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Package Signer, with a Facade pattern for use the FirmaEC's modules for Web Module}}{55}{figure.3.8}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Package Notification, with Observer pattern for Mobile Module}}{56}{figure.3.9}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Object Diagram of ESPOLTEL HIRING MANAGER}}{57}{figure.3.10}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Web module component Diagram}}{57}{figure.3.11}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Mobile module component Diagram}}{58}{figure.3.12}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Web module deployment Diagram}}{58}{figure.3.13}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Mobile module deployment Diagram}}{59}{figure.3.14}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Activity Diagram: Postulation review, Part one}}{61}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Activity Diagram: Postulation review, Part two}}{62}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Activity Diagram: Make an Application/Postulation}}{63}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Activity Diagram: Management of a project}}{64}{figure.4.4}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Sequence Diagram 1}}{64}{figure.4.5}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Sequence Diagram 2}}{65}{figure.4.6}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Sequence Diagram 3}}{65}{figure.4.7}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Sequence Diagram 4}}{66}{figure.4.8}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Sequence Diagram 5}}{66}{figure.4.9}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Sequence Diagram 6}}{67}{figure.4.10}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Sequence Diagram 7}}{67}{figure.4.11}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Sequence Diagram 8}}{68}{figure.4.12}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Sequence Diagram 9}}{68}{figure.4.13}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Sequence Diagram 10}}{69}{figure.4.14}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Sequence Diagram 11}}{69}{figure.4.15}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Sequence Diagram 12}}{70}{figure.4.16}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Sequence Diagram 13}}{70}{figure.4.17}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Sequence Diagram 14}}{71}{figure.4.18}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Sequence Diagram 15}}{71}{figure.4.19}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Sequence Diagram 16}}{72}{figure.4.20}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Sequence Diagram 17}}{72}{figure.4.21}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Sequence Diagram 18}}{73}{figure.4.22}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Sequence Diagram 19}}{74}{figure.4.23}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Sequence Diagram 20}}{75}{figure.4.24}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Sequence Diagram 21}}{76}{figure.4.25}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Sequence Diagram 22}}{77}{figure.4.26}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Sequence Diagram 23}}{78}{figure.4.27}%
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Sequence Diagram 24}}{79}{figure.4.28}%
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Sequence Diagram 25}}{80}{figure.4.29}%
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Sequence Diagram 26}}{81}{figure.4.30}%
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Sequence Diagram 27}}{82}{figure.4.31}%
+\contentsline {figure}{\numberline {4.32}{\ignorespaces Sequence Diagram 28}}{83}{figure.4.32}%
+\contentsline {figure}{\numberline {4.33}{\ignorespaces Sequence Diagram 29}}{84}{figure.4.33}%
+\contentsline {figure}{\numberline {4.34}{\ignorespaces Sequence Diagram 30}}{84}{figure.4.34}%
+\contentsline {figure}{\numberline {4.35}{\ignorespaces Sequence Diagram 31}}{85}{figure.4.35}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Acceptance of the client, Francisco Ramirez}}{61}{figure.6.1}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Acceptance of the client, Francisco Ramirez}}{87}{figure.6.1}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

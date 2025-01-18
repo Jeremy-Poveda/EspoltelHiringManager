@@ -18,7 +18,7 @@
 \usepackage{ragged2e}
 \usepackage{float} % 
 \usepackage{multirow}
-
+\usepackage{pgffor}
 
 \newcounter{sprint}
 \setcounter{sprint}{0}
@@ -1656,7 +1656,47 @@ PB12 & \textbf{As} a user of ESPOLTEL Hiring Manager, \textbf{I want} to be able
 \end{figure}
 \chapter{Behavior UML}
 
+\subsection{Activity Diagram}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{AD/AD1.png}
+	\caption{Activity Diagram: Postulation review, Part one}
+	\label{fig:AD1}
+\end{figure}
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{AD/AD2.png}
+	\caption{Activity Diagram: Postulation review, Part two}
+	\label{fig:AD2}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{AD/AD3.png}
+	\caption{Activity Diagram: Make an Application/Postulation}
+	\label{fig:AD3}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{AD/AD4.png}
+	\caption{Activity Diagram: Management of a project}
+	\label{fig:AD4}
+\end{figure}
+
+\section{Sequence Diagram}
+
+\foreach \i in {1,...,31} {
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\textwidth]{SD/SD\i.png}
+		\caption{Sequence Diagram \i}
+		\label{fig:SD\i}
+	\end{figure}
+}
+
+\section{Status Diagram}
 
     
 \chapter{Individual Contributions}

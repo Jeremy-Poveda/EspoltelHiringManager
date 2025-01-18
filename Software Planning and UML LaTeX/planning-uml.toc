@@ -1,25 +1,28 @@
-\contentsline {chapter}{\numberline {1}Introduction}{5}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Summary}{5}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Key features and Objetives}{5}{section.1.2}%
-\contentsline {chapter}{\numberline {2}Risk management, product and sprint backlogs and scheduling}{6}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Risk management}{6}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Product backlog}{7}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Sprint backlog}{12}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Scheduling}{21}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Static UML}{23}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Use Cases - Web Module}{24}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Use Cases - Mobile Module}{42}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Class Diagram - Web Module}{49}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Class Diagram - Mobile Module}{55}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Object Diagram}{56}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Component Diagram - Web Module}{56}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Component Diagram - Mobile Module}{57}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Deployment Diagram - Web Module}{57}{section.3.8}%
-\contentsline {section}{\numberline {3.9}Deployment Diagram - Mobile Module}{58}{section.3.9}%
-\contentsline {chapter}{\numberline {4}Behavior UML}{59}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Individual Contributions}{60}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Appendix}{61}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Appendix A: Github Repository}{61}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Appendix B: Acceptance Documents Agreement}{61}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Appendix C: Tools used}{62}{section.6.3}%
+\contentsline {chapter}{\numberline {1}Introduction}{6}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Summary}{6}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Key features and Objetives}{6}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Risk management, product and sprint backlogs and scheduling}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Risk management}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Product backlog}{8}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Sprint backlog}{13}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Scheduling}{22}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Static UML}{24}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Use Cases - Web Module}{25}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Use Cases - Mobile Module}{43}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Class Diagram - Web Module}{50}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Class Diagram - Mobile Module}{56}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Object Diagram}{57}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Component Diagram - Web Module}{57}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Component Diagram - Mobile Module}{58}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Deployment Diagram - Web Module}{58}{section.3.8}%
+\contentsline {section}{\numberline {3.9}Deployment Diagram - Mobile Module}{59}{section.3.9}%
+\contentsline {chapter}{\numberline {4}Behavior UML}{60}{chapter.4}%
+\contentsline {subsection}{\numberline {4.0.1}Activity Diagram}{61}{subsection.4.0.1}%
+\contentsline {section}{\numberline {4.1}Sequence Diagram}{64}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Status Diagram}{85}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Individual Contributions}{86}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Appendix}{87}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Appendix A: Github Repository}{87}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Appendix B: Acceptance Documents Agreement}{87}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Appendix C: Tools used}{88}{section.6.3}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
