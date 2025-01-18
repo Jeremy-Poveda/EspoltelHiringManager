@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2025.1.10)  17 JAN 2025 22:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2025.1.10)  17 JAN 2025 23:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1833,7 +1833,7 @@ Overfull \hbox (16.51779pt too wide) in paragraph at lines 630--644
  []
 
 [21]
-<ActivityArrowDiagram.png, id=346, 1157.32375pt x 401.5pt>
+<ActivityArrowDiagram.png, id=348, 1157.32375pt x 401.5pt>
 File: ActivityArrowDiagram.png Graphic file (type png)
 <use ActivityArrowDiagram.png>
 Package pdftex.def Info: ActivityArrowDiagram.png  used on input line 650.
@@ -1857,7 +1857,7 @@ has been already used, duplicate ignored
 l.655 \chapter
               {Static UML} <./ActivityArrowDiagram.png>]
 chapter 3.
-<UseCases/WebUseCases.jpg, id=355, 598.3956pt x 823.51665pt>
+<UseCases/WebUseCases.jpg, id=357, 598.3956pt x 823.51665pt>
 File: UseCases/WebUseCases.jpg Graphic file (type jpg)
 <use UseCases/WebUseCases.jpg>
 Package pdftex.def Info: UseCases/WebUseCases.jpg  used on input line 659.
@@ -1981,7 +1981,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1324 
        ]
-<UseCases/MobileUseCases.jpg, id=438, 551.05875pt x 445.00252pt>
+<UseCases/MobileUseCases.jpg, id=440, 551.05875pt x 445.00252pt>
 File: UseCases/MobileUseCases.jpg Graphic file (type jpg)
 <use UseCases/MobileUseCases.jpg>
 Package pdftex.def Info: UseCases/MobileUseCases.jpg  used on input line 1330.
@@ -2029,7 +2029,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1565 
        ]
-<DC/DC1.jpg, id=470, 758.835pt x 593.21625pt>
+<DC/DC1.jpg, id=472, 758.835pt x 593.21625pt>
 File: DC/DC1.jpg Graphic file (type jpg)
 <use DC/DC1.jpg>
 Package pdftex.def Info: DC/DC1.jpg  used on input line 1569.
@@ -2041,7 +2041,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1573 
        ]
-<DC/DC2.jpg, id=475, 641.39626pt x 449.42906pt>
+<DC/DC2.jpg, id=477, 641.39626pt x 449.42906pt>
 File: DC/DC2.jpg Graphic file (type jpg)
 <use DC/DC2.jpg>
 Package pdftex.def Info: DC/DC2.jpg  used on input line 1576.
@@ -2053,7 +2053,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1580 
         <./DC/DC1.jpg>]
-<DC/DC3.jpg, id=480, 711.4078pt x 580.41844pt>
+<DC/DC3.jpg, id=482, 711.4078pt x 580.41844pt>
 File: DC/DC3.jpg Graphic file (type jpg)
 <use DC/DC3.jpg>
 Package pdftex.def Info: DC/DC3.jpg  used on input line 1583.
@@ -2065,7 +2065,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1587 
         <./DC/DC2.jpg>]
-<DC/DC4.jpg, id=485, 775.39688pt x 590.205pt>
+<DC/DC4.jpg, id=487, 775.39688pt x 590.205pt>
 File: DC/DC4.jpg Graphic file (type jpg)
 <use DC/DC4.jpg>
 Package pdftex.def Info: DC/DC4.jpg  used on input line 1590.
@@ -2077,7 +2077,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1594 
         <./DC/DC3.jpg>]
-<DC/DC5.jpg, id=490, 776.14969pt x 554.82281pt>
+<DC/DC5.jpg, id=492, 776.14969pt x 554.82281pt>
 File: DC/DC5.jpg Graphic file (type jpg)
 <use DC/DC5.jpg>
 Package pdftex.def Info: DC/DC5.jpg  used on input line 1597.
@@ -2089,7 +2089,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1601 
         <./DC/DC4.jpg>]
-<DC/DC6.jpg, id=495, 768.62157pt x 492.33937pt>
+<DC/DC6.jpg, id=497, 768.62157pt x 492.33937pt>
 File: DC/DC6.jpg Graphic file (type jpg)
 <use DC/DC6.jpg>
 Package pdftex.def Info: DC/DC6.jpg  used on input line 1604.
@@ -2101,7 +2101,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1608 
         <./DC/DC5.jpg>]
-<DC/DC7.jpg, id=501, 743.02594pt x 483.30562pt>
+<DC/DC7.jpg, id=503, 743.02594pt x 483.30562pt>
 File: DC/DC7.jpg Graphic file (type jpg)
 <use DC/DC7.jpg>
 Package pdftex.def Info: DC/DC7.jpg  used on input line 1615.
@@ -2113,7 +2113,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1619 
         <./DC/DC6.jpg>]
-<ObjectDiagram.jpeg, id=506, 1080.035pt x 825.0825pt>
+<ObjectDiagram.jpeg, id=508, 1080.035pt x 825.0825pt>
 File: ObjectDiagram.jpeg Graphic file (type jpg)
 <use ObjectDiagram.jpeg>
 Package pdftex.def Info: ObjectDiagram.jpeg  used on input line 1623.
@@ -2125,12 +2125,12 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1627 
         <./DC/DC7.jpg>]
-<DCP/DCP1.jpeg, id=511, 1606.0pt x 660.4675pt>
+<DCP/DCP1.jpeg, id=513, 1606.0pt x 660.4675pt>
 File: DCP/DCP1.jpeg Graphic file (type jpg)
 <use DCP/DCP1.jpeg>
 Package pdftex.def Info: DCP/DCP1.jpeg  used on input line 1631.
 (pdftex.def)             Requested size: 452.9679pt x 186.28008pt.
-<DCP/DCP2.jpeg, id=512, 1606.0pt x 798.985pt>
+<DCP/DCP2.jpeg, id=514, 1606.0pt x 798.985pt>
 File: DCP/DCP2.jpeg Graphic file (type jpg)
 <use DCP/DCP2.jpeg>
 Package pdftex.def Info: DCP/DCP2.jpeg  used on input line 1638.
@@ -2148,12 +2148,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.11})
                                                   \__shipout_drop_firstpage_...
 l.1642 
         <./ObjectDiagram.jpeg> <./DCP/DCP1.jpeg>]
-<DPL/DPL1.jpeg, id=517, 868.24374pt x 577.15625pt>
+<DPL/DPL1.jpeg, id=519, 868.24374pt x 577.15625pt>
 File: DPL/DPL1.jpeg Graphic file (type jpg)
 <use DPL/DPL1.jpeg>
 Package pdftex.def Info: DPL/DPL1.jpeg  used on input line 1646.
 (pdftex.def)             Requested size: 452.9679pt x 301.10931pt.
-<DPL/DPL2.jpeg, id=518, 1030.85126pt x 451.6875pt>
+<DPL/DPL2.jpeg, id=520, 1030.85126pt x 451.6875pt>
 File: DPL/DPL2.jpeg Graphic file (type jpg)
 <use DPL/DPL2.jpeg>
 Package pdftex.def Info: DPL/DPL2.jpeg  used on input line 1653.
@@ -2178,7 +2178,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.14})
 l.1657 \chapter
                {Behavior UML} <./DPL/DPL2.jpeg>]
 chapter 4.
-<AD/AD1.png, id=527, 502.87875pt x 691.58376pt>
+<AD/AD1.png, id=529, 502.87875pt x 691.58376pt>
 File: AD/AD1.png Graphic file (type png)
 <use AD/AD1.png>
 Package pdftex.def Info: AD/AD1.png  used on input line 1662.
@@ -2196,12 +2196,12 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1666 
         <./AD/AD1.png>]
-<AD/AD2.png, id=539, 827.09pt x 617.30624pt>
+<AD/AD2.png, id=541, 827.09pt x 617.30624pt>
 File: AD/AD2.png Graphic file (type png)
 <use AD/AD2.png>
 Package pdftex.def Info: AD/AD2.png  used on input line 1669.
 (pdftex.def)             Requested size: 452.9679pt x 338.07832pt.
-<AD/AD3.png, id=540, 687.56876pt x 584.1825pt>
+<AD/AD3.png, id=542, 687.56876pt x 584.1825pt>
 File: AD/AD3.png Graphic file (type png)
 <use AD/AD3.png>
 Package pdftex.def Info: AD/AD3.png  used on input line 1676.
@@ -2213,7 +2213,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1680 
         <./AD/AD2.png>]
-<AD/AD4.png, id=546, 885.3075pt x 580.1675pt>
+<AD/AD4.png, id=548, 885.3075pt x 580.1675pt>
 File: AD/AD4.png Graphic file (type png)
 <use AD/AD4.png>
 Package pdftex.def Info: AD/AD4.png  used on input line 1683.
@@ -2225,17 +2225,17 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1687 
         <./AD/AD3.png>]
-<SD/SD0.png, id=552, 679.03688pt x 316.18124pt>
+<SD/SD0.png, id=554, 679.03688pt x 316.18124pt>
 File: SD/SD0.png Graphic file (type png)
 <use SD/SD0.png>
 Package pdftex.def Info: SD/SD0.png  used on input line 1697.
 (pdftex.def)             Requested size: 452.9679pt x 210.91402pt.
-<SD/SD1.png, id=553, 607.51968pt x 288.3272pt>
+<SD/SD1.png, id=555, 607.51968pt x 288.3272pt>
 File: SD/SD1.png Graphic file (type png)
 <use SD/SD1.png>
 Package pdftex.def Info: SD/SD1.png  used on input line 1697.
 (pdftex.def)             Requested size: 452.9679pt x 214.9822pt.
-<SD/SD2.png, id=554, 656.4525pt x 344.03531pt>
+<SD/SD2.png, id=556, 656.4525pt x 344.03531pt>
 File: SD/SD2.png Graphic file (type png)
 <use SD/SD2.png>
 Package pdftex.def Info: SD/SD2.png  used on input line 1697.
@@ -2253,12 +2253,12 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1697 }
          <./AD/AD4.png> <./SD/SD0.png>]
-<SD/SD3.png, id=562, 656.4525pt x 315.42844pt>
+<SD/SD3.png, id=564, 656.4525pt x 315.42844pt>
 File: SD/SD3.png Graphic file (type png)
 <use SD/SD3.png>
 Package pdftex.def Info: SD/SD3.png  used on input line 1697.
 (pdftex.def)             Requested size: 452.9679pt x 217.65547pt.
-<SD/SD4.png, id=563, 657.2053pt x 314.67563pt>
+<SD/SD4.png, id=565, 657.2053pt x 314.67563pt>
 File: SD/SD4.png Graphic file (type png)
 <use SD/SD4.png>
 Package pdftex.def Info: SD/SD4.png  used on input line 1697.
@@ -2276,12 +2276,12 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1697 }
          <./SD/SD1.png> <./SD/SD2.png>]
-<SD/SD5.png, id=570, 657.2053pt x 313.9228pt>
+<SD/SD5.png, id=572, 657.2053pt x 313.9228pt>
 File: SD/SD5.png Graphic file (type png)
 <use SD/SD5.png>
 Package pdftex.def Info: SD/SD5.png  used on input line 1697.
 (pdftex.def)             Requested size: 452.9679pt x 216.36745pt.
-<SD/SD6.png, id=571, 658.71094pt x 313.9228pt>
+<SD/SD6.png, id=573, 658.71094pt x 313.9228pt>
 File: SD/SD6.png Graphic file (type png)
 <use SD/SD6.png>
 Package pdftex.def Info: SD/SD6.png  used on input line 1697.
@@ -2299,12 +2299,12 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1697 }
          <./SD/SD3.png> <./SD/SD4.png>]
-<SD/SD7.png, id=579, 657.95813pt x 342.5297pt>
+<SD/SD7.png, id=581, 657.95813pt x 342.5297pt>
 File: SD/SD7.png Graphic file (type png)
 <use SD/SD7.png>
 Package pdftex.def Info: SD/SD7.png  used on input line 1697.
 (pdftex.def)             Requested size: 452.9679pt x 235.81786pt.
-<SD/SD8.png, id=580, 644.4075pt x 341.77687pt>
+<SD/SD8.png, id=582, 644.4075pt x 341.77687pt>
 File: SD/SD8.png Graphic file (type png)
 <use SD/SD8.png>
 Package pdftex.def Info: SD/SD8.png  used on input line 1697.
@@ -2322,12 +2322,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.11})
                                                   \__shipout_drop_firstpage_...
 l.1697 }
          <./SD/SD5.png> <./SD/SD6.png>]
-<SD/SD9.png, id=587, 1273.75874pt x 751.80875pt>
+<SD/SD9.png, id=589, 1273.75874pt x 751.80875pt>
 File: SD/SD9.png Graphic file (type png)
 <use SD/SD9.png>
 Package pdftex.def Info: SD/SD9.png  used on input line 1697.
 (pdftex.def)             Requested size: 452.9679pt x 267.34709pt.
-<SD/SD10.png, id=588, 821.0675pt x 511.9125pt>
+<SD/SD10.png, id=590, 821.0675pt x 511.9125pt>
 File: SD/SD10.png Graphic file (type png)
 <use SD/SD10.png>
 Package pdftex.def Info: SD/SD10.png  used on input line 1697.
@@ -2345,12 +2345,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.13})
                                                   \__shipout_drop_firstpage_...
 l.1697 }
          <./SD/SD7.png> <./SD/SD8.png>]
-<SD/SD11.png, id=595, 941.5175pt x 363.3575pt>
+<SD/SD11.png, id=597, 941.5175pt x 363.3575pt>
 File: SD/SD11.png Graphic file (type png)
 <use SD/SD11.png>
 Package pdftex.def Info: SD/SD11.png  used on input line 1697.
 (pdftex.def)             Requested size: 452.9679pt x 174.81435pt.
-<SD/SD12.png, id=596, 831.105pt x 407.5225pt>
+<SD/SD12.png, id=598, 831.105pt x 407.5225pt>
 File: SD/SD12.png Graphic file (type png)
 <use SD/SD12.png>
 Package pdftex.def Info: SD/SD12.png  used on input line 1697.
@@ -2368,12 +2368,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.15})
                                                   \__shipout_drop_firstpage_...
 l.1697 }
          <./SD/SD9.png (PNG copy)> <./SD/SD10.png (PNG copy)>]
-<SD/SD13.png, id=601, 592.2125pt x 452.69125pt>
+<SD/SD13.png, id=603, 592.2125pt x 452.69125pt>
 File: SD/SD13.png Graphic file (type png)
 <use SD/SD13.png>
 Package pdftex.def Info: SD/SD13.png  used on input line 1697.
 (pdftex.def)             Requested size: 452.9679pt x 346.25932pt.
-<SD/SD14.png, id=602, 1110.1475pt x 437.635pt>
+<SD/SD14.png, id=604, 1110.1475pt x 437.635pt>
 File: SD/SD14.png Graphic file (type png)
 <use SD/SD14.png>
 Package pdftex.def Info: SD/SD14.png  used on input line 1697.
@@ -2391,12 +2391,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.17})
                                                   \__shipout_drop_firstpage_...
 l.1697 }
          <./SD/SD11.png (PNG copy)> <./SD/SD12.png (PNG copy)>]
-<SD/SD15.png, id=607, 814.04124pt x 417.56pt>
+<SD/SD15.png, id=609, 814.04124pt x 417.56pt>
 File: SD/SD15.png Graphic file (type png)
 <use SD/SD15.png>
 Package pdftex.def Info: SD/SD15.png  used on input line 1697.
 (pdftex.def)             Requested size: 452.9679pt x 232.34744pt.
-<SD/SD16.png, id=608, 756.8275pt x 519.9425pt>
+<SD/SD16.png, id=610, 756.8275pt x 519.9425pt>
 File: SD/SD16.png Graphic file (type png)
 <use SD/SD16.png>
 Package pdftex.def Info: SD/SD16.png  used on input line 1697.
@@ -2414,12 +2414,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.19})
                                                   \__shipout_drop_firstpage_...
 l.1697 }
          <./SD/SD13.png (PNG copy)> <./SD/SD14.png (PNG copy)>]
-<SD/SD17.png, id=613, 952.55875pt x 394.47375pt>
+<SD/SD17.png, id=615, 952.55875pt x 394.47375pt>
 File: SD/SD17.png Graphic file (type png)
 <use SD/SD17.png>
 Package pdftex.def Info: SD/SD17.png  used on input line 1697.
 (pdftex.def)             Requested size: 452.9679pt x 187.58765pt.
-<SD/SD18.png, id=614, 819.06pt x 480.79625pt>
+<SD/SD18.png, id=616, 819.06pt x 480.79625pt>
 File: SD/SD18.png Graphic file (type png)
 <use SD/SD18.png>
 Package pdftex.def Info: SD/SD18.png  used on input line 1697.
@@ -2437,12 +2437,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.21})
                                                   \__shipout_drop_firstpage_...
 l.1697 }
          <./SD/SD15.png (PNG copy)> <./SD/SD16.png (PNG copy)>]
-<SD/SD19.png, id=620, 743.77875pt x 601.24625pt>
+<SD/SD19.png, id=622, 743.77875pt x 601.24625pt>
 File: SD/SD19.png Graphic file (type png)
 <use SD/SD19.png>
 Package pdftex.def Info: SD/SD19.png  used on input line 1697.
 (pdftex.def)             Requested size: 452.9679pt x 366.17252pt.
-<SD/SD20.png, id=621, 992.70876pt x 673.51625pt>
+<SD/SD20.png, id=623, 992.70876pt x 673.51625pt>
 File: SD/SD20.png Graphic file (type png)
 <use SD/SD20.png>
 Package pdftex.def Info: SD/SD20.png  used on input line 1697.
@@ -2460,7 +2460,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.23})
                                                   \__shipout_drop_firstpage_...
 l.1697 }
          <./SD/SD17.png (PNG copy)> <./SD/SD18.png (PNG copy)>]
-<SD/SD21.png, id=626, 894.34125pt x 583.17876pt>
+<SD/SD21.png, id=628, 894.34125pt x 583.17876pt>
 File: SD/SD21.png Graphic file (type png)
 <use SD/SD21.png>
 Package pdftex.def Info: SD/SD21.png  used on input line 1697.
@@ -2472,7 +2472,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.24})
                                                   \__shipout_drop_firstpage_...
 l.1697 }
          <./SD/SD19.png (PNG copy)>]
-<SD/SD22.png, id=631, 651.43375pt x 519.9425pt>
+<SD/SD22.png, id=633, 651.43375pt x 519.9425pt>
 File: SD/SD22.png Graphic file (type png)
 <use SD/SD22.png>
 Package pdftex.def Info: SD/SD22.png  used on input line 1697.
@@ -2484,7 +2484,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.25})
                                                   \__shipout_drop_firstpage_...
 l.1697 }
          <./SD/SD20.png (PNG copy)>]
-<SD/SD23.png, id=636, 589.20125pt x 445.665pt>
+<SD/SD23.png, id=638, 589.20125pt x 445.665pt>
 File: SD/SD23.png Graphic file (type png)
 <use SD/SD23.png>
 Package pdftex.def Info: SD/SD23.png  used on input line 1697.
@@ -2496,7 +2496,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.26})
                                                   \__shipout_drop_firstpage_...
 l.1697 }
          <./SD/SD21.png (PNG copy)>]
-<SD/SD24.png, id=641, 590.205pt x 420.57124pt>
+<SD/SD24.png, id=643, 590.205pt x 420.57124pt>
 File: SD/SD24.png Graphic file (type png)
 <use SD/SD24.png>
 Package pdftex.def Info: SD/SD24.png  used on input line 1697.
@@ -2508,7 +2508,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.27})
                                                   \__shipout_drop_firstpage_...
 l.1697 }
          <./SD/SD22.png>]
-<SD/SD25.png, id=647, 476.78125pt x 544.0325pt>
+<SD/SD25.png, id=649, 476.78125pt x 544.0325pt>
 File: SD/SD25.png Graphic file (type png)
 <use SD/SD25.png>
 Package pdftex.def Info: SD/SD25.png  used on input line 1697.
@@ -2520,7 +2520,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.28})
                                                   \__shipout_drop_firstpage_...
 l.1697 }
          <./SD/SD23.png>]
-<SD/SD26.png, id=654, 1223.57124pt x 985.6825pt>
+<SD/SD26.png, id=656, 1223.57124pt x 985.6825pt>
 File: SD/SD26.png Graphic file (type png)
 <use SD/SD26.png>
 Package pdftex.def Info: SD/SD26.png  used on input line 1697.
@@ -2532,7 +2532,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.29})
                                                   \__shipout_drop_firstpage_...
 l.1697 }
          <./SD/SD24.png>]
-<SD/SD27.png, id=660, 551.05875pt x 643.40375pt>
+<SD/SD27.png, id=662, 551.05875pt x 643.40375pt>
 File: SD/SD27.png Graphic file (type png)
 <use SD/SD27.png>
 Package pdftex.def Info: SD/SD27.png  used on input line 1697.
@@ -2544,7 +2544,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.30})
                                                   \__shipout_drop_firstpage_...
 l.1697 }
          <./SD/SD25.png>]
-<SD/SD28.png, id=666, 692.5875pt x 736.7525pt>
+<SD/SD28.png, id=668, 692.5875pt x 736.7525pt>
 File: SD/SD28.png Graphic file (type png)
 <use SD/SD28.png>
 Package pdftex.def Info: SD/SD28.png  used on input line 1697.
@@ -2556,7 +2556,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.31})
                                                   \__shipout_drop_firstpage_...
 l.1697 }
          <./SD/SD26.png>]
-<SD/SD29.png, id=672, 750.805pt x 494.84875pt>
+<SD/SD29.png, id=674, 750.805pt x 494.84875pt>
 File: SD/SD29.png Graphic file (type png)
 <use SD/SD29.png>
 Package pdftex.def Info: SD/SD29.png  used on input line 1697.
@@ -2568,7 +2568,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.32})
                                                   \__shipout_drop_firstpage_...
 l.1697 }
          <./SD/SD27.png>]
-<SD/SD30.png, id=678, 649.42625pt x 346.29375pt>
+<SD/SD30.png, id=680, 649.42625pt x 346.29375pt>
 File: SD/SD30.png Graphic file (type png)
 <use SD/SD30.png>
 Package pdftex.def Info: SD/SD30.png  used on input line 1697.
@@ -2580,12 +2580,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.33})
                                                   \__shipout_drop_firstpage_...
 l.1697 }
          <./SD/SD28.png>]
-<SD/SD31.png, id=684, 1029.8475pt x 481.8pt>
+<SD/SD31.png, id=686, 1029.8475pt x 481.8pt>
 File: SD/SD31.png Graphic file (type png)
 <use SD/SD31.png>
 Package pdftex.def Info: SD/SD31.png  used on input line 1697.
 (pdftex.def)             Requested size: 452.9679pt x 211.91177pt.
-<SD/SD32.png, id=685, 882.29625pt x 394.47375pt>
+<SD/SD32.png, id=687, 882.29625pt x 394.47375pt>
 File: SD/SD32.png Graphic file (type png)
 <use SD/SD32.png>
 Package pdftex.def Info: SD/SD32.png  used on input line 1697.
@@ -2603,7 +2603,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.35})
                                                   \__shipout_drop_firstpage_...
 l.1697 }
          <./SD/SD29.png> <./SD/SD30.png (PNG copy)>]
-<ST/ST1.png, id=692, 981.6675pt x 601.24625pt>
+<ST/ST1.png, id=694, 981.6675pt x 601.24625pt>
 File: ST/ST1.png Graphic file (type png)
 <use ST/ST1.png>
 Package pdftex.def Info: ST/ST1.png  used on input line 1702.
@@ -2621,12 +2621,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.37})
                                                   \__shipout_drop_firstpage_...
 l.1706 
         <./SD/SD31.png (PNG copy)> <./SD/SD32.png (PNG copy)>]
-<ST/ST2.png, id=697, 975.645pt x 492.84125pt>
+<ST/ST2.png, id=699, 975.645pt x 492.84125pt>
 File: ST/ST2.png Graphic file (type png)
 <use ST/ST2.png>
 Package pdftex.def Info: ST/ST2.png  used on input line 1709.
 (pdftex.def)             Requested size: 452.9679pt x 228.81535pt.
-<ST/ST3.png, id=698, 864.22874pt x 400.49625pt>
+<ST/ST3.png, id=700, 864.22874pt x 400.49625pt>
 File: ST/ST3.png Graphic file (type png)
 <use ST/ST3.png>
 Package pdftex.def Info: ST/ST3.png  used on input line 1716.
@@ -2643,13 +2643,31 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.39})
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.1720 
-        <./ST/ST1.png> <./ST/ST2.png>] [87
+        <./ST/ST1.png> <./ST/ST2.png>]
+<CollaborationDiagram.png, id=708, 1102.1175pt x 574.09482pt>
+File: CollaborationDiagram.png Graphic file (type png)
+<use CollaborationDiagram.png>
+Package pdftex.def Info: CollaborationDiagram.png  used on input line 1726.
+(pdftex.def)             Requested size: 512.1496pt x 266.78488pt.
+
+Overfull \hbox (59.1817pt too wide) in paragraph at lines 1726--1727
+ [][] 
+ []
+
+[87
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.40})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1724 \chapter
-               {Individual Contributions} <./ST/ST3.png>]
+l.1730 \chapter
+               {Individual Contributions}
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.41})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1730 \chapter
+               {Individual Contributions} <./ST/ST3.png> <./CollaborationDiagra
+m.png>]
 chapter 5.
 [88
 
@@ -2658,21 +2676,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.5.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1744 \chapter
+l.1750 \chapter
                {Appendix}]
 chapter 6.
-<Acceptance.jpeg, id=716, 1142.2675pt x 1063.975pt>
+<Acceptance.jpeg, id=720, 1142.2675pt x 1063.975pt>
 File: Acceptance.jpeg Graphic file (type jpg)
 <use Acceptance.jpeg>
-Package pdftex.def Info: Acceptance.jpeg  used on input line 1751.
+Package pdftex.def Info: Acceptance.jpeg  used on input line 1757.
 (pdftex.def)             Requested size: 452.9679pt x 421.91338pt.
 
-Underfull \hbox (badness 1584) in paragraph at lines 1762--1762
+Underfull \hbox (badness 1584) in paragraph at lines 1768--1768
 []|\T1/lmr/m/n/10.95 A com-pre-hen-sive tool used
  []
 
 
-Underfull \hbox (badness 1199) in paragraph at lines 1762--1762
+Underfull \hbox (badness 1199) in paragraph at lines 1768--1768
 \T1/lmr/m/n/10.95 a-grams, ER di-a-grams, and
  []
 
@@ -2683,13 +2701,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1769 
+l.1775 
         <./Acceptance.jpeg>] [90
 pdfTeX warning (ext4): destination with the same identifier (name{table.6.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1772 \end{document}
+l.1778 \end{document}
                      ] (./planning-uml.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -2699,10 +2717,10 @@ Package rerunfilecheck Info: File `planning-uml.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 19541 strings out of 476076
- 356671 string characters out of 5793775
+ 19550 strings out of 476076
+ 356906 string characters out of 5793775
  2028187 words of memory out of 5000000
- 41150 multiletter control sequences out of 15000+600000
+ 41158 multiletter control sequences out of 15000+600000
  621973 words of font info for 72 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  108i,11n,107p,10934b,552s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2710,10 +2728,10 @@ Here is how much of TeX's memory you used:
 t/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm
 /lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/t
 exmf-dist/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on planning-uml.pdf (91 pages, 4943705 bytes).
+Output written on planning-uml.pdf (91 pages, 4982742 bytes).
 PDF statistics:
- 891 PDF objects out of 1000 (max. 8388607)
- 700 compressed objects within 7 object streams
- 223 named destinations out of 1000 (max. 500000)
- 505 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 896 PDF objects out of 1000 (max. 8388607)
+ 702 compressed objects within 8 object streams
+ 224 named destinations out of 1000 (max. 500000)
+ 510 words of extra memory for PDF output out of 10000 (max. 10000000)
 
