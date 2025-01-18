@@ -17,12 +17,13 @@
 \contentsline {section}{\numberline {3.8}Deployment Diagram - Web Module}{58}{section.3.8}%
 \contentsline {section}{\numberline {3.9}Deployment Diagram - Mobile Module}{59}{section.3.9}%
 \contentsline {chapter}{\numberline {4}Behavior UML}{60}{chapter.4}%
-\contentsline {subsection}{\numberline {4.0.1}Activity Diagram}{61}{subsection.4.0.1}%
-\contentsline {section}{\numberline {4.1}Sequence Diagram}{64}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Status Diagram}{85}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Individual Contributions}{86}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Appendix}{87}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Appendix A: Github Repository}{87}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Appendix B: Acceptance Documents Agreement}{87}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Appendix C: Tools used}{88}{section.6.3}%
+\contentsline {section}{\numberline {4.1}Activity Diagram}{61}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Sequence Diagram}{64}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Status Diagram}{86}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Collaboration Diagram}{87}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Individual Contributions}{88}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Appendix}{89}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Appendix A: Github Repository}{89}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Appendix B: Acceptance Documents Agreement}{89}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Appendix C: Tools used}{90}{section.6.3}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
