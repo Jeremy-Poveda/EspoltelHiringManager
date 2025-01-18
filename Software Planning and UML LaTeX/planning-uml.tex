@@ -234,6 +234,7 @@ The following table outlines the identified risks associated with the project, i
 \end{longtable}
 
 \section{Sprint backlog}
+The project sprints will be 4 organized for 3 weeks duration.
 
 \begin{longtable}{|p{1.5cm}|p{5.5cm}|p{4.5cm}|p{3cm}|} \hline
 	\textbf{Product Backlog Item} & \textbf{User Story} & \textbf{Tasks} & \textbf{Assigned To} \\ \hline
@@ -624,7 +625,7 @@ PB12 & \textbf{As} a user of ESPOLTEL Hiring Manager, \textbf{I want} to be able
 \end{longtable}
 
 \section{Scheduling}
-\begin{table}[h]
+\begin{table}[H]
 	\centering
 	\begin{tabular}{|p{.5cm}|p{3cm}|p{1cm}|p{3cm}|p{1cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|}
 		\hline
@@ -644,20 +645,929 @@ PB12 & \textbf{As} a user of ESPOLTEL Hiring Manager, \textbf{I want} to be able
 	\label{Activities}
 \end{table}
 
-\begin{figure}[h!]
-	\centering
+\begin{figure}[H]
+	\centering  \small
 	\includegraphics[width=17cm]{ActivityArrowDiagram.png} 
 	\caption{Activity Arrow Diagram of ESPOLTEL HIRING MANAGER}
 	\label{fig:ActivityArrowDiagram}
 \end{figure}
 
 \chapter{Static UML}
-\section{Use Case - Web Module}
-\section{Use Case - Mobile Module}
+\section{Use Cases - Web Module}
+\begin{figure}[H]
+	\centering  \small
+	\includegraphics[width=\textwidth]{UseCases/WebUseCases.jpg} 
+	\caption{Web Module Use Cases Diagram of ESPOLTEL HIRING MANAGER}
+	\label{fig:WebUseCases}
+\end{figure}
+
+\begin{table}[H]
+	\centering \small
+	\begin{tabular}{|p{3cm}|p{10cm}|}
+		\hline
+		\textbf{Field} & \textbf{Description} \\ \hline
+		ID & UC001 \\ \hline
+		Name &  Show postulation information \\ \hline
+		Created by & Jeremy Poveda \\ \hline
+		Updated by & Jeremy Poveda \\ \hline
+		Date creation & 8/12/24 \\ \hline
+		Date last edition & 3/1/25 \\ \hline
+		Description &  The system will show the aspirant the requirements, activities, and reference salary (e.g.) of the system using a code. \\ \hline
+		Actors &  Aspirant \\ \hline
+		Extends & Nothing \\ \hline
+		Preconditions & The aspirant has his account created and is logged in, as well as the project code to which he is interested. \\ \hline
+		Postconditions & The aspirant only must see the profile he/she wants to apply for with the unique code. \\ \hline
+		Flow & 
+		1. The aspirant enter into personnel login section. \newline
+		2. The aspirant enter his credentials. \newline
+		3. The system show a promt in the home page to enter a code. \newline
+		4. The aspirant enters the code of the project he/she is interested in. \newline
+		5. The system shows the applicant the information (Job and profile description, activities to be performed, Project name, Project description, profile requirements, and Referencial salary) of the profile he/she wants to apply for. 
+		\\ \hline
+		Alternative Flow &  There are no alternative flows. \\ \hline
+	\end{tabular}
+	\caption{Use Case Documentation - (UC001) Show Postulation Information}
+	\label{table:UC001}
+\end{table}
+\begin{table}[H]
+	\centering \small
+	\begin{tabular}{|p{3cm}|p{10cm}|}
+		\hline
+		\textbf{Field} & \textbf{Description} \\ \hline
+		ID & UC002 \\ \hline
+		Name & Create aspirant postulation \\ \hline
+		Created by & José Ramos \\ \hline
+		Updated by & José Ramos \\ \hline
+		Date creation & 8/12/24 \\ \hline
+		Date last edition & 7/01/25 \\ \hline
+		Description & The aspirant wants to send information in the project they are interested in. \\ \hline
+		Actors & Aspirant \\ \hline
+		Extends / Includes & Cancel Postulation \\ \hline
+		Preconditions & 
+		\begin{itemize}
+			\item The aspirant has his account created and logged in, as well as the project code to which he is interested.
+			\item The aspirant has a valid project code.
+		\end{itemize} 
+		\\ \hline
+		Postconditions & The system registers the application of the aspirant. \\ \hline
+		Flow & 
+		    1. The aspirant logs in with his/her credentials.\newline
+			2. The aspirant enters the valid code of a project.\newline
+			3. The aspirant clicks on the project that appears on the screen.\newline
+			4. The aspirant reads the project information.\newline
+			5. The aspirant makes sure that he/she meets the minimum requirements to participate in the project.\newline
+			6. The aspirant applies for the job.\newline
+			7. The aspirant uploads the documents required by the system (Curriculum Vitae and copy of ID).\newline
+			8. The aspirant sends the application.
+		\\ \hline
+		Alternative Flow & 
+		\begin{enumerate}
+			\item[4a.] The aspirant reads the project information. 
+			\item The aspirant verifies that he or she does not meet the minimum requirements to participate in the project.
+			\item The aspirant returns to the home screen.
+			\item[8a.] The aspirant sends the application.
+			\item The aspirant the aspirant realizes that he/she has postulate incorrectly.
+			\item The aspirant cancels application.
+		\end{enumerate} 
+		\\ \hline
+	\end{tabular}
+	\caption{Use Case Documentation - (UC002) Create Aspirant Postulation}
+	\label{table:UC002}
+\end{table}
 
 
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|p{3cm}|p{10cm}|}
+		\hline
+		\textbf{Field} & \textbf{Description} \\ \hline
+		ID & UC003 \\ \hline
+		Name & Review profile \\ \hline
+		Created by &  Jeremy Poveda \\ \hline
+		Updated by & Jeremy Poveda \\ \hline
+		Date creation & 8/12/24 \\ \hline
+		Date last edition & 12/01/25 \\ \hline
+		Description & Human Talent must review the profiles created by the director to ensure they meet the established standards and requirements. \\ \hline
+		Actors & Human Talent \\ \hline
+		Extends & Reject Profile \\ \hline
+		Preconditions & 
+		The director has created the profiles.  \newline
+		The profiles have been sent to Human Talent for review.
+		\\ \hline
+		Postconditions & 
+		Human Talent confirms that the profiles meet the required standards. \newline
+		Human Talent notifies the director about the approval or rejection of the profiles.
+		\\ \hline
+		Flow & 
+		1. Human Talent enters the profile review section. \newline
+		2. Human Talent identifies the profiles created by the director. \newline
+		3. Human Talent reviews the information of each profile. \newline
+		4. Human Talent verifies that the profiles meet the required standards and requirements. \newline
+		5. Human Talent edits in case of errors. 
+		\\ \hline
+		Alternative Flow & 
+		\begin{enumerate}
+			\item[4a.] Human Talent identifies that the profiles do meet the required standards.
+			\item Human Talent accept the profile.
+			\item The profile enters in 'in hiring' status.
+		\end{enumerate} 
+		\\ \hline
+	\end{tabular}
+	\caption{Use Case Documentation  - (UC003) Review Profile}
+	\label{table:UC003}
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|p{3cm}|p{10cm}|}
+		\hline
+		\textbf{Field} & \textbf{Description} \\ \hline
+		ID & UC004 \\ \hline
+		Name & Review postulation \\ \hline
+		Created by & José Ramos \\ \hline
+		Updated by & José Ramos \\ \hline
+		Date creation & 8/12/24 \\ \hline
+		Date last edition & 12/01/25 \\ \hline
+		Description & Human Talent verifies the submitted postulations, ensuring the aspirant’s data and documentation meet the required standards. \\ \hline
+		Actors & Human Talent \\ \hline
+		Extends & Reject Postulation \\ \hline
+		Preconditions & The aspirant must have sent the form with his CV and ID. \\ \hline
+		Postconditions & The aspirant is notified via email if their postulation review was successful. \\ \hline
+		Flow & 
+		1. Human Talent logs into the system and navigates to the postulation review section. \newline
+		2. Human Talent selects a postulation to review. \newline
+		3. Human Talent verifies the aspirant’s data for consistency and correctness. \newline
+		4. Human Talent reviews the documentation submitted by the aspirant (CV and copy of ID). \newline
+		5. Human Talent writes observations or feedback if necessary. \newline
+		6. Human Talent sends a notification email to the aspirant about the result of the review. 
+		\\ \hline
+		Alternative Flow &  
+		3a. Human Talent identifies inconsistencies in the aspirant’s data or finds incorrect documentation. \newline
+		4. Human Talent writes a rejection message specifying the issues. \newline
+		5. Human Talent removes the postulation from the approval process.
+		\\ \hline
+	\end{tabular}
+	\caption{Use Case Documentation - (UC004) Review Postulation}
+	\label{table:UC004}
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|p{3cm}|p{10cm}|}
+		\hline
+		\textbf{Field} & \textbf{Description} \\ \hline
+		ID & UC005 \\ \hline
+		Name & Schedule an interview \\ \hline
+		Created by & Team 3 \\ \hline
+		Updated by & Alex Vizuete \\ \hline
+		Date creation & 08/01/25 \\ \hline
+		Date last edition & 08/01/25 \\ \hline
+		Description & Human Talent Staff need to schedule an interview for accepted aspirants by selecting a specific day and time. \\ \hline
+		Actors & Human Talent \\ \hline
+		Extends & None \\ \hline
+		Preconditions & 
+		\begin{itemize}
+			\item Aspirant must be marked as accepted for the interview process.
+		\end{itemize} \\ \hline
+		Postconditions & 
+		\begin{itemize}
+			\item Aspirants are notified about the scheduled interview.
+			\item Human Talent Staff can see the interview in a calendar.
+		\end{itemize} \\ \hline
+		Flow & 
+		1. Human Talent Assistant navigates to the interviews tab. \newline
+		2. The Assistant clicks on the "Create New Interview" button. \newline
+		3. The Assistant selects a date using the input calendar and specifies the interview time. \newline
+		4. The Assistant selects the aspirant for the interview. \newline
+		5. The Assistant clicks the "Create" button. \newline
+		6. The interview is scheduled and displayed in the calendar in the interviews section. \\ \hline
+		Alternative Flow & None \\ \hline
+	\end{tabular}
+	\caption{Use Case Documentation - (UC005) Schedule an Interview}
+	\label{table:UC005}
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|p{3cm}|p{10cm}|}
+		\hline
+		\textbf{Field} & \textbf{Description} \\ \hline
+		ID & UC006 \\ \hline
+		Name & Register an interview \\ \hline
+		Created by & Jeremy Poveda \\ \hline
+		Updated by & Jeremy Poveda \\ \hline
+		Date creation & 12/01/25 \\ \hline
+		Date last edition & 12/01/25 \\ \hline
+		Description & Human Talent Staff registers the outcome of an interview by reviewing the aspirant's requirements, adding observations, and saving the result. \\ \hline
+		Actors & Human Talent \\ \hline
+		Extends & None \\ \hline
+		Preconditions & 
+		\begin{itemize}
+			\item An interview must have been scheduled with the aspirant.
+		\end{itemize} \\ \hline
+		Postconditions & 
+		\begin{itemize}
+			\item The interview is marked as complete in the system.
+			\item Observations and results are stored for the aspirant's record.
+		\end{itemize} \\ \hline
+		Flow & 
+		1. Human Talent Staff navigates to the "Interviews" section. \newline
+		2. The HT Staff selects the scheduled interview they wish to register. \newline
+		3. The HT Staff reviews the aspirant's requirements (e.g., submitted documents, qualifications). And with the In real life interview. \newline
+		4. The HT Staff writes observations about the aspirant's performance and any relevant notes. \newline
+		5. The HT Staff saves the results of the interview, marking it as completed. \\ \hline
+		Alternative Flow & 
+		None \\ \hline
+	\end{tabular}
+	\caption{Use Case Documentation - (UC006) Register an Interview}
+	\label{table:UC006}
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|p{3cm}|p{10cm}|}
+		\hline
+		\textbf{Field} & \textbf{Description} \\ \hline
+		ID & UC007 \\ \hline
+		Name & Re-schedule an interview \\ \hline
+		Created by & Team 3 \\ \hline
+		Updated by & Alex Vizuete \\ \hline
+		Date creation & 12/01/25 \\ \hline
+		Date last edition & 12/01/25 \\ \hline
+		Description & Human Talent Staff handles situations where the aspirant misses the interview or cannot attend. The interview can be re-scheduled, canceled, or removed as needed. \\ \hline
+		Actors & Human Talent \\ \hline
+		Extends & None \\ \hline
+		Preconditions & 
+		\begin{itemize}
+			\item The interview must have been previously scheduled.
+		\end{itemize} \\ \hline
+		Postconditions & 
+		\begin{itemize}
+			\item The interview is either re-scheduled, marked as canceled, or deleted from the system.
+			\item The aspirant is notified about the change via email. 
+		\end{itemize} \\ \hline
+		Flow & 
+		1. Human Talent Staff navigates to the "Interviews" section. \newline
+		2. The HT Staff identifies the interview to be re-scheduled or canceled. \newline
+		3. The HT Staff selects the option to re-schedule or cancel the interview. \newline
+		4. If re-scheduling: \newline
+		\hspace*{0.5cm} a. The Staff selects a new date and time for the interview. \newline
+		\hspace*{0.5cm} b. The Staff notifies the aspirant about the new schedule. \newline
+		5. If canceling: \newline
+		\hspace*{0.5cm} b. The interview is marked as canceled or removed from the system. \newline
+		6. The changes are saved in the system. \\ \hline
+		Alternative Flow & 
+		3a. The Staff decides to delete the interview entirely: \newline
+		\hspace*{0.5cm} a. The interview is removed from the system. \newline
+		\hspace*{0.5cm} b. The aspirant is notified about the removal. \\ \hline
+	\end{tabular}
+	\caption{Use Case Documentation - (UC007) Re-schedule an Interview}
+	\label{table:UC007}
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|p{3cm}|p{10cm}|}
+		\hline
+		\textbf{Field} & \textbf{Description} \\ \hline
+		ID & UC008 \\ \hline
+		Name & Select Best Aspirants \\ \hline
+		Created by & Jeremy Poveda \\ \hline
+		Updated by & Jeremy Poveda \\ \hline
+		Date creation & 12/01/25 \\ \hline
+		Date last edition & 12/01/25 \\ \hline
+		Description & Human Talent Staff selects the best aspirants based on interview results and the aspirant’s profile, making sure they meet the requirements for the position. \\ \hline
+		Actors & Human Talent \\ \hline
+		Extends & None \\ \hline
+		Preconditions & 
+		\begin{itemize}
+			\item Aspirants must have completed their interviews.
+			\item The interview results must be available and recorded.
+			\item The aspirant’s profile should meet the minimum requirements of the project.
+		\end{itemize} \\ \hline
+		Postconditions & 
+		\begin{itemize}
+			\item The best aspirants are selected based on their interview results and profile compatibility.
+			\item The selected aspirants are notified about their selection.
+		\end{itemize} \\ \hline
+		Flow & 
+		1. Human Talent Staff navigates to the "Aspirants accepted" section. \newline
+		2. The Staff reviews the list of aspirants who completed the interview. \newline
+		3. The Staff compares the interview results and the aspirant’s profile with the requirements for the position. \newline
+		4. Based on the comparison, the Staff selects the best aspirants that meet the criteria. \newline
+		5. The selected aspirants are notified by email about their selection. \newline
+		6. The selected aspirants are marked in the system as chosen for the next steps. \\ \hline
+		Alternative Flow & 
+		3a. If no aspirants meet the requirements: \newline
+		\hspace*{0.5cm} a. Human Talent can decide to keep the search open for more aspirants or re-evaluate other candidates. \\ \hline
+	\end{tabular}
+	\caption{Use Case Documentation - (UC008) Select Best Aspirants}
+	\label{table:UC008}
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|p{3cm}|p{10cm}|}
+		\hline
+		\textbf{Field} & \textbf{Description} \\ \hline
+		ID & UC009 \\ \hline
+		Title & Request Additional Information \\ \hline
+		Author & José Ramos \\ \hline
+		Updated by & José Ramos \\ \hline
+		Date creation & 16/12/24 \\ \hline
+		Date last edition & 12/01/2025 \\ \hline
+		Description & Human Talent must ask the applicant for additional information required to continue with the hiring flow. \\ \hline
+		Actors & Human Talent \\ \hline
+		Extends/Includes & Send notification \\ \hline
+		Preconditions & 
+		\begin{itemize}
+			\item The applicant must pass the interview successfully.
+		\end{itemize} \\ \hline
+		Postconditions & 
+		\begin{itemize}
+			\item The applicant receives the notification and must send the required documents to the Human Talent staff.
+		\end{itemize} \\ \hline
+		Flow & 
+		1. Human Talent logs in. \newline
+		2. Human Talent goes to the “Recruitment Forms” section. \newline
+		3. Human Talent selects the project they want to review. \newline
+		4. Human Talent selects one of the aspirants. \newline
+		5. Human Talent checks the correct documents with the checkbox. \newline
+		6. Human Talent presses the button to send the review. \newline
+		7. Human Talent writes a comment where they ask for the required documents. \newline
+		8. Human Talent sends the notification to the aspirants. \\ \hline
+		Alternative Flow & None \\ \hline
+	\end{tabular}
+	\caption{Use Case Documentation - (UC009) Request Additional Information}
+	\label{table:UC009}
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|p{3cm}|p{10cm}|}
+		\hline
+		\textbf{Field} & \textbf{Description} \\ \hline
+		ID & UC010 \\ \hline
+		Title & Generate Contracting Document \\ \hline
+		Author & Jeremy Poveda \\ \hline
+		Updated by & Jeremy Poveda \\ \hline
+		Date creation & 29/12/24 \\ \hline
+		Date last edition & 12/01/2025 \\ \hline
+		Description & 
+		Human Talent uses the Recruitment Forms from the previous use case and a pre-created Word document template to generate a contracting document by merging the form data with the template. The corresponding data will be matched with placeholders in the Word document. \\ \hline
+		Actors & Human Talent \\ \hline
+		Extends/Includes & None\\ \hline
+		Preconditions & 
+		\begin{itemize}
+			\item The applicant must have successfully passed the interview.
+			\item The required documents must have been received and reviewed.
+			\item A pre-created Word template for the contracting document exists.
+		\end{itemize} \\ \hline
+		Postconditions & 
+		\begin{itemize}
+			\item A contracting document is generated with the applicant’s data from the Recruitment Form.
+			\item The generated document is saved and can be sent to the aspirant.
+		\end{itemize} \\ \hline
+		Flow & 
+		1. Human Talent logs in. \newline
+		2. Human Talent goes to the “Generación de documentos” section. \newline
+		3. Human Talent selects the recruitment form of the applicant they wish to generate the document for. \newline
+		4. Human Talent uploads the pre-created Word document template. \newline
+		5. Human Talent matches the corresponding fields in the form to the placeholders in the Word template. \newline
+		6. Human Talent generates the document by merging the form data with the template. \newline
+		7. Human Talent reviews the generated document. \newline
+		8. Human Talent saves the document for future use or sends it to the applicant. \\ \hline
+		Alternative Flow & 
+		\begin{itemize}
+			\item  If an error occurs while merging the form data with the template, Human Talent can attempt the process again or manually resolve the issue.
+		\end{itemize} \\ \hline
+	\end{tabular}
+	\caption{Use Case Documentation - (UC010) Generate Contracting Document}
+	\label{table:UC010}
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|p{3cm}|p{10cm}|}
+		\hline
+		\textbf{Field} & \textbf{Description} \\ \hline
+		ID & UC011 \\ \hline
+		Title & Send Contracting Document to aspirant\\ \hline
+		Author & Jeremy Poveda\\ \hline
+		Updated by &  Jeremy Poveda \\ \hline
+		Date creation & 29/12/24 \\ \hline
+		Date last edition & 12/01/2025 \\ \hline
+		Description & 
+		Human Talent sends the generated contracting documents to the aspirant for his/her esign. \\ \hline
+		Actors & Human Talent \\ \hline
+		Extends/Includes & None \\ \hline
+		Preconditions & 
+		\begin{itemize}
+			\item The contracting document must have been generated and reviewed.
+		\end{itemize} \\ \hline
+		Postconditions & 
+		\begin{itemize}
+			\item The applicant receives the document ready for e-signing.
+		\end{itemize} \\ \hline
+		Flow & 
+		1. Human Talent logs in. \newline
+		2. Human Talent goes to the “Generación de documentos" section. \newline
+		3. Human Talent selects the aspirant with the document to be sent. \newline
+		4. Human Talent clicks to send to aspirant. \newline
+		5. Human Talent sends the document. \\ \hline
+		Alternative Flow & 
+		None\\ \hline
+	\end{tabular}
+	\caption{Use Case Documentation - (UC011) Send Contracting Document to aspirant}
+	\label{table:UC011}
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|p{3cm}|p{10cm}|}
+		\hline
+		\textbf{Field} & \textbf{Description} \\ \hline
+		ID & UC012 \\ \hline
+		Title & Send Contracting Documents to Manager \\ \hline
+		Author & Jeremy Poveda\\ \hline
+		Updated by & Jeremy Poveda \\ \hline
+		Date creation & 29/12/24 \\ \hline
+		Date last edition & 12/01/2025 \\ \hline
+		Description & 
+		Human Talent sends the generated contracting documents for multiple applicants to the manager for review. \\ \hline
+		Actors & Human Talent \\ \hline
+		Extends/Includes & None \\ \hline
+		Preconditions & 
+		\begin{itemize}
+			\item The contracting documents must have been generated and reviewed for the applicants.
+		\end{itemize} \\ \hline
+		Postconditions & 
+		\begin{itemize}
+			\item The manager receives the documents for review and final approval.
+		\end{itemize} \\ \hline
+		Flow & 
+		1. Human Talent logs in. \newline
+		2. Human Talent goes to the “Generación de documentos” section. \newline
+		3. Human Talent selects the applicants whose documents need to be sent. \newline
+		4. Human Talent clicks the option to send selected documents to the manager. \newline
+		5. Verify the esign of the aspirant.\newline
+		6. Human Talent sends the documents. If they are correctly esigned. \\ \hline
+		Alternative Flow & 
+		5a. The esign it's incorrect. \newline
+		1. Human talent asks the aspirant to e-sign again.
+		\\ \hline
+	\end{tabular}
+	\caption{Use Case Documentation - (UC012) Send Contracting Documents to Manager}
+	\label{table:UC012}
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|p{3cm}|p{10cm}|}
+		\hline
+		\textbf{Field} & \textbf{Description} \\ \hline
+		ID & UC013 \\ \hline
+		Title & E-sign Contract Documents \\ \hline
+		Author & Diego Flores \\ \hline
+		Updated by & Diego Flores \\ \hline
+		Date creation & 23/12/24 \\ \hline
+		Date last edition & 12/1/25 \\ \hline
+		Description & 
+		After the aspirant sends the personal data requested by human talent, they need to sign the respective contract to complete the hiring process. \\ \hline
+		Actors & Aspirant \\ \hline
+		Extends/Includes & None \\ \hline
+		Preconditions & 
+		\begin{itemize}
+			\item The aspirant submits preliminary documents (resume and ID copy).
+			\item Human Resources approves the preliminary documents and schedules an interview.
+			\item The aspirant must have attended the interview.
+			\item The aspirant must be accepted by Human Resources during the candidate acceptance process.
+			\item The aspirant submits the required documents that are requested.
+			\item Human Resources ensures the validity of the submitted documents.
+			\item The aspirant is notified to sign the contract to complete the hiring process.
+		\end{itemize} \\ \hline
+		Postconditions & 
+		\begin{itemize}
+			\item The aspirant is notified that they have been hired for the project they initially applied for.
+		\end{itemize} \\ \hline
+		Flow & 
+		1. The aspirant gets notified to sign the contract through the app. \newline
+		2. The aspirant logs into their account. \newline
+		3. The aspirant goes to the contract module. \newline
+		4. The aspirant selects the contract assigned by Human Talent. \newline
+		5. The aspirant signs the contract. \\ \hline
+		Alternative Flow & 
+		1. If the user forgets to sign the contract: \newline
+		2. Five days after Human Talent has sent the contract, the aspirant is notified again to sign it. \\ \hline
+	\end{tabular}
+	\caption{Use Case Documentation - (UC013) E-sign Contract Documents}
+	\label{table:UC013}
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|p{3cm}|p{10cm}|}
+		\hline
+		\textbf{Field} & \textbf{Description} \\ \hline
+		ID & UC014 \\ \hline
+		Title & View contracts \\ \hline
+		Author & Team 3 \\ \hline
+		Updated by & Diego Flores \\ \hline
+		Date creation & 16/12/24 \\ \hline
+		Date last edition & 16/12/24 \\ \hline
+		Description & 
+		The manager through the mobile application will be able to find the applicants whose contracts are available to sign. \\ \hline
+		Actors & Manager \\ \hline
+		Extends & 
+		\begin{itemize}
+			\item Filter2
+		\end{itemize} \\ \hline
+		Preconditions & 
+		\begin{itemize}
+			\item The manager must have logged into their account
+		\end{itemize} \\ \hline
+		Postconditions & 
+		None \\ \hline
+		Flow & 
+		1. The manager logs into their account from the mobile application. \newline
+		2. The manager heads over to the "view contracts" module. \newline
+		3. The manager filters the applicant's contract to review the number of pending contracts to be signed. \\ \hline
+		Alternative Flow & 
+		\begin{itemize}
+			\item Filter applicant's contract by project.
+			\item Filter applicant's contract by Employment Relationship.
+		\end{itemize} \\ \hline
+	\end{tabular}
+	\caption{Use Case Documentation - (UC014) View Contracts}
+	\label{table:UC014}
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|p{3cm}|p{10cm}|}
+		\hline
+		\textbf{Field} & \textbf{Description} \\ \hline
+		ID & UC015 \\ \hline
+		Title & View Projects \\ \hline
+		Author & José Ramos \\ \hline
+		Updated by & José Ramos \\ \hline
+		Date creation & 13/01/25 \\ \hline
+		Date last edition & 16/01/25 \\ \hline
+		Description & 
+		The manager or project director will be able to see all the projects he or she is associated with, along with their description, staff, start and end dates, and project status. \\ \hline
+		Actors & Manager, Director\\ \hline
+		Extends & None \\ \hline
+		Preconditions & 
+		\begin{itemize}
+			\item The manager/director must have an account in the system and must have previously created projects.
+		\end{itemize} \\ \hline
+		Postconditions & 
+		\begin{itemize}
+			\item The manager/director ensures the flow of the application process for his projects and can act depending on the status of the project.
+		\end{itemize} \\ \hline
+		Flow & 
+		1. The manager/director  enters the internal staff section. \newline
+		2. The manager/director  selects the corresponding role from the options. \newline
+		3. The manager/director  logs into the system with his credentials. \newline
+		4. The manager/director  selects the "my projects" section. \newline
+		5. The manager/director  sees the list of projects he has previously created to which he is linked. \\ \hline
+		Alternative Flow & 
+		None \\ \hline
+	\end{tabular}
+	\caption{Use Case Documentation - (UC015) View Projects}
+	\label{table:UC015}
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|p{3cm}|p{10cm}|}
+		\hline
+		\textbf{Field} & \textbf{Description} \\ \hline
+		ID & UC016 \\ \hline
+		Title & See Project’s Information \\ \hline
+		Author & Diego Flores  \\ \hline
+		Updated by & Diego Flores \\ \hline
+		Date creation & 08/01/25 \\ \hline
+		Date last edition & 08/01/25 \\ \hline
+		Description & 
+		“See project’s details” is a system feature that allows the project director to review details of his/her projects, such as the number of applicants hired and their personal data, and the job application status of those applicants who haven’t been hired. \\ \hline
+		Actors & Project Director \\ \hline
+		Extends & Edit project \\ \hline
+		Preconditions & 
+		\begin{itemize}
+			\item The director must have selected a project that’s displayed in the project’s table list.
+		\end{itemize} \\ \hline
+		Postconditions & 
+		\begin{itemize}
+			\item The project director will be able to see detailed information about applicants and their job application status.
+		\end{itemize} \\ \hline
+		Flow & 
+		1. The director logs in to his/her account. \newline
+		2. The director clicks on “Mis proyectos.” \newline
+		3. The director clicks on any of the projects in the project’s table list. \\ \hline
+		Alternative Flow & 
+		\textbf{Project director edits a project:} \newline
+		1. The director logs in to his/her account. \newline
+		2. The director clicks on “Mis proyectos.” \newline
+		3. The director clicks on any of the projects in the project’s table list. \newline
+		4. The director clicks on “Estado de perfiles.” \newline
+		5. The director will be able to change the job project’s details such as the project’s name, description, and project duration. The director will also be able to add a new profile vacancy. \newline
+		\textbf{Project director clicks on “Estado de perfiles”:} \newline
+		1. The director logs in to his/her account. \newline
+		2. The director clicks on “Mis proyectos.” \newline
+		3. The director clicks on any of the projects in the project’s table list. \newline
+		4. The director clicks on “Estado de perfiles.” \newline
+		5. The project director will be able to review the details of the aspirants, including name, ID, and postulation status. \\ \hline
+	\end{tabular}
+	\caption{Use Case Documentation - (UC016) See Project’s Information}
+	\label{table:UC016}
+\end{table}
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|p{3cm}|p{10cm}|}
+		\hline
+		\textbf{Field} & \textbf{Description} \\ \hline
+		ID & UC017 \\ \hline
+		Title & See Profiles \\ \hline
+		Author & Jeremy Poveda \\ \hline
+		Updated by & Jeremy Poveda\\ \hline
+		Date creation & 16/01/25 \\ \hline
+		Date last edition & 16/01/25 \\ \hline
+		Description & 
+		This feature allows the project manager or project director to filter applicants by project and view their application status for each profile. \\ \hline
+		Actors & Project Manager, Project Director \\ \hline
+		Extends & None \\ \hline
+		Preconditions & 
+		\begin{itemize}
+			\item The manager or project director must be logged into the system.
+			\item The manager or project director must have at least one project with profiles and applicants associated.
+		\end{itemize} \\ \hline
+		Postconditions & 
+		\begin{itemize}
+			\item The manager or project director will be able to filter applicants by project and review the status of their applications.
+		\end{itemize} \\ \hline
+		Flow & 
+		1. The manager or project director logs into the system. \newline
+		2. The manager or project director navigates to the “Profiles” section. \newline
+		3. The manager or project director applies a filter to select the desired project. \newline
+		4. The system displays a list of applicants for the selected project. \newline
+		5. The manager or project director reviews the postulation status for each applicant profile (e.g., accepted, pending contract sign, completed). \\ \hline
+		Alternative Flow & 
+		\textbf{Filter applicants by status:} \newline
+		1. The manager or project director logs into the system. \newline
+		2. The manager or project director navigates to the “Perfiles” section. \newline
+		3. The manager or project director applies a filter to view applicants based on their application status (e.g., pending, accepted, rejected). \\ \hline
+	\end{tabular}
+	\caption{Use Case Documentation - (UC017) See Profiles }
+	\label{table:UC017}
+\end{table}
+
+
+
+\section{Use Cases - Mobile Module}
+\begin{figure}[H]
+	\centering  \small
+	\includegraphics[width=\textwidth]{UseCases/MobileUseCases.jpg} 
+	\caption{Mobile Module Use Cases Diagram of ESPOLTEL HIRING MANAGER}
+	\label{fig:MobileUseCases}
+\end{figure}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|p{3cm}|p{10cm}|}
+		\hline
+		\textbf{Field} & \textbf{Description} \\ \hline
+		ID & UC018 \\ \hline
+		Title & View Notifications on Mobile \\ \hline
+		Author & Jeremy Poveda \\ \hline
+		Updated by & Jeremy Poveda \\ \hline
+		Date creation & 17/01/25 \\ \hline
+		Date last edition & 17/01/25 \\ \hline
+		Description & 
+		This feature allows any user of ESPOLTEL HIRING MANAGER (Director, Aspirant, Manager, Human Talent) to receive notifications on their mobile device about important updates regarding the hiring process and project management. \\ \hline
+		Actors & Director, Aspirant, Manager, Human Talent \\ \hline
+		Extends & None \\ \hline
+		Preconditions & 
+		\begin{itemize}
+			\item The user must have an account in the system.
+			\item The user must have a mobile device with the ESPOLTEL HIRING MANAGER app installed.
+			\item The user must have enabled notifications for the app.
+		\end{itemize} \\ \hline
+		Postconditions & 
+		\begin{itemize}
+			\item The user will receive real-time notifications about relevant actions or updates in the hiring process and project status.
+		\end{itemize} \\ \hline
+		Flow & 
+		1. The user configures their mobile device to receive notifications from the ESPOLTEL HIRING MANAGER app. \newline
+		2. The system detects relevant events related to hiring or projects. \newline
+		3. The system sends a notification to the user's mobile device, informing them about events such as:
+		\begin{itemize}
+			\item A new candidate has been accepted or rejected.
+			\item A document has been requested or received.
+			\item A contract is ready for signature.
+			\item A project has an important update.
+			\item The status of an applicant's postulation has changed.
+		\end{itemize}
+		4. The user receives the notification and can view additional details via the mobile app. \\ \hline
+		Alternative Flow & 
+		\textbf{If the user has notifications disabled:} \newline
+		1. The system will notify the user to enable notifications in their device settings. \newline
+		2. Once enabled, the user will begin receiving notifications as described in the main flow. \\ \hline
+	\end{tabular}
+	\caption{Use Case Documentation - (UC018) Receive Notifications on Mobile}
+	\label{table:UC018}
+\end{table}
+
+\begin{table}[H]
+	\centering \small
+	\begin{tabular}{|p{3cm}|p{10cm}|}
+		\hline
+		\textbf{Field} & \textbf{Description} \\ \hline
+		ID & UC019 \\ \hline
+		Name & View application status on mobile \\ \hline
+		Created by & Jeremy Poveda \\ \hline
+		Updated by & Jeremy Poveda \\ \hline
+		Date creation & 14/01/25 \\ \hline
+		Date last edition & 17/01/25 \\ \hline
+		Description & The system allows the aspirant to view the status of their application (e.g., accepted, pending, rejected) for a specific project, using a unique code, optimized for mobile devices. \\ \hline
+		Actors & Aspirant \\ \hline
+		Extends & Nothing \\ \hline
+		Preconditions & The aspirant has an account created and is logged in, as well as the project code they are interested in. The system must be optimized for mobile use. \\ \hline
+		Postconditions & The aspirant will be able to see the status of their application for the selected project, with the unique code, on their mobile device. \\ \hline
+		Flow & 
+		1. The aspirant opens the ESPOLTEL HIRING MANAGER app on their mobile device. \newline
+		2. The aspirant enters their credentials in the login section. \newline
+		5. The system displays the status (e.g., accepted, pending, rejected) of the profile they applied for, optimized for mobile viewing. 
+		\\ \hline
+		Alternative Flow & There are no alternative flows. \\ \hline
+	\end{tabular}
+	\caption{Use Case Documentation - (UC019) View Application Status on Mobile}
+	\label{table:UC019}
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|p{3cm}|p{10cm}|}
+		\hline
+		\textbf{Field} & \textbf{Description} \\ \hline
+		ID & UC020 \\ \hline
+		Title & View contracts on mobile \\ \hline
+		Author & Jeremy Poveda \\ \hline
+		Updated by & Jeremy Poveda \\ \hline
+		Date creation & 16/12/24 \\ \hline
+		Date last edition & 16/12/24 \\ \hline
+		Description & 
+		The manager, through the mobile application, will be able to find the applicants whose contracts are available to sign and review them easily on their mobile device. \\ \hline
+		Actors & Manager \\ \hline
+		Extends & 
+		\begin{itemize}
+			\item Filter
+		\end{itemize} \\ \hline
+		Preconditions & 
+		\begin{itemize}
+			\item The manager must have logged into their account on the mobile application.
+		\end{itemize} \\ \hline
+		Postconditions & 
+		None \\ \hline
+		Flow & 
+		1. The manager opens the ESPOLTEL HIRING MANAGER mobile application and logs into their account. \newline
+		2. The manager navigates to the "View contracts" module. \newline
+		3. The manager applies filters to view and review the applicants' contracts available to be signed on their mobile device. \\ \hline
+		Alternative Flow & 
+		\begin{itemize}
+			\item Filter applicants' contracts by project.
+			\item Filter applicants' contracts by Employment Relationship.
+		\end{itemize} \\ \hline
+	\end{tabular}
+	\caption{Use Case Documentation - (UC020) View Contracts on Mobile}
+	\label{table:UC020}
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|p{3cm}|p{10cm}|}
+		\hline
+		\textbf{Field} & \textbf{Description} \\ \hline
+		ID & UC021 \\ \hline
+		Title & View Projects on Mobile \\ \hline
+		Author & José Ramos \\ \hline
+		Updated by & Jeremy Poveda\\ \hline
+		Date creation & 13/01/25 \\ \hline
+		Date last edition & 16/01/25 \\ \hline
+		Description & 
+		The manager or project director will be able to view all the projects they are associated with, along with their descriptions, staff, start and end dates, and project status, directly from their mobile device. \\ \hline
+		Actors & Manager, Director \\ \hline
+		Extends & None \\ \hline
+		Preconditions & 
+		\begin{itemize}
+			\item The manager or director must have an account in the system and must have previously created projects.
+		\end{itemize} \\ \hline
+		Postconditions & 
+		\begin{itemize}
+			\item The manager or director will be able to monitor the application process for their projects and take necessary actions based on the project status, directly from their mobile device.
+		\end{itemize} \\ \hline
+		Flow & 
+		1. The manager or director opens the ESPOLTEL HIRING MANAGER mobile app. \newline
+		2. The manager or director navigates to the "My Projects" section. \newline
+		3. The manager or director logs into the system using their credentials. \newline
+		4. The system displays a list of projects that the manager or director is associated with, showing project descriptions, staff, start and end dates, and project status. \\ \hline
+		Alternative Flow & 
+		None \\ \hline
+	\end{tabular}
+	\caption{Use Case Documentation - (UC021) View Projects on Mobile}
+	\label{table:UC021}
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|p{3cm}|p{10cm}|}
+		\hline
+		\textbf{Field} & \textbf{Description} \\ \hline
+		ID & UC022 \\ \hline
+		Title & See Project’s Information on Mobile \\ \hline
+		Author & Diego Flores \\ \hline
+		Updated by & Diego Flores \\ \hline
+		Date creation & 08/01/25 \\ \hline
+		Date last edition & 08/01/25 \\ \hline
+		Description & 
+		“See project’s details” is a system feature that allows the project director to review details of his/her projects from the mobile app, such as the number of applicants hired and their personal data, and the job application status of those applicants who haven’t been hired. \\ \hline
+		Actors & Project Director \\ \hline
+		Extends & Edit project \\ \hline
+		Preconditions & 
+		\begin{itemize}
+			\item The director must have selected a project displayed in the project’s list on the mobile app.
+		\end{itemize} \\ \hline
+		Postconditions & 
+		\begin{itemize}
+			\item The project director will be able to see detailed information about applicants and their job application status directly from their mobile device.
+		\end{itemize} \\ \hline
+		Flow & 
+		1. The director opens the mobile app and logs into their account. \newline
+		2. The director navigates to the "My Projects" section in the app. \newline
+		3. The director selects a project from the list of their projects displayed in the app. \\ \hline
+		Alternative Flow & 
+		\textbf{Project director edits a project:} \newline
+		1. The director opens the mobile app and logs into their account. \newline
+		2. The director navigates to the "My Projects" section in the app. \newline
+		3. The director selects a project from the list of their projects. \newline
+		4. The director taps on "Profile Status." \newline
+		5. The director can edit project details such as name, description, and project duration, and add new profile vacancies. \newline
+		\textbf{Project director clicks on “Profile Status”:} \newline
+		1. The director opens the mobile app and logs into their account. \newline
+		2. The director navigates to the "My Projects" section. \newline
+		3. The director selects a project from the list. \newline
+		4. The director taps on "Profile Status." \newline
+		5. The director can review the applicants’ details including name, ID, and postulation status. \\ \hline
+	\end{tabular}
+	\caption{Use Case Documentation - (UC022) See Project’s Information on Mobile}
+	\label{table:UC022}
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|p{3cm}|p{10cm}|}
+		\hline
+		\textbf{Field} & \textbf{Description} \\ \hline
+		ID & UC023 \\ \hline
+		Title & See Profiles on Mobile \\ \hline
+		Author & Jeremy Poveda \\ \hline
+		Updated by & Jeremy Poveda \\ \hline
+		Date creation & 16/01/25 \\ \hline
+		Date last edition & 16/01/25 \\ \hline
+		Description & 
+		This feature allows the project manager or project director to filter applicants by project and view their application status for each profile directly from their mobile device. \\ \hline
+		Actors & Project Manager, Project Director \\ \hline
+		Extends & None \\ \hline
+		Preconditions & 
+		\begin{itemize}
+			\item The manager or project director must be logged into the system via the mobile app.
+			\item The manager or project director must have at least one project with profiles and applicants associated.
+		\end{itemize} \\ \hline
+		Postconditions & 
+		\begin{itemize}
+			\item The manager or project director will be able to filter applicants by project and review the status of their applications directly from their mobile device.
+		\end{itemize} \\ \hline
+		Flow & 
+		1. The manager or project director opens the mobile app and logs into the system. \newline
+		2. The manager or project director navigates to the “Profiles” section in the app. \newline
+		3. The manager or project director applies a filter to select the desired project from the list. \newline
+		4. The system displays a list of applicants for the selected project. \newline
+		5. The manager or project director reviews the postulation status for each applicant profile (e.g., accepted, pending contract sign, completed). \\ \hline
+		Alternative Flow & 
+		\textbf{Filter applicants by status on mobile:} \newline
+		1. The manager or project director opens the mobile app and logs into the system. \newline
+		2. The manager or project director navigates to the “Perfiles” section in the app. \newline
+		3. The manager or project director applies a filter to view applicants based on their application status (e.g., pending, accepted, rejected). \\ \hline
+	\end{tabular}
+	\caption{Use Case Documentation - (UC023) See Profiles on Mobile}
+	\label{table:UC023}
+\end{table}
+
+\section{Class Diagram - Web Module}
 
 \chapter{Behavior UML}
+
+
 
     
 \chapter{Individual Contributions}
@@ -687,48 +1597,6 @@ The versioning of the project prototype has been managed using Github. You can f
 \section{Appendix B: Commitment Agreement}
  
 \FloatBarrier 
-
-\section{Appendix C: Evidence of requirements gathering}
-\href{https://drive.google.com/file/d/1h30RbdVEBx5Qlg8GVXav69ps1Y7cQVRv/view?usp=drive_link}{Initial interview for requirements gathering with the client}
-\subsection*{Template Questions for the Interview}
-
-1. Are "Human Talent" and "Human Resources" distinct roles within the company?
-
-    If yes, is the Human Resources area responsible for generating documents such as contracts and confidentiality agreements?\\
-
-    What we understand is as follows:\\
-    Human Talent:
-    \begin{itemize}
-        \item Requests documents and information from aspirants.
-        \item Verifies that aspirants meet the position requirements.
-        \item Sends the data of candidates who meet the requirements to Human Resources.
-    \end{itemize}
-    Human Resources:
-    \begin{itemize}
-        \item Generates documents such as contracts and confidentiality agreements.
-        \item Sends the generated contracts or agreements to the applicant.
-        \item Verifies the applicant's signature.
-        \item Sends the documents to managers for their signatures.
-    \end{itemize}
-
-2. Must the contracts and confidentiality agreements be signed not only by the managers and aspirants but also by the project director?\\
-
-3. In addition to requesting basic information such as names, surnames, cell phone numbers, etc., should the Human Talent area request specific documents according to the profile, such as copies of the ID, voting card, etc.?\\
-
-4. Who is responsible for entering the templates of the contracts or confidentiality agreements into the system: Human Talent or Human Resources?\\
-
-5. Should these templates be created directly within the system? If yes, would the data be in plain text, such as names, surnames, ID numbers, and the positions for electronic signatures (of managers, aspirants, and possibly project directors)?\\
-
-6. Would the stages of the applicant acceptance process be as follows?
-\begin{itemize}
-    \item Application for a profile by submitting information (plain text data and documents).
-    Waiting for a response from Human Talent to verify if the applicant meets the requirements.
-    If the applicant meets the requirements, waiting for the contract and confidentiality agreements to sign, generated by Human Resources.
-    \item Signing the documents.
-    \item  Waiting for signature validation by Human Resources.
-    \item  Waiting for signatures from managers and directors.
-    \item Confirmation of participation in the project.
-\end{itemize}
 
 
 \end{document}
