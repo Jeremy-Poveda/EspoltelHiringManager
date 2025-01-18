@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2025.1.10)  17 JAN 2025 20:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2025.1.10)  17 JAN 2025 21:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1766,7 +1766,7 @@ Overfull \hbox (16.51779pt too wide) in paragraph at lines 630--644
  []
 
 [20]
-<ActivityArrowDiagram.png, id=227, 1157.32375pt x 401.5pt>
+<ActivityArrowDiagram.png, id=253, 1157.32375pt x 401.5pt>
 File: ActivityArrowDiagram.png Graphic file (type png)
 <use ActivityArrowDiagram.png>
 Package pdftex.def Info: ActivityArrowDiagram.png  used on input line 650.
@@ -1790,7 +1790,7 @@ has been already used, duplicate ignored
 l.655 \chapter
               {Static UML} <./ActivityArrowDiagram.png>]
 chapter 3.
-<UseCases/WebUseCases.jpg, id=236, 598.3956pt x 823.51665pt>
+<UseCases/WebUseCases.jpg, id=262, 598.3956pt x 823.51665pt>
 File: UseCases/WebUseCases.jpg Graphic file (type jpg)
 <use UseCases/WebUseCases.jpg>
 Package pdftex.def Info: UseCases/WebUseCases.jpg  used on input line 659.
@@ -1914,7 +1914,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1324 
        ]
-<UseCases/MobileUseCases.jpg, id=320, 551.05875pt x 445.00252pt>
+<UseCases/MobileUseCases.jpg, id=346, 551.05875pt x 445.00252pt>
 File: UseCases/MobileUseCases.jpg Graphic file (type jpg)
 <use UseCases/MobileUseCases.jpg>
 Package pdftex.def Info: UseCases/MobileUseCases.jpg  used on input line 1330.
@@ -1962,7 +1962,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1565 
        ]
-<DC/DC1.jpg, id=350, 758.835pt x 593.21625pt>
+<DC/DC1.jpg, id=376, 758.835pt x 593.21625pt>
 File: DC/DC1.jpg Graphic file (type jpg)
 <use DC/DC1.jpg>
 Package pdftex.def Info: DC/DC1.jpg  used on input line 1569.
@@ -1974,7 +1974,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1573 
        ]
-<DC/DC2.jpg, id=356, 641.39626pt x 449.42906pt>
+<DC/DC2.jpg, id=382, 641.39626pt x 449.42906pt>
 File: DC/DC2.jpg Graphic file (type jpg)
 <use DC/DC2.jpg>
 Package pdftex.def Info: DC/DC2.jpg  used on input line 1576.
@@ -1986,7 +1986,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1580 
         <./DC/DC1.jpg>]
-<DC/DC3.jpg, id=361, 711.4078pt x 580.41844pt>
+<DC/DC3.jpg, id=387, 711.4078pt x 580.41844pt>
 File: DC/DC3.jpg Graphic file (type jpg)
 <use DC/DC3.jpg>
 Package pdftex.def Info: DC/DC3.jpg  used on input line 1583.
@@ -1998,7 +1998,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1587 
         <./DC/DC2.jpg>]
-<DC/DC4.jpg, id=366, 775.39688pt x 590.205pt>
+<DC/DC4.jpg, id=392, 775.39688pt x 590.205pt>
 File: DC/DC4.jpg Graphic file (type jpg)
 <use DC/DC4.jpg>
 Package pdftex.def Info: DC/DC4.jpg  used on input line 1590.
@@ -2010,7 +2010,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1594 
         <./DC/DC3.jpg>]
-<DC/DC5.jpg, id=371, 776.14969pt x 554.82281pt>
+<DC/DC5.jpg, id=397, 776.14969pt x 554.82281pt>
 File: DC/DC5.jpg Graphic file (type jpg)
 <use DC/DC5.jpg>
 Package pdftex.def Info: DC/DC5.jpg  used on input line 1597.
@@ -2022,7 +2022,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1601 
         <./DC/DC4.jpg>]
-<DC/DC6.jpg, id=376, 768.62157pt x 492.33937pt>
+<DC/DC6.jpg, id=402, 768.62157pt x 492.33937pt>
 File: DC/DC6.jpg Graphic file (type jpg)
 <use DC/DC6.jpg>
 Package pdftex.def Info: DC/DC6.jpg  used on input line 1604.
@@ -2034,7 +2034,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1608 
         <./DC/DC5.jpg>]
-<DC/DC7.jpg, id=381, 743.02594pt x 483.30562pt>
+<DC/DC7.jpg, id=408, 743.02594pt x 483.30562pt>
 File: DC/DC7.jpg Graphic file (type jpg)
 <use DC/DC7.jpg>
 Package pdftex.def Info: DC/DC7.jpg  used on input line 1615.
@@ -2045,31 +2045,116 @@ has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.1619 
-        <./DC/DC6.jpg>] [55
+        <./DC/DC6.jpg>]
+<ObjectDiagram.jpeg, id=414, 1080.035pt x 825.0825pt>
+File: ObjectDiagram.jpeg Graphic file (type jpg)
+<use ObjectDiagram.jpeg>
+Package pdftex.def Info: ObjectDiagram.jpeg  used on input line 1623.
+(pdftex.def)             Requested size: 452.9679pt x 346.0287pt.
+ [55
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.9}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1621 \chapter
-               {Behavior UML} <./DC/DC7.jpg>]
+l.1627 
+        <./DC/DC7.jpg>]
+<DCP/DCP1.jpeg, id=419, 1606.0pt x 660.4675pt>
+File: DCP/DCP1.jpeg Graphic file (type jpg)
+<use DCP/DCP1.jpeg>
+Package pdftex.def Info: DCP/DCP1.jpeg  used on input line 1631.
+(pdftex.def)             Requested size: 452.9679pt x 186.28008pt.
+<DCP/DCP2.jpeg, id=420, 1606.0pt x 798.985pt>
+File: DCP/DCP2.jpeg Graphic file (type jpg)
+<use DCP/DCP2.jpeg>
+Package pdftex.def Info: DCP/DCP2.jpeg  used on input line 1638.
+(pdftex.def)             Requested size: 452.9679pt x 225.34793pt.
+ [56
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.10})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1642 
+       
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.11})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1642 
+        <./ObjectDiagram.jpeg> <./DCP/DCP1.jpeg>]
+<DPL/DPL1.jpeg, id=425, 868.24374pt x 577.15625pt>
+File: DPL/DPL1.jpeg Graphic file (type jpg)
+<use DPL/DPL1.jpeg>
+Package pdftex.def Info: DPL/DPL1.jpeg  used on input line 1646.
+(pdftex.def)             Requested size: 452.9679pt x 301.10931pt.
+<DPL/DPL2.jpeg, id=426, 1030.85126pt x 451.6875pt>
+File: DPL/DPL2.jpeg Graphic file (type jpg)
+<use DPL/DPL2.jpeg>
+Package pdftex.def Info: DPL/DPL2.jpeg  used on input line 1653.
+(pdftex.def)             Requested size: 452.9679pt x 198.4743pt.
+ [57
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.12})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1657 \chapter
+               {Behavior UML}
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.13})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1657 \chapter
+               {Behavior UML} <./DCP/DCP2.jpeg> <./DPL/DPL1.jpeg>] [58
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.14})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1657 \chapter
+               {Behavior UML} <./DPL/DPL2.jpeg>]
 chapter 4.
-[56
+[59
 
 ]
 chapter 5.
-[57
+[60
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1646 \chapter
+l.1682 \chapter
                {Appendix}]
 chapter 6.
-[58
+<Acceptance.jpeg, id=445, 1142.2675pt x 1063.975pt>
+File: Acceptance.jpeg Graphic file (type jpg)
+<use Acceptance.jpeg>
+Package pdftex.def Info: Acceptance.jpeg  used on input line 1689.
+(pdftex.def)             Requested size: 452.9679pt x 421.91338pt.
 
-] (./planning-uml.aux)
+Underfull \hbox (badness 1584) in paragraph at lines 1700--1700
+[]|\T1/lmr/m/n/10.95 A com-pre-hen-sive tool used
+ []
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 1700--1700
+\T1/lmr/m/n/10.95 a-grams, ER di-a-grams, and
+ []
+
+[61
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1707 
+        <./Acceptance.jpeg>] [62
+pdfTeX warning (ext4): destination with the same identifier (name{table.6.1}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1710 \end{document}
+                     ] (./planning-uml.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -2078,10 +2163,10 @@ Package rerunfilecheck Info: File `planning-uml.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 13889 strings out of 476076
- 241868 string characters out of 5793775
+ 13961 strings out of 476076
+ 243045 string characters out of 5793775
  2028187 words of memory out of 5000000
- 35667 multiletter control sequences out of 15000+600000
+ 35722 multiletter control sequences out of 15000+600000
  621973 words of font info for 72 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  108i,11n,107p,10934b,552s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2089,10 +2174,10 @@ Here is how much of TeX's memory you used:
 t/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm
 /lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/t
 exmf-dist/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on planning-uml.pdf (59 pages, 2596113 bytes).
+Output written on planning-uml.pdf (63 pages, 3372064 bytes).
 PDF statistics:
- 519 PDF objects out of 1000 (max. 8388607)
- 432 compressed objects within 5 object streams
- 134 named destinations out of 1000 (max. 500000)
- 195 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 590 PDF objects out of 1000 (max. 8388607)
+ 493 compressed objects within 5 object streams
+ 151 named destinations out of 1000 (max. 500000)
+ 273 words of extra memory for PDF output out of 10000 (max. 10000000)
 

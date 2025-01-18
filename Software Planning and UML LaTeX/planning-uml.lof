@@ -11,7 +11,13 @@
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Package Project, with business logic of projects in ESPOLTEL for Web Module}}{53}{figure.3.7}%
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Package Signer, with a Facade pattern for use the FirmaEC's modules for Web Module}}{54}{figure.3.8}%
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Package Notification, with Observer pattern for Mobile Module}}{55}{figure.3.9}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Object Diagram of ESPOLTEL HIRING MANAGER}}{56}{figure.3.10}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Web module component Diagram}}{56}{figure.3.11}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Mobile module component Diagram}}{57}{figure.3.12}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Web module deployment Diagram}}{57}{figure.3.13}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Mobile module deployment Diagram}}{58}{figure.3.14}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Acceptance of the client, Francisco Ramirez}}{61}{figure.6.1}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

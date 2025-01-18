@@ -11,9 +11,15 @@
 \contentsline {section}{\numberline {3.2}Use Cases - Mobile Module}{42}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Class Diagram - Web Module}{49}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Class Diagram - Mobile Module}{55}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Behavior UML}{56}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Individual Contributions}{57}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Appendix}{58}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Appendix A: Github Repository}{58}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Appendix B: Commitment Agreement}{58}{section.6.2}%
+\contentsline {section}{\numberline {3.5}Object Diagram}{56}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Component Diagram - Web Module}{56}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Component Diagram - Mobile Module}{57}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Deployment Diagram - Web Module}{57}{section.3.8}%
+\contentsline {section}{\numberline {3.9}Deployment Diagram - Mobile Module}{58}{section.3.9}%
+\contentsline {chapter}{\numberline {4}Behavior UML}{59}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Individual Contributions}{60}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Appendix}{61}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Appendix A: Github Repository}{61}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Appendix B: Acceptance Documents Agreement}{61}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Appendix C: Tools used}{62}{section.6.3}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
