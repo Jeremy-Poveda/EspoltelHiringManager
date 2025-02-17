@@ -1,8 +1,41 @@
-# React + Vite
+# ESPOLTEL Hiring Manager
+Mobile and web tool to facilitate the hiring flow of the company ESPOLTEL S.A. 
+Specifically, it aims to help human resources and to keep track of all its contracts.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#BACKEND
+## Dependencies
+- Mariadb
+- SprintBoot Tools
+- Java JRE 21
+- Maven
 
-Currently, two official plugins are available:
+## How to install and execute
+- Clone the repository
+```
+git clone https://github.com/Jeremy-Poveda/EspoltelHiringManager
+cd EspoltelHiringManager
+```
+- Install dependencies
+```
+mvn clean install
+```
+- Execute SQL script on /SQL/ESPOLTEL-DB.sql
+- Create an .env file for enviromental variables
+Example:
+```
+SPRING_PORT=8001
+DB_NAME=ESPOLTEL
+DB_USERNAME=root
+DB_PASSWORD=1234
+DB_PORT=3306
+```
+- Execute and test the program
+On linux or Bash-like terminal:
+```
+./mvnw spring-boot:run
+```
+On Windows:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```
+./mvnw.cmd spring-boot:run
+```
