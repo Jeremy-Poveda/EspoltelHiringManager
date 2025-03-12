@@ -23,7 +23,7 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(180deg);
+    transform: rotate(360deg);
   }
 }
 
@@ -38,5 +38,5 @@
 }
 
 .read-the-docs {
-  color: #b81f1f;
+  color: #888;
 }
